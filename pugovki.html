@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Каталог товаров</title>
+  <style>
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background: #f9fbfd;
+      color: #000;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 40px 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      position: relative;
+    }
+    .product:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+    .product img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      user-select: none;
+    }
+    .back-link {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      color: #1976d2;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 5px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      z-index: 1200;
+    }
+    .back-link:hover {
+      color: #125ea3;
+    }
+    .product-name {
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+      flex-grow: 1;
+    }
+    .back-link {
+  position: fixed;      /* фиксируем ссылку на экране */
+  top: 10px;            /* отступ сверху */
+  left: 10px;           /* отступ слева — меняй на right:10px; если хочешь в правый угол */
+  color: #1976d2;       /* цвет текста, меняй на нужный */
+  text-decoration: none; /* убрать подчёркивание, если нужно */
+  font-weight: 600;      /* можно сделать текст чуть жирнее */
+  font-size: 1rem;
+ /* полупрозрачный фон для читаемости, можно убрать */
+  padding: 5px 10px;
+  border-radius: 6px;
+        /* чтобы ссылка была поверх всего */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+    .product-price {
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #1976d2;
+    }
+    .pagination {
+       margin: 60px 0 30px 0;
+      text-align: center;
+    }
+    .pagination button {
+      background: #1976d2;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin: 0 5px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+    .pagination button:hover:not(:disabled) {
+      background: #125ea3;
+    }
+    .pagination button[disabled] {
+      background: #9bbde8;
+      cursor: default;
+    }
+
+    /* Модальное окно товара */
+    #modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.6);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    #modal-content {
+      background: white;
+      border-radius: 10px;
+      max-width: 90vw;
+      max-height: 90vh;
+      overflow-y: auto;
+      padding: 20px;
+      position: relative;
+    }
+
+    #modal-close {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      cursor: pointer;
+      color: #1976d2;
+    }
+
+    #media-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    #media-display img {
+      max-width: 100%;
+      max-height: 300px;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+    #prev-btn, #next-btn {
+      background: none;
+      border: none;
+      font-size: 2rem;
+      color: #1976d2;
+      cursor: pointer;
+      padding: 0 10px;
+    }
+
+    /* Кнопка закладок (в карточке товара) */
+    .bookmark-btn {
+      margin-top: 10px;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      color: white;
+      font-weight: 600;
+      transition: background 0.3s ease;
+      user-select: none;
+    }
+    .bookmark-btn.add {
+      background-color: #1976d2;
+    }
+    .bookmark-btn.remove {
+      background-color: #e53935;
+    }
+
+    /* Кнопка и окно закладок */
+    #open-bookmarks {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      z-index: 1100;
+      padding: 10px 15px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      font-size: 1.5rem;
+      user-select: none;
+    }
+    #bookmark-count {
+      font-weight: 700;
+      color: #1976d2;
+      margin-left: 6px;
+      font-size: 1.1rem;
+      vertical-align: middle;
+    }
+    #bookmarks-modal {
+      display: none;
+      position: fixed;
+      top: 0; left:0;
+      width: 100vw; height: 100vh;
+      background: rgba(0,0,0,0.5);
+      justify-content: center;
+      align-items: center;
+      z-index: 1100;
+    }
+    #bookmarks-modal > div {
+      background: white;
+      max-width: 400px;
+      width: 90vw;
+      padding: 20px;
+      border-radius: 10px;
+      position: relative;
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+    #bookmarks-modal h2 {
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+    #close-bookmarks {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 1.5rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #1976d2;
+    }
+    #bookmarks-items div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    #bookmarks-items button {
+      background: #e53935;
+      color: white;
+      border: none;
+      padding: 4px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      user-select: none;
+    }
+    #bookmarks-empty {
+      text-align: center;
+      margin-top: 20px;
+      color: #555;
+    }
+    
+
+    @media (max-width: 480px) {
+      .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 15px;
+      }
+      .pagination button {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+        margin: 0 3px;
+      }
+      #prev-btn, #next-btn {
+        font-size: 1.5rem;
+        padding: 0 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Халаты на пуговицах</h1>
+
+  <div id="product-grid" class="product-grid"></div>
+  <div class="pagination" id="pagination"></div>
+
+  <!-- Модальное окно товара -->
+  <div id="modal">
+    <div id="modal-content">
+      <span id="modal-close">&times;</span>
+
+      <div id="media-container">
+        <button id="prev-btn">&#8592;</button>
+        <div id="media-display"></div>
+        <button id="next-btn">&#8594;</button>
+      </div>
+
+      <h2 id="modal-name"></h2>
+      <p id="modal-price"></p>
+      <p id="modal-description"></p>
+    </div>
+  </div>
+
+  <!-- Кнопка открытия модалки закладок -->
+  <button id="open-bookmarks" title="Показать закладки">🔖 <span id="bookmark-count">0</span></button>
+
+  <!-- Модальное окно закладок -->
+  <div id="bookmarks-modal">
+    <div>
+      <button id="close-bookmarks">&times;</button>
+      <h2>Закладки</h2>
+      <div id="bookmarks-items"></div>
+      <div id="bookmarks-empty">Нет товаров в закладках.</div>
+    </div>
+  </div>
+
+  <script>
+    const productGrid = document.getElementById("product-grid");
+    const pagination = document.getElementById("pagination");
+    const modal = document.getElementById("modal");
+    const modalContent = document.getElementById("modal-content");
+    const modalName = document.getElementById("modal-name");
+    const modalPrice = document.getElementById("modal-price");
+    const modalDescription = document.getElementById("modal-description");
+    const mediaDisplay = document.getElementById("media-display");
+    const prevBtn = document.getElementById("prev-btn");
+    const nextBtn = document.getElementById("next-btn");
+    const modalClose = document.getElementById("modal-close");
+
+    const openBookmarksBtn = document.getElementById("open-bookmarks");
+    const bookmarksModal = document.getElementById("bookmarks-modal");
+    const closeBookmarksBtn = document.getElementById("close-bookmarks");
+    const bookmarkCount = document.getElementById("bookmark-count");
+    const bookmarksItems = document.getElementById("bookmarks-items");
+    const bookmarksEmpty = document.getElementById("bookmarks-empty");
+
+    let products = [];
+    let currentPage = 1;
+    const productsPerPage = 9;
+    let totalPages = 0;
+    let currentProductIndex = 0;
+    let bookmarks = JSON.parse(localStorage.getItem("bookmarks") || "[]");
+
+    // Загружаем товары из JSON файла
+    async function loadProducts() {
+      const response = await fetch('pugovki.json');
+      const data = await response.json();
+      products = data;
+      totalPages = Math.ceil(products.length / productsPerPage);
+      renderPage();
+    }
+
+    // Отображаем товары на странице
+    function renderPage() {
+      productGrid.innerHTML = "";
+      const start = (currentPage - 1) * productsPerPage;
+      const end = start + productsPerPage;
+      const visibleProducts = products.slice(start, end);
+
+      visibleProducts.forEach((product, index) => {
+        const productCard = document.createElement("div");
+        productCard.classList.add("product");
+
+        const productImg = document.createElement("img");
+        productImg.src = product.images[0]; // Первая картинка из массива
+
+        const productName = document.createElement("div");
+        productName.classList.add("product-name");
+        productName.textContent = product.name;
+
+        const productPrice = document.createElement("div");
+        productPrice.classList.add("product-price");
+        productPrice.textContent = product.price;
+
+        const bookmarkBtn = document.createElement("button");
+        bookmarkBtn.classList.add("bookmark-btn", bookmarks.includes(product.id) ? "remove" : "add");
+        bookmarkBtn.textContent = bookmarks.includes(product.id) ? "Удалить из закладок" : "Добавить в закладки";
+
+        bookmarkBtn.onclick = (e) => {
+          e.stopPropagation(); // Останавливаем распространение события
+          if (bookmarks.includes(product.id)) {
+            bookmarks = bookmarks.filter(id => id !== product.id);
+            bookmarkBtn.textContent = "Добавить в закладки";
+            bookmarkBtn.classList.remove("remove");
+            bookmarkBtn.classList.add("add");
+          } else {
+            bookmarks.push(product.id);
+            bookmarkBtn.textContent = "Удалить из закладок";
+            bookmarkBtn.classList.remove("add");
+            bookmarkBtn.classList.add("remove");
+          }
+          localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+          updateBookmarkCount();
+        };
+
+        productCard.appendChild(productImg);
+        productCard.appendChild(productName);
+        productCard.appendChild(productPrice);
+        productCard.appendChild(bookmarkBtn);
+
+        // Клик по карточке товара для отображения модального окна
+        productCard.onclick = () => {
+          openModal(product);
+        };
+
+        productGrid.appendChild(productCard);
+      });
+
+      renderPagination();
+    }
+
+    // Отображаем кнопки пагинации
+    function renderPagination() {
+      pagination.innerHTML = "";
+
+      const prevButton = document.createElement("button");
+      prevButton.textContent = "← Назад";
+      prevButton.disabled = currentPage === 1;
+      prevButton.onclick = () => {
+        currentPage--;
+        renderPage();
+      };
+      pagination.appendChild(prevButton);
+
+      const nextButton = document.createElement("button");
+      nextButton.textContent = "Вперед →";
+      nextButton.disabled = currentPage === totalPages;
+      nextButton.onclick = () => {
+        currentPage++;
+        renderPage();
+      };
+      pagination.appendChild(nextButton);
+    }
+
+    // Обновляем счетчик закладок
+    function updateBookmarkCount() {
+      bookmarkCount.textContent = bookmarks.length;
+    }
+
+    // Открываем модальное окно
+    function openModal(product) {
+      currentProductIndex = products.findIndex(p => p.id === product.id);
+      modal.style.display = "flex";
+      modalName.textContent = product.name;
+      modalPrice.textContent = product.price;
+      modalDescription.textContent = product.description;
+      updateMediaDisplay(product.images);
+
+      // Обработчик стрелок для смены изображений
+      prevBtn.onclick = () => showMedia("prev");
+      nextBtn.onclick = () => showMedia("next");
+    }
+
+    // Обновление изображения в модальном окне
+    function updateMediaDisplay(images) {
+      mediaDisplay.innerHTML = ""; // Очистить старое изображение
+      const img = document.createElement("img");
+      img.src = images[currentProductIndex];
+      mediaDisplay.appendChild(img);
+    }
+
+    // Переход к следующему/предыдущему изображению
+    function showMedia(direction) {
+      if (direction === "next") {
+        currentProductIndex = (currentProductIndex + 1) % products[currentPage - 1].images.length;
+      } else {
+        currentProductIndex = (currentProductIndex - 1 + products[currentPage - 1].images.length) % products[currentPage - 1].images.length;
+      }
+      updateMediaDisplay(products[currentPage - 1].images);
+    }
+
+    // Закрытие модалки
+    modalClose.onclick = () => {
+      modal.style.display = "none";
+    };
+
+    // Открытие и закрытие модалки закладок
+    openBookmarksBtn.onclick = () => {
+      renderBookmarks();
+      bookmarksModal.style.display = "flex";
+    };
+
+    closeBookmarksBtn.onclick = () => {
+      bookmarksModal.style.display = "none";
+    };
+
+    // Отображаем закладки в модальном окне
+    function renderBookmarks() {
+      bookmarksItems.innerHTML = "";
+      if (bookmarks.length === 0) {
+        bookmarksEmpty.style.display = "block";
+      } else {
+        bookmarksEmpty.style.display = "none";
+        products.forEach(product => {
+          if (bookmarks.includes(product.id)) {
+            const bookmarkItem = document.createElement("div");
+            bookmarkItem.innerHTML = `${product.name} <button onclick="removeBookmark(${product.id})">Удалить</button>`;
+            bookmarksItems.appendChild(bookmarkItem);
+          }
+        });
+      }
+    }
+
+    // Удаляем закладку
+    function removeBookmark(productId) {
+      bookmarks = bookmarks.filter(id => id !== productId);
+      localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+      renderBookmarks();
+      updateBookmarkCount();
+    }
+
+    // Загружаем товары при старте
+    loadProducts();
+  </script>
+</body>
+ <a class="back-link" href="index.html">← Вернуться на главную</a>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+ 
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background: #f9fbfd;
+    }
+
+    h1 {
+      text-align: center;
+      color: #000000;
+      margin-bottom: 30px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .product:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    .product img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .product-name {
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .product-price {
+      font-weight: 600;
+      color: #1976d2;
+      font-size: 1.1rem;
+    }
+
+    .back-link {
+  position: fixed;      /* фиксируем ссылку на экране */
+  top: 10px;            /* отступ сверху */
+  left: 10px;           /* отступ слева — меняй на right:10px; если хочешь в правый угол */
+  color: #1976d2;       /* цвет текста, меняй на нужный */
+  text-decoration: none; /* убрать подчёркивание, если нужно */
+  font-weight: 600;      /* можно сделать текст чуть жирнее */
+  font-size: 1rem;
+ /* полупрозрачный фон для читаемости, можно убрать */
+  padding: 5px 10px;
+  border-radius: 6px;
+        /* чтобы ссылка была поверх всего */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #125ea3;        /* цвет при наведении */
+}
+
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+
+
+  <div class="product-grid">
+    <a class="product" href="pugovki.html">
+      <img src="assets/images/cat1.webp" loading="lazy" alt="Халаты на пуговицах">
+  <div class="product-name">Халаты на пуговицах</div>
+  <div class="product-price">от 1500 руб.</div>
+    </a>
+
+    <a class="product" href="zipka.html">
+   <img src="assets/images/cat2.png" loading="lazy" alt="Халаты на молнии">
+     <div class="product-name">Халаты на молнии</div>
+  <div class="product-price">от 1500 руб.</div>
+    </a>
+
+    <a class="product" href="nazapah.html">
+  <img src="assets/images/cat3.webp" loading="lazy" alt="Халаты на запах">
+    <div class="product-name">Халаты на запах</div>
+  <div class="product-price">от 1500 руб.</div>
+ </a>
+    <a class="product" href="dresses.html">
+  <img src="assets/images/cat4.webp" loading="lazy" alt="Платья">
+    <div class="product-name">Платья</div>
+  <div class="product-price">от 1500 руб.</div>
+ </a>
+     <a class="product" href="komplekty.html">
+  <img src="assets/images/cat5.webp" loading="lazy" alt="Комплекты женские">
+    <div class="product-name">Комплекты женские</div>
+  <div class="product-price">от 1500 руб.</div>
+</a>
+     <a class="product" href="tshirt.html">
+  <img src="assets/images/cat6.webp" loading="lazy" alt="Майки, Футболки, Лонгсливы, Фуфайки">
+    <div class="product-name">Майки, Футболки, Лонгсливы, Фуфайки</div>
+  <div class="product-price">от 1500 руб.</div>
+</a>
+     <a class="product" href="sorochki.html">
+  <img src="assets/images/cat7.webp" loading="lazy" alt="Сорочки">
+    <div class="product-name">Сорочки</div>
+  <div class="product-price">от 1500 руб.</div>
+ </a>
+     <a class="product" href="hoodie.html">
+  <img src="assets/images/cat8.webp" loading="lazy" alt="Джемперы,Кофты">
+    <div class="product-name">Джемперы,Кофты</div>
+  <div class="product-price">от 1500 руб.</div>
+</a>
+     <a class="product" href="bryuchki.html">
+  <img src="assets/images/cat9.webp" loading="lazy" alt="Брюки, Бриджи, Шорты">
+    <div class="product-name">Брюки, Бриджи, Шорты</div>
+  <div class="product-price">от 1500 руб.</div>
+</a>
+     <a class="product" href="male.html">
+  <img src="assets/images/cat10.webp" loading="lazy" alt="Для мужчин">
+    <div class="product-name">Для мужчин</div>
+  <div class="product-price">от 1500 руб.</div>
+</a>
+    <a class="product" href="bed.html">
+  <img src="assets/images/cat11.webp" loading="lazy" alt="Постельное бельё">
+    <div class="product-name">Постельное бельё</div>
+  <div class="product-price">от 1500 руб.</div>
+</a>
+
+
+    <!-- Можно добавить ещё товары по образцу -->
+  </div>
+
+  <a class="back-link" href="index.html">← Вернуться на главную</a>
+
+</body>
+</html>
