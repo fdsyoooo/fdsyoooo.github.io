@@ -265,16 +265,15 @@
       z-index: 1100;
     }
     #bookmarks-modal > div {
-  background: white;
-  max-width: 400px;
-  width: 90vw;
-  padding: 20px;
-  border-radius: 10px;
-  position: relative;
-  max-height: 80vh;
-  overflow-y: auto;
-  display: block;
-}
+      background: white;
+      max-width: 400px;
+      width: 90vw;
+      padding: 20px;
+      border-radius: 10px;
+      position: relative;
+      max-height: 80vh;
+      overflow-y: auto;
+    }
     #bookmarks-modal h2 {
       margin-top: 0;
       margin-bottom: 15px;
@@ -290,11 +289,6 @@
       cursor: pointer;
       color: #1976d2;
     }
-    #bookmarks-items {
-  padding: 10px;
-  overflow-y: auto;
-}
-
     #bookmarks-items div {
       display: flex;
       justify-content: space-between;
@@ -302,24 +296,23 @@
       margin-bottom: 10px;
     }
     #bookmarks-items button {
-  background: #e53935;
-  color: white;
-  border: none;
-  padding: 4px 8px;
-  border-radius: 4px;
-  cursor: pointer;
-  user-select: none;
-}
-
+      background: #e53935;
+      color: white;
+      border: none;
+      padding: 4px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      user-select: none;
+    }
     #bookmarks-empty {
-  text-align: center;
-  margin-top: 20px;
-  color: #555;
-}
+      text-align: center;
+      margin-top: 20px;
+      color: #555;
+    }
 
-#call-button {
-  display: block; /* Меняем на block */
-  margin: 20px auto; /* Центрируем кнопку, margin-top и margin-bottom оставляем, а для margin-left и margin-right ставим auto */
+    #call-button {
+  display: inline-block;
+  margin-top: 20px;
   padding: 10px 15px;
   background-color: #1976d2;
   color: white;
@@ -329,22 +322,18 @@
   font-size: 1rem;
   text-align: center;
   transition: background 0.3s ease;
-  width: fit-content; /* Изменяем ширину кнопки на автоматическую, чтобы она подстраивалась под контент */
+  
 }
-
 #call-button:hover {
   background-color: #125ea3;
 }
 
-
-#bookmarks-items div img {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  border-radius: 6px;
+#bookmarks-items div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
 }
-
-
 
 .bookmark-thumb {
   width: 40px;
@@ -376,7 +365,7 @@
 </head>
 <body>
 
-  <h1>Пижамные женские комплекты</h1>
+  <h1>Халаты на пуговицах</h1>
 
   <div id="product-grid" class="product-grid"></div>
   <div class="pagination" id="pagination"></div>
@@ -447,7 +436,7 @@
     updateBookmarkCount();
     // Загружаем товары из JSON файла
     async function loadProducts() {
-      const response = await fetch('pugovki.json');
+      const response = await fetch('sorochki.json');
       const data = await response.json();
       products = data;
 
@@ -462,72 +451,86 @@
     }
    
 
-   function renderPage() {
-  productGrid.innerHTML = "";
-  const start = (currentPage - 1) * productsPerPage;
-  const end = start + productsPerPage;
-  const visibleProducts = products.slice(start, end);
+    // Отображаем товары на странице
+    function renderPage() {
+      productGrid.innerHTML = "";
+      const start = (currentPage - 1) * productsPerPage;
+      const end = start + productsPerPage;
+      const visibleProducts = products.slice(start, end);
 
-  visibleProducts.forEach((product, index) => {
-    const productCard = document.createElement("div");
-    productCard.classList.add("product");
+      
 
-    const statusBadge = document.createElement("div");
-    statusBadge.classList.add("status-badge", `status-${product.status}`);
-    if (product.status === "new" || product.status === "out") {
-      statusBadge.textContent = product.status === "new" ? "Новинка" : "Нет в наличии";
-      productCard.appendChild(statusBadge);
-    }
+      visibleProducts.forEach((product, index) => {
+        const productCard = document.createElement("div");
+        productCard.classList.add("product");
 
-    const productImg = document.createElement("img");
-    productImg.src = product.images[0]; // Первая картинка из массива
-    productImg.loading = "lazy"; // Добавляем lazy loading
+        const statusBadge = document.createElement("div");
+statusBadge.classList.add("status-badge", `status-${product.status}`);
 
-    const productName = document.createElement("div");
-    productName.classList.add("product-name");
-    productName.textContent = product.name;
+if (product.status === "new" || product.status === "out") {
+  const statusBadge = document.createElement("div");
+  statusBadge.classList.add("status-badge", `status-${product.status}`);
 
-    const productPrice = document.createElement("div");
-    productPrice.classList.add("product-price");
-    productPrice.textContent = product.price;
-
-    const bookmarkBtn = document.createElement("button");
-    bookmarkBtn.classList.add("bookmark-btn", bookmarks.includes(product.id) ? "remove" : "add");
-    bookmarkBtn.textContent = bookmarks.includes(product.id) ? "Удалить из закладок" : "Добавить в закладки";
-
-    bookmarkBtn.onclick = (e) => {
-  e.stopPropagation(); // Останавливаем распространение события
-  if (bookmarks.includes(product.id)) {
-    bookmarks = bookmarks.filter(id => id !== product.id);
-    bookmarkBtn.textContent = "Добавить в закладки";
-    bookmarkBtn.classList.remove("remove");
-    bookmarkBtn.classList.add("add");
-  } else {
-    bookmarks.push(product.id);
-    bookmarkBtn.textContent = "Удалить из закладок";
-    bookmarkBtn.classList.remove("add");
-    bookmarkBtn.classList.add("remove");
+  if (product.status === "new") {
+    statusBadge.textContent = "Новинка";
+  } else if (product.status === "out") {
+    statusBadge.textContent = "Нет в наличии";
   }
-  localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
-  updateBookmarkCount();
-};
 
-    productCard.appendChild(productImg);
-    productCard.appendChild(productName);
-    productCard.appendChild(productPrice);
-    productCard.appendChild(bookmarkBtn);
-
-    // Клик по карточке товара для отображения модального окна
-    productCard.onclick = () => {
-      openModal(product);
-    };
-
-    productGrid.appendChild(productCard);
-  });
-
-  renderPagination();
+  productCard.appendChild(statusBadge);
 }
 
+
+        const productImg = document.createElement("img");
+productImg.src = product.images[0]; // Первая картинка из массива
+productImg.loading = "lazy"; // Добавляем lazy loading
+
+        const productName = document.createElement("div");
+        productName.classList.add("product-name");
+        productName.textContent = product.name;
+
+        const productPrice = document.createElement("div");
+        productPrice.classList.add("product-price");
+        productPrice.textContent = product.price;
+
+        const bookmarkBtn = document.createElement("button");
+        bookmarkBtn.classList.add("bookmark-btn", bookmarks.includes(product.id) ? "remove" : "add");
+        bookmarkBtn.textContent = bookmarks.includes(product.id) ? "Удалить из закладок" : "Добавить в закладки";
+
+        bookmarkBtn.onclick = (e) => {
+          e.stopPropagation(); // Останавливаем распространение события
+          if (bookmarks.includes(product.id)) {
+            bookmarks = bookmarks.filter(id => id !== product.id);
+            bookmarkBtn.textContent = "Добавить в закладки";
+            bookmarkBtn.classList.remove("remove");
+            bookmarkBtn.classList.add("add");
+          } else {
+            bookmarks.push(product.id);
+            bookmarkBtn.textContent = "Удалить из закладок";
+            bookmarkBtn.classList.remove("add");
+            bookmarkBtn.classList.add("remove");
+          }
+          localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+          updateBookmarkCount();
+        };
+
+        productCard.appendChild(productImg);
+        productCard.appendChild(productName);
+        productCard.appendChild(productPrice);
+        productCard.appendChild(bookmarkBtn);
+
+        // Клик по карточке товара для отображения модального окна
+        productCard.onclick = () => {
+          openModal(product);
+        };
+
+        productGrid.appendChild(productCard);
+      });
+
+      renderPagination();
+    }
+
+    
 
 
 
@@ -574,13 +577,14 @@ function renderPagination() {
 
 
 
+    // Обновляем счетчик закладок
     function updateBookmarkCount() {
-  if (!Array.isArray(bookmarks)) {
+      if (!Array.isArray(bookmarks)) {
     bookmarks = [];
     localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
   }
-  bookmarkCount.textContent = bookmarks.length;
-}
+      bookmarkCount.textContent = bookmarks.length;
+    }
 
     // Открываем модальное окно
     function openModal(product) {
@@ -621,43 +625,37 @@ function renderPagination() {
       modal.style.display = "none";
     };
 
-   openBookmarksBtn.onclick = () => {
-  renderBookmarks();
-  bookmarksModal.style.display = "flex";
-};
+    // Открытие и закрытие модалки закладок
+    openBookmarksBtn.onclick = () => {
+      renderBookmarks();
+      bookmarksModal.style.display = "flex";
+    };
 
-closeBookmarksBtn.onclick = () => {
-  bookmarksModal.style.display = "none";
-};
-
+    closeBookmarksBtn.onclick = () => {
+      bookmarksModal.style.display = "none";
+    };
 
     // Отображаем закладки в модальном окне
-function renderBookmarks() {
-  bookmarksItems.innerHTML = ""; // Очистить список товаров в закладках
-  if (bookmarks.length === 0) {
-    bookmarksEmpty.style.display = "block"; // Показываем сообщение "Нет товаров в закладках"
-  } else {
-    bookmarksEmpty.style.display = "none"; // Скрываем сообщение
+    function renderBookmarks() {
+      bookmarksItems.innerHTML = "";
+      if (bookmarks.length === 0) {
+        bookmarksEmpty.style.display = "block";
+      } else {
+        bookmarksEmpty.style.display = "none";
+        products.forEach(product => {
+          if (bookmarks.includes(product.id)) {
+            const bookmarkItem = document.createElement("div");
+            bookmarkItem.innerHTML = `
+              <img src="${product.images[0]}" alt="${product.name}" class="bookmark-thumb" />
+             <span>${product.name}</span>
+            <button onclick="removeBookmark(${product.id})">Удалить</button>
+            `;
 
-    // Для каждого товара, добавленного в закладки
-    bookmarks.forEach(productId => {
-      const product = products.find(p => p.id === productId);
-      if (product) {
-        const bookmarkItem = document.createElement("div");
-        bookmarkItem.classList.add("bookmark-item");
-
-        bookmarkItem.innerHTML = 
-          `<img src="${product.images[0]}" alt="${product.name}" class="bookmark-thumb" />
-           <span>${product.name}</span>
-           <button onclick="removeBookmark(${product.id})">Удалить</button>`;
-
-        bookmarksItems.appendChild(bookmarkItem);
+            bookmarksItems.appendChild(bookmarkItem);
+          }
+        });
       }
-    });
-  }
-}
-
-
+    }
 
     // Удаляем закладку
 function removeBookmark(productId) {

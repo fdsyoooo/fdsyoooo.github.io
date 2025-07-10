@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Платье 1 — Описание</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 15px;
+      background: #f9fbfd;
+      color: #222;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .gallery img, .gallery video {
+      max-width: 100%;
+      max-height: 300px;
+      border-radius: 10px;
+      object-fit: cover;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      flex: 1 1 250px;
+    }
+
+    .description {
+      font-size: 1rem;
+      line-height: 1.4;
+      margin-bottom: 20px;
+    }
+
+    .price {
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: #1976d2;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    a.back-link {
+      display: block;
+      text-align: center;
+      font-size: 1rem;
+      color: #1976d2;
+      text-decoration: none;
+      margin-top: 30px;
+    }
+
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Адаптивность */
+    @media (max-width: 480px) {
+      .gallery {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .gallery img, .gallery video {
+        max-height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Платье 1</h1>
+
+  <div class="gallery">
+    <img src="img/1.webp" alt="Платье 1 - фото 1" loading="lazy" />
+    <img src="img/1-2.webp" alt="Платье 1 - фото 2" loading="lazy" />
+    <video controls preload="none" poster="img/1-video-poster.webp" >
+      <source src="video/1-video.mp4" type="video/mp4" />
+      Ваш браузер не поддерживает видео.
+    </video>
+  </div>
+
+  <div class="description">
+    Это стильное платье из качественного материала, идеально подходит для повседневной носки и особых случаев. Удобное и лёгкое, с красивым фасоном и отличной посадкой.
+  </div>
+
+  <div class="price">Цена: 3 500 руб.</div>
+
+  <a href="../pugovki.html" class="back-link">← Вернуться к списку товаров</a>
+
+</body>
+</html>

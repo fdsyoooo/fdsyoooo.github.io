@@ -1,0 +1,58 @@
+[
+  {
+    "id": 16646,
+    "name": "baaaaaaa",
+    "price": "1000 руб.",
+    "images": [
+      "assets/images/cat1.webp", 
+      "assets/images/cat1.webp",
+      "assets/images/cat1.webp",
+      "assets/images/cat2.png",
+      "assets/images/cat1.webp"
+  ],
+    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
+  },
+  {
+    "id": 2346,
+    "name": "Товар 2",
+    "price": "1200 руб.",
+    "images": [
+      "assets/images/cat1.webp", 
+      "assets/images/cat1.webp",
+      "assets/images/cat1.webp"],
+    "description": "Описание товара 2"
+  },
+  {
+    "id": 32353,
+    "name": "Товар 3",
+    "price": "1300 руб.",
+    "images":[
+      "assets/images/cat1.webp", 
+      "assets/images/cat1.webp",
+      "assets/images/cat1.webp"
+      
+    ],
+    "description": "Описание товbbhjhhара 3"
+  },
+  {
+    "id": 42354,
+    "name": "Товар 4",
+    "price": "1500 руб.",
+    "images": [
+      "assets/images/cat1.webp", 
+      "assets/images/cat1.webp",
+      "assets/images/cat1.webp"],
+    "description": "Описание товара 4"
+  },
+  {
+    "id": 55423,
+    "name": "Товар 5",
+    "price": "1700 руб.",
+    "images":[
+      "assets/images/cat1.webp", 
+      "assets/images/cat1.webp",
+      "assets/images/cat1.webp"],
+    "description": "Описание товара 5"
+  }
+
+]
