@@ -112,7 +112,7 @@
       background: rgba(0,0,0,0.6);
       justify-content: center;
       align-items: center;
-      z-index: 1000;
+      z-index: 9999;
     }
     #modal-content {
       background: white;
@@ -133,6 +133,27 @@
       cursor: pointer;
       color: #1976d2;
     }
+    
+    .modal-slider-image {
+  transition: opacity 0.3s ease;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.modal-slider-arrow {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  user-select: none;
+}
+.modal-slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
 
     #media-container {
       display: flex;

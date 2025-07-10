@@ -120,6 +120,15 @@ const productGrid = document.getElementById("product-grid");
   renderPage();
 }
 
+function animateSliderImageChange(imgElement, newSrc) {
+  imgElement.style.transition = "opacity 0.3s ease";
+  imgElement.style.opacity = 0;
+  setTimeout(() => {
+    imgElement.src = newSrc;
+    imgElement.style.opacity = 1;
+  }, 300);
+}
+
 
   function renderPage() {
     productGrid.innerHTML = "";
@@ -162,46 +171,58 @@ let currentImageIndex = 0;
 
 // Свайп для телефона
 let touchStartX = 0;
-let touchEndX = 0;
+let touchStartY = 0;
+let isSwiping = false;
 
 sliderImage.addEventListener("touchstart", (e) => {
   touchStartX = e.changedTouches[0].screenX;
+  touchStartY = e.changedTouches[0].screenY;
+  isSwiping = false;
+});
+
+sliderImage.addEventListener("touchmove", (e) => {
+  const touchMoveX = e.changedTouches[0].screenX;
+  const touchMoveY = e.changedTouches[0].screenY;
+
+  const diffX = Math.abs(touchMoveX - touchStartX);
+  const diffY = Math.abs(touchMoveY - touchStartY);
+
+  if (diffX > diffY) {
+    isSwiping = true;
+    e.preventDefault(); // Блокируем вертикальный скролл при горизонтальном свайпе
+  }
 });
 
 sliderImage.addEventListener("touchend", (e) => {
-  touchEndX = e.changedTouches[0].screenX;
-  handleSwipe();
-});
-
-function handleSwipe() {
-  if (!product.images || product.images.length < 2) return;
-
+  if (!isSwiping) return;
+  const touchEndX = e.changedTouches[0].screenX;
   const diff = touchStartX - touchEndX;
-  if (Math.abs(diff) < 30) return; // Игнорируем слабый свайп
+  if (Math.abs(diff) < 30) return;
 
   if (diff > 0) {
-    // Свайп влево
     currentImageIndex = (currentImageIndex + 1) % product.images.length;
   } else {
-    // Свайп вправо
     currentImageIndex = (currentImageIndex - 1 + product.images.length) % product.images.length;
   }
 
-  sliderImage.src = product.images[currentImageIndex];
-}
+  animateSliderImageChange(sliderImage, product.images[currentImageIndex]);
+
+});
+
 
 
 // Листание влево / вправо
 leftArrow.onclick = (e) => {
   e.stopPropagation();
   currentImageIndex = (currentImageIndex - 1 + product.images.length) % product.images.length;
-  sliderImage.src = product.images[currentImageIndex];
+  animateSliderImageChange(sliderImage, product.images[currentImageIndex]);
+
 };
 
 rightArrow.onclick = (e) => {
   e.stopPropagation();
   currentImageIndex = (currentImageIndex + 1) % product.images.length;
-  sliderImage.src = product.images[currentImageIndex];
+  animateSliderImageChange(sliderImage, product.images[currentImageIndex]);
 };
 
 // Добавляем в карточку
@@ -263,7 +284,7 @@ productCard.appendChild(sliderContainer);
 
   // Кнопка Первая страница
   const firstButton = document.createElement("button");
-  firstButton.textContent = "⏮ Первая";
+  firstButton.textContent = "⏮";
   firstButton.disabled = currentPage === 1;
   firstButton.onclick = () => {
     currentPage = 1;
@@ -299,7 +320,7 @@ productCard.appendChild(sliderContainer);
 
   // Кнопка Последняя страница
   const lastButton = document.createElement("button");
-  lastButton.textContent = "Последняя ⏭";
+  lastButton.textContent = "⏭";
   lastButton.disabled = currentPage === totalPages;
   lastButton.onclick = () => {
     currentPage = totalPages;
@@ -338,8 +359,19 @@ productCard.appendChild(sliderContainer);
 
   const img = document.createElement("img");
   img.src = product.images[currentImageIndex];
+  img.classList.add("modal-slider-image");
   mediaDisplay.appendChild(img);
+
 }
+
+function animateImageChange(imgElement, newSrc) {
+  imgElement.style.opacity = 0;
+  setTimeout(() => {
+    imgElement.src = newSrc;
+    imgElement.style.opacity = 1;
+  }, 200);
+}
+
 
 
   function showMedia(product, direction) {
