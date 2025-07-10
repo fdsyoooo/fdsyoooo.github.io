@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Главная — Мой Каталог</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f9ff;
+      color: #333;
+      background-image: url('https://cs15.pikabu.ru/post_img/big/2025/02/03/6/1738570100152867542.png'); /* Указание фона */
+      background-size: cover; /* Растягиваем фон на весь экран, сохраняя пропорции */
+      background-position: center center; /* Центрируем фон */
+      background-repeat: no-repeat; /* Запрещаем повторение картинки */
+      height: 100vh; /* Задаем высоту 100% экрана */
+    }
+
+    header {
+      background: none;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .site-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff; /* Сделаем текст белым для контраста */
+    }
+
+    .site-title h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .site-title p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    nav {
+      background: transparent;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    nav a {
+      display: block;
+      padding: 15px;
+      margin: 10px 0;
+      background: #000000;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 1.2rem;
+      text-align: center;
+      transition: background 0.3s ease;
+    }
+
+    nav a:hover {
+      background: #000000;
+    }
+
+    @media (max-width: 480px) {
+      header {
+        height: 200px;
+      }
+
+      nav {
+        margin: 10px;
+        padding: 15px;
+      }
+
+      nav a {
+        font-size: 1rem;
+        padding: 12px;
+      }
+
+      .site-title h1 {
+        font-size: 1.8rem;
+      }
+
+      .site-title p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="site-title">
+      <h1>ПКФ "Людмила"</h1>
+      <h2>Более 15 лет на рынке</h2>
+      <h2>Трикотажные изделия из Ростовской области</h2>
+      
+    </div>
+  </header>
+  <nav>
+    <a href="index.html">Перейти к Каталогу товаров</a>
+    <a href="about.html">О нас</a>
+    <a href="contacts.html">Контакты</a>
+  </nav>
+</body>
+</html>

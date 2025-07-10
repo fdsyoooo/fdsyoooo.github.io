@@ -3,111 +3,163 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Главная — Мой Каталог</title>
+ 
   <style>
     body {
-      margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f5f9ff;
-      color: #333;
-      background-image: url('https://cs15.pikabu.ru/post_img/big/2025/02/03/6/1738570100152867542.png'); /* Указание фона */
-      background-size: cover; /* Растягиваем фон на весь экран, сохраняя пропорции */
-      background-position: center center; /* Центрируем фон */
-      background-repeat: no-repeat; /* Запрещаем повторение картинки */
-      height: 100vh; /* Задаем высоту 100% экрана */
-    }
-
-    header {
-      background: none;
-      height: 300px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-    }
-
-    .site-title {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      color: #fff; /* Сделаем текст белым для контраста */
-    }
-
-    .site-title h1 {
-      font-size: 2.5rem;
-      margin: 0;
-    }
-
-    .site-title p {
-      font-size: 1.2rem;
-      margin: 0;
-    }
-
-    nav {
-      background: transparent;
-      max-width: 600px;
-      margin: 40px auto;
+      max-width: 1000px;
+      margin: auto;
       padding: 20px;
-      border-radius: 10px;
+      background: #f9fbfd;
     }
 
-    nav a {
-      display: block;
-      padding: 15px;
-      margin: 10px 0;
-      background: #000000;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      font-size: 1.2rem;
+    h1 {
       text-align: center;
-      transition: background 0.3s ease;
+      color: #000000;
+      margin-bottom: 30px;
     }
 
-    nav a:hover {
-      background: #000000;
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
     }
 
-    @media (max-width: 480px) {
-      header {
-        height: 200px;
-      }
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
 
-      nav {
-        margin: 10px;
-        padding: 15px;
-      }
+    .product:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
 
-      nav a {
-        font-size: 1rem;
-        padding: 12px;
-      }
+    .product img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
 
-      .site-title h1 {
-        font-size: 1.8rem;
-      }
+    .product-name {
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
 
-      .site-title p {
-        font-size: 1rem;
-      }
+    .product-price {
+      font-weight: 600;
+      color: #1976d2;
+      font-size: 1.1rem;
+    }
+
+    .back-link {
+  position: fixed;      /* фиксируем ссылку на экране */
+  top: 2px;            /* отступ сверху */
+  left: 10px;           /* отступ слева — меняй на right:10px; если хочешь в правый угол */
+  color: #1976d2;       /* цвет текста, меняй на нужный */
+  text-decoration: none; /* убрать подчёркивание, если нужно */
+  font-weight: 600;      /* можно сделать текст чуть жирнее */
+  font-size: 1rem;
+ /* полупрозрачный фон для читаемости, можно убрать */
+  padding: 5px 10px;
+  border-radius: 6px;
+        /* чтобы ссылка была поверх всего */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #125ea3;        /* цвет при наведении */
+}
+
+
+    .back-link:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <header>
-    <div class="site-title">
-      <h1>ПКФ "Людмила"</h1>
-      <h2>Более 15 лет на рынке</h2>
-      <h2>Трикотажные изделия из Ростовской области</h2>
-      
-    </div>
-  </header>
-  <nav>
-    <a href="catalog.html">Перейти к Каталогу товаров</a>
-    <a href="about.html">О нас</a>
-    <a href="contacts.html">Контакты</a>
-  </nav>
+
+
+
+  <div class="product-grid">
+    <a class="product" href="tshirt.html?category=pugovki">
+      <img src="assets/images/cat1.webp" loading="lazy" alt="Халаты на пуговицах">
+  <div class="product-name">Халаты на пуговицах</div>
+  <div class="product-price"></div>
+    </a>
+
+    <a class="product" href="tshirt.html?category=zipka">
+   <img src="assets/images/cat2.png" loading="lazy" alt="Халаты на молнии">
+     <div class="product-name">Халаты на молнии</div>
+  <div class="product-price"></div>
+    </a>
+
+    <a class="product" href="tshirt.html?category=nazapah">
+  <img src="assets/images/cat3.webp" loading="lazy" alt="Халаты на запах">
+    <div class="product-name">Халаты на запах</div>
+  <div class="product-price"></div>
+ </a>
+    <a class="product" href="tshirt.html?category=dresses">
+  <img src="assets/images/cat4.webp" loading="lazy" alt="Платья">
+    <div class="product-name">Платья</div>
+  <div class="product-price"></div>
+ </a>
+     <a class="product" href="tshirt.html?category=komplekty">
+  <img src="assets/images/cat5.webp" loading="lazy" alt="Комплекты женские">
+    <div class="product-name">Комплекты женские</div>
+  <div class="product-price"></div>
+</a>
+     <a class="product" href="tshirt.html?category=tshirt">
+  <img src="assets/images/cat6.webp" loading="lazy" alt="Майки, Футболки, Лонгсливы, Фуфайки">
+    <div class="product-name">Майки, Футболки, Лонгсливы</div>
+  <div class="product-price"></div>
+</a>
+     <a class="product" href="tshirt.html?category=sorochka">
+  <img src="assets/images/cat7.webp" loading="lazy" alt="Пеньюары, Ночные сорочки">
+    <div class="product-name">Пеньюары, Ночные сорочки</div>
+  <div class="product-price"></div>
+ </a>
+     <a class="product" href="tshirt.html?category=hoodie">
+  <img src="assets/images/cat8.webp" loading="lazy" alt="Джемперы, Толстовки, Бомберы, Жилеты">
+    <div class="product-name">Джемперы, Толстовки, Бомберы, Жилеты</div>
+  <div class="product-price"></div>
+</a>
+     <a class="product" href="tshirt.html?category=bryuchki">
+  <img src="assets/images/cat9.webp" loading="lazy" alt="Брюки, Бриджи, Шорты">
+    <div class="product-name">Брюки, Бриджи, Шорты</div>
+  <div class="product-price"></div>
+</a>
+     <a class="product" href="tshirt.html?category=male">
+  <img src="assets/images/cat10.webp" loading="lazy" alt="Для мужчин">
+    <div class="product-name">Для мужчин</div>
+  <div class="product-price"></div>
+</a>
+    <a class="product" href="tshirt.html?category=bed">
+  <img src="assets/images/cat11.webp" loading="lazy" alt="Постельные принадлежности">
+    <div class="product-name">Постельные принадлежности</div>
+  <div class="product-price"></div>
+</a>
+ <a class="product" href="tshirt.html?category=pajamas">
+  <img src="assets/images/cat11.webp" loading="lazy" alt="Постельные принадлежности">
+    <div class="product-name">Пижамные женские комплекты</div>
+  <div class="product-price"></div>
+</a>
+
+
+    <!-- Можно добавить ещё товары по образцу -->
+  </div>
+
+  <a class="back-link" href="titul.html">← Вернуться на главную</a>
+
 </body>
 </html>
