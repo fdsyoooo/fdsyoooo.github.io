@@ -357,31 +357,73 @@ productCard.appendChild(sliderContainer);
     return;
   }
 
+  // Создаем картинку
   const img = document.createElement("img");
   img.src = product.images[currentImageIndex];
   img.classList.add("modal-slider-image");
+  img.style.transition = "opacity 0.3s ease";
   mediaDisplay.appendChild(img);
 
+  let touchStartX = 0;
+let touchStartY = 0;
+let isSwiping = false;
+
+img.addEventListener("touchstart", (e) => {
+  touchStartX = e.changedTouches[0].screenX;
+  touchStartY = e.changedTouches[0].screenY;
+  isSwiping = false;
+});
+
+img.addEventListener("touchmove", (e) => {
+  const touchMoveX = e.changedTouches[0].screenX;
+  const touchMoveY = e.changedTouches[0].screenY;
+
+  if (Math.abs(touchMoveX - touchStartX) > Math.abs(touchMoveY - touchStartY)) {
+    isSwiping = true;
+    e.preventDefault(); // отключить вертикальную прокрутку
+  }
+});
+
+img.addEventListener("touchend", (e) => {
+  if (!isSwiping) return;
+
+  const touchEndX = e.changedTouches[0].screenX;
+  const diff = touchStartX - touchEndX;
+
+  if (Math.abs(diff) < 30) return;
+
+  if (diff > 0) {
+    // Вперёд
+    currentImageIndex = (currentImageIndex + 1) % product.images.length;
+  } else {
+    // Назад
+    currentImageIndex = (currentImageIndex - 1 + product.images.length) % product.images.length;
+  }
+
+  // Анимация смены изображения
+  img.style.opacity = 0;
+  setTimeout(() => {
+    img.src = product.images[currentImageIndex];
+    img.style.opacity = 1;
+  }, 200);
+});
+
 }
 
-function animateImageChange(imgElement, newSrc) {
-  imgElement.style.opacity = 0;
-  setTimeout(() => {
-    imgElement.src = newSrc;
-    imgElement.style.opacity = 1;
-  }, 200);
-}
 
 
 
   function showMedia(product, direction) {
-    if (direction === "prev") {
-      currentImageIndex = (currentImageIndex - 1 + product.images.length) % product.images.length;
-    } else if (direction === "next") {
-      currentImageIndex = (currentImageIndex + 1) % product.images.length;
-    }
-    updateMediaDisplay(product);
+  if (!product.images || product.images.length === 0) return;
+
+  if (direction === "prev") {
+    currentImageIndex = (currentImageIndex - 1 + product.images.length) % product.images.length;
+  } else if (direction === "next") {
+    currentImageIndex = (currentImageIndex + 1) % product.images.length;
   }
+  updateMediaDisplay(product);
+}
+
 
   modalClose.onclick = () => modal.style.display = "none";
   window.onclick = (event) => {
