@@ -260,7 +260,7 @@ productCard.appendChild(sliderContainer);
         updateBookmarkCount();
       };
 
-     productCard.appendChild(sliderContainer);
+    
       productCard.appendChild(productName);
       productCard.appendChild(productPrice);
       productCard.appendChild(bookmarkBtn);
