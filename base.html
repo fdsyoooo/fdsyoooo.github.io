@@ -18,14 +18,24 @@
 
   <!-- Модальное окно товара -->
   <div id="modal">
+    <div id="swipe-hint">
+  <div class="hand-icon">👆</div>
+</div>
+
     <div id="modal-content">
       <span id="modal-close">&times;</span>
 
       <div id="media-container">
-        <button id="prev-btn">&#8592;</button>
-        <div id="media-display"></div>
-        <button id="next-btn">&#8594;</button>
-      </div>
+  <button id="prev-btn">←</button>
+  <div id="media-display">
+    <!-- Свайп-подсказка -->
+    <div id="swipe-hint" style="display: none;">
+      <div class="hand-icon">👆</div>
+    </div>
+  </div>
+  <button id="next-btn">→</button>
+</div>
+
 
       <h2 id="modal-name"></h2>
       <p id="modal-price"></p>

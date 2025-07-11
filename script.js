@@ -120,6 +120,22 @@ const productGrid = document.getElementById("product-grid");
   renderPage();
 }
 
+
+function showSwipeHintOnce() {
+  if (localStorage.getItem('swipeHintShown')) return;
+
+  const hint = document.getElementById('swipe-hint');
+  if (!hint) return;
+
+  hint.style.display = 'block';
+  localStorage.setItem('swipeHintShown', 'true');
+
+  setTimeout(() => {
+    hint.remove();
+  }, 3000); // Убираем через 3 секунды
+}
+
+
 function animateSliderImageChange(imgElement, newSrc) {
   imgElement.style.transition = "opacity 0.3s ease";
   imgElement.style.opacity = 0;
@@ -139,6 +155,16 @@ function animateSliderImageChange(imgElement, newSrc) {
     visibleProducts.forEach(product => {
       const productCard = document.createElement("div");
       productCard.classList.add("product");
+
+      // Если это первая карточка и подсказка ещё не показывалась
+if (start === 0 && product === visibleProducts[0] && !localStorage.getItem('swipeCardHintShown')) {
+  const swipeHint = document.createElement("div");
+  swipeHint.className = "card-swipe-hint";
+  swipeHint.textContent = "👆";
+  productCard.appendChild(swipeHint);
+  localStorage.setItem('swipeCardHintShown', 'true');
+}
+
      
 
       const statusBadge = document.createElement("div");
@@ -146,6 +172,7 @@ function animateSliderImageChange(imgElement, newSrc) {
       if (product.status === "new" || product.status === "out") {
         statusBadge.textContent = product.status === "new" ? "Новинка" : "Нет в наличии";
         productCard.appendChild(statusBadge);
+
       }
 
       // Создаём контейнер слайдера
@@ -339,11 +366,26 @@ productCard.appendChild(sliderContainer);
   function openModal(product) {
     currentProductIndex = products.findIndex(p => p.id === product.id);
     currentImageIndex = 0;
-    modal.style.display = "flex";
-    modalName.textContent = product.name;
-    modalPrice.textContent = product.price;
-    modalDescription.textContent = product.description;
-    updateMediaDisplay(product);
+   modal.style.display = "flex";
+modalName.textContent = product.name;
+modalPrice.textContent = product.price;
+modalDescription.textContent = product.description;
+updateMediaDisplay(product);
+
+// Подсказка свайпа в модалке только один раз
+const swipeHint = document.getElementById("swipe-hint");
+if (!localStorage.getItem("swipeHintShown")) {
+  swipeHint.style.display = "block";
+  localStorage.setItem("swipeHintShown", "true");
+  setTimeout(() => {
+    swipeHint.style.display = "none";
+  }, 3000);
+} else {
+  swipeHint.style.display = "none";
+}
+
+
+showSwipeHintOnce(); 
 
     prevBtn.onclick = () => showMedia(product, "prev");
     nextBtn.onclick = () => showMedia(product, "next");

@@ -14,7 +14,7 @@
     .product-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 40px 20px;
+      gap: 60px 20px;
     }
     .product {
       background: white;
@@ -358,10 +358,12 @@
 
 }
 
+
+
 .slider-image {
   width: 100%;
   max-height: 200px;
-  object-fit: cover;
+ 
   border-radius: 10px;
   transition: opacity 0.3s ease;
   position: absolute;
@@ -413,13 +415,62 @@
   flex-shrink: 0;
 }
 
+#swipe-hint {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  animation: fadeOut 3s forwards;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+
+.hand-icon {
+  font-size: 2.5rem;
+  animation: swipe 1.5s ease-in-out infinite;
+}
+
+.card-swipe-hint {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: swipe 1.5s ease-in-out infinite, fadeOutCardHint 4s forwards;
+  z-index: 2;
+  font-size: 2.2rem;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+@keyframes fadeOutCardHint {
+  0% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; display: none; }
+}
+
+
+@keyframes swipe {
+  0%   { transform: translateX(0); opacity: 0.5; }
+  30%  { transform: translateX(-30px); opacity: 1; }
+  60%  { transform: translateX(30px); opacity: 1; }
+  100% { transform: translateX(0); opacity: 0.5; }
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; display: none; }
+}
+
 
     
 
-    @media (max-width: 480px) {
+    @media (max-width: 550px) {
       .product-grid {
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-        gap: 15px;
+        gap: 40px 15px;
       }
       .pagination button {
         padding: 8px 12px;
