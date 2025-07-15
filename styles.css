@@ -475,6 +475,9 @@
     
 
     @media (max-width: 550px) {
+      .product img {
+        max-height: none;
+      }
       .product-grid {
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
         gap: 40px 15px;
