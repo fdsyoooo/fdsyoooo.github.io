@@ -1,337 +1,73 @@
 [
   {
-    "id": 1,
-    "name": "фыа",
-    "price": "1000 руб.",
+    "id": "3d",
+    "name": "3д",
+    "price": "р50-56",
     "status": "new",
     "category": "pugovki",
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
+      "images/100/10/3d.webp",
+      "images/100/10/3d2.webp",
+      "images/100/10/3d3.webp"
   ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
+    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш, Выполнен на пуговицах, с рукавом три четверти и двумя накладными карманами. Изготовлен из гипоаллергенной  дышащий  кулирки из 100% хлопка"
   },
   {
-    "id": 2,
-    "name": "Товар 2",
-    "price": "1200 руб.",
+    "id": "3k",
+    "name": "3к",
+    "price": "р50-56",
     "status": "new",
 
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 2"
-  },
-  {
-    "id": 3,
-    "name": "Товар 3",
-    "price": "1300 руб.",
-    "status": "new",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"
-      
+      "images/100/10/3k.webp",
+      "images/100/10/3k2.webp",
+      "images/100/10/3k3.webp",
+      "images/100/10/3k4.webp",
+      "images/100/10/3k5.webp"
     ],
-    "description": "Описание товbbhjhhара 3"
+    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш. Выполнен на пуговицах, с короткими рукавом и двумя накладными карманами. Изготовлен гипоаллергенной  дышащий  кулирки 100% хлопка."
   },
   {
-    "id": 4,
-    "name": "Товар 4",
-    "price": "1500 руб.",
-    "status": "out",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 4"
-  },
-  {
-    "id": 5,
-    "name": "Товар 5",
-    "price": "1700 руб.",
-    "status": "old",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 5"
-  },
-
-  {
-    "id": 6,
-    "name": "фыа",
-    "price": "1000 руб.",
+    "id": "3r",
+    "name": "3р",
+    "price": "р50-56",
     "status": "new",
 
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
-  },
-  {
-    "id": 7,
-    "name": "Товар 2",
-    "price": "1200 руб.",
-    "status": "new",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 2"
-  },
-  {
-    "id": 8,
-    "name": "Товар 3",
-    "price": "1300 руб.",
-    "status": "new",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"
-      
+      "images/100/10/3r.webp",
+      "images/100/10/3r2.webp",
+      "images/100/10/3r3.webp",
+      "images/100/10/3r4.webp"
     ],
-    "description": "Описание товbbhjhhара 3"
+    "description": "Трапецевидный халат хорошей длины с боковыми вытачками, длинным рукавом и высокой застежкой под горло на пуговицах. Выполнен с полноценным воротником с закругленными краями. Украшен двумя накладными карманами."
   },
   {
-    "id": 9,
-    "name": "Товар 4",
-    "price": "1500 руб.",
-    "status": "out",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 4"
-  },
-  {
-    "id": 10,
-    "name": "Товар 5",
-    "price": "1700 руб.",
-    "status": "old",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 5"
-  },
-
-
-  {
-    "id": 11,
-    "name": "фыа",
-    "price": "1000 руб.",
+    "id": "102d",
+    "name": "102д",
+    "price": "р48-54",
     "status": "new",
 
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
-  },
-  {
-    "id": 12,
-    "name": "Товар 2",
-    "price": "1200 руб.",
-    "status": "new",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 2"
-  },
-  {
-    "id": 13,
-    "name": "Товар 3",
-    "price": "1300 руб.",
-    "status": "new",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"
-      
+      "images/200/110/102d.webp"
     ],
-    "description": "Описание товbbhjhhара 3"
+    "description": "р.48,52,54, кулирка, состав 100% хлопок"
   },
   {
-    "id": 14,
-    "name": "Товар 4",
-    "price": "1500 руб.",
-    "status": "out",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 4"
-  },
-  {
-    "id": 15,
-    "name": "Товар 5",
-    "price": "1700 руб.",
-    "status": "old",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 5"
-  },
-  {
-    "id": 15,
-    "name": "фыа",
-    "price": "1000 руб.",
+    "id": "102L",
+    "name": "102л",
+    "price": "р50-56",
     "status": "new",
 
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
-  },
-  {
-    "id": 16,
-    "name": "Товар 2",
-    "price": "1200 руб.",
-    "status": "new",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 2"
-  },
-  {
-    "id": 17,
-    "name": "Товар 3",
-    "price": "1300 руб.",
-    "status": "new",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"
-      
+      "images/200/110/102L.webp",
+      "images/200/110/102L2.webp",
+      "images/200/110/102L3.webp",
+      "images/200/110/102L4.webp",
+      "images/200/110/102L5.webp",
+      "images/200/110/102L6.webp",
+      "images/200/110/102L7.webp",
+      "images/200/110/102L8.webp"
     ],
-    "description": "Описание товbbhjhhара 3"
-  },
-  {
-    "id": 18,
-    "name": "Товар 4",
-    "price": "1500 руб.",
-    "status": "out",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 4"
-  },
-  {
-    "id": 19,
-    "name": "Товар 5",
-    "price": "1700 руб.",
-    "status": "old",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 5"
-  },
-
-  {
-    "id": 20,
-    "name": "фыа",
-    "price": "1000 руб.",
-    "status": "new",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
-  },
-  {
-    "id": 21,
-    "name": "Товар 2",
-    "price": "1200 руб.",
-    "status": "new",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 2"
-  },
-  {
-    "id": 22,
-    "name": "Товар 3",
-    "price": "1300 руб.",
-    "status": "new",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"
-      
-    ],
-    "description": "Описание товbbhjhhара 3"
-  },
-  {
-    "id": 23,
-    "name": "Товар 4",
-    "price": "1500 руб.",
-    "status": "out",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 4"
-  },
-  {
-    "id": 24,
-    "name": "Товар 5",
-    "price": "1700 руб.",
-    "status": "old",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 5"
+    "description": "кулирка, 100% хлопок\n\nНа фото и видео размер 50\nпараметры девушки:\nрост 168\nОГ-ОТ-ОБ 104-88-110"
   }
-
-
-
-
-  
-
 ]

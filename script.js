@@ -130,9 +130,10 @@ function showSwipeHintOnce() {
   hint.style.display = 'block';
   localStorage.setItem('swipeHintShown', 'true');
 
+  // Через 3 секунды убираем подсказку
   setTimeout(() => {
-    hint.remove();
-  }, 3000); // Убираем через 3 секунды
+    swipeHint.remove();
+  }, 3000);
 }
 
 
