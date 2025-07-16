@@ -262,63 +262,54 @@ productCard.appendChild(sliderContainer);
       const productName = document.createElement("div");
       productName.classList.add("product-name");
       productName.textContent = product.name;
-      const colorWrapper = document.createElement("div");
-colorWrapper.classList.add("color-selection");
-
-if (product.colors && product.colors.length > 0) {
-  product.colors.forEach(color => {
-    const label = document.createElement("label");
-    label.style.marginRight = "10px";
-
-    const checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.value = color;
-
-    label.appendChild(checkbox);
-    label.append(" " + color);
-    colorWrapper.appendChild(label);
-  });
-}
+     
 
 
       const productPrice = document.createElement("div");
       productPrice.classList.add("product-price");
       productPrice.textContent = product.price;
 
-      const bookmarkBtn = document.createElement("button");
-      bookmarkBtn.classList.add("bookmark-btn", bookmarks.includes(product.id) ? "remove" : "add");
-      bookmarkBtn.textContent = bookmarks.includes(product.id) ? "Удалить из закладок" : "Добавить в закладки";
+     const bookmarkBtn = document.createElement("button");
 
-      bookmarkBtn.onclick = (e) => {
-        e.stopPropagation();
-        if (bookmarks.includes(product.id)) {
-          bookmarks = bookmarks.filter(id => id !== product.id);
-          bookmarkBtn.textContent = "Добавить в закладки";
-          bookmarkBtn.classList.remove("remove");
-          bookmarkBtn.classList.add("add");
-        } else {
-          // Считываем выбранные цвета из чекбоксов этой карточки
-const selectedColors = Array.from(colorWrapper.querySelectorAll("input[type=checkbox]:checked"))
-                            .map(cb => cb.value);
+// Проверяем, есть ли уже в закладках
+const isBookmarked = bookmarks.some(b => {
+  // bookmarks может быть массивом строк (старый формат) или объектов
+  if (typeof b === 'string') return b === product.id;
+  return b.id === product.id;
+});
 
-if (selectedColors.length === 0) {
-  alert("Выберите хотя бы один цвет для добавления в закладки");
-  return;
-}
+// Устанавливаем текст и стиль
+bookmarkBtn.classList.add("bookmark-btn", isBookmarked ? "remove" : "add");
+bookmarkBtn.textContent = isBookmarked ? "Удалить из закладок" : "Добавить в закладки";
 
-bookmarks.push({ id: product.id, selectedColors });
+bookmarkBtn.onclick = (e) => {
+  e.stopPropagation(); // не открывать модалку товара при клике на кнопку
+const isCurrentlyBookmarked = bookmarks.some(b => {
+    if (typeof b === 'string') return b === product.id;
+    return b.id === product.id;
+  });
 
-          bookmarkBtn.textContent = "Удалить из закладок";
-          bookmarkBtn.classList.remove("add");
-          bookmarkBtn.classList.add("remove");
-        }
-        localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
-        updateBookmarkCount();
-      };
+  if (isCurrentlyBookmarked) {
+    // Удаляем из закладок
+    bookmarks = bookmarks.filter(b => {
+      if (typeof b === 'string') return b !== product.id;
+      return b.id !== product.id;
+    });
+    localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+    updateBookmarkCount();
+    renderPage(); // Обновляем интерфейс
+  } else {
+    // Показываем модалку выбора цвета
+    showColorSelectModal(product, (selectedColors) => {
+      addToBookmarks(product, selectedColors);
+      renderPage(); // Обновляем интерфейс после добавления
+    });
+  }
+};
 
     
       productCard.appendChild(productName);
-      productCard.appendChild(colorWrapper);
+   
       productCard.appendChild(productPrice);
       productCard.appendChild(bookmarkBtn);
       
@@ -556,4 +547,83 @@ img.addEventListener("touchend", (e) => {
     bookmarksItems.appendChild(item);
   });
 }
+function showColorSelectModal(product, onConfirm) {
+  const modal = document.getElementById('color-select-modal');
+  const optionsContainer = document.getElementById('color-options');
+  optionsContainer.innerHTML = '';
+
+  // Отрисовка чекбоксов
+  product.colors.forEach(color => {
+    const label = document.createElement('label');
+    label.innerHTML = `
+      <input type="checkbox" value="${color}" />
+      ${color}
+    `;
+    optionsContainer.appendChild(label);
+  });
+
+  // Показать модалку
+  modal.style.display = 'flex';
+
+  const confirmBtn = document.getElementById('confirm-colors');
+  const cancelBtn = document.getElementById('cancel-colors');
+
+  const closeModal = () => {
+    modal.style.display = 'none';
+  };
+
+  // Обработка кнопок
+  confirmBtn.onclick = () => {
+    const selectedColors = Array.from(
+      optionsContainer.querySelectorAll('input:checked')
+    ).map(cb => cb.value);
+
+    if (selectedColors.length === 0) {
+      alert('Выберите хотя бы один цвет.');
+      return;
+    }
+
+    onConfirm(selectedColors);
+    closeModal();
+  };
+
+  cancelBtn.onclick = () => {
+    closeModal();
+  };
+
+}
+// Пример: внутри функции, где создаётся кнопка "добавить в закладки"
+button.classList.add('bookmark-btn', 'add');
+button.innerText = 'Добавить в закладки';
+button.onclick = () => {
+  showColorSelectModal(product, (selectedColors) => {
+    // Здесь добавление в закладки
+    addToBookmarks(product, selectedColors);
+  });
+};
+
+function addToBookmarks(product, selectedColors) {
+  // Обновляем глобальную переменную
+  bookmarks = bookmarks.filter(b => {
+    if (typeof b === 'string') return b !== product.id;
+    return b.id !== product.id;
+  });
+
+  const newBookmark = {
+    id: product.id,
+    name: product.name,
+    image: product.images?.[0],
+    price: product.price,
+    selectedColors: selectedColors
+  };
+
+  bookmarks.push(newBookmark);
+  localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
+  updateBookmarkCount();
+}
+
+
+
+
+
 
