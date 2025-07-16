@@ -23,6 +23,7 @@ if (!newCategory) {
 }
 
 
+let weatherFilter = "all"; // по умолчанию показывать все
 
 const productGrid = document.getElementById("product-grid");
   const pagination = document.getElementById("pagination");
@@ -105,6 +106,20 @@ const productGrid = document.getElementById("product-grid");
 
   loadProducts();
 
+const weatherFilterButtons = document.querySelectorAll("#weather-filter button");
+
+weatherFilterButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    weatherFilter = button.dataset.weather;
+    currentPage = 1;
+    renderPage();
+
+    // Подсветка активной кнопки
+    weatherFilterButtons.forEach(btn => btn.classList.remove("active"));
+    button.classList.add("active");
+  });
+});
+
   function setCategory(category) {
   currentCategory = category;
   filteredProducts = products.filter(p => p.category === category);
@@ -149,9 +164,17 @@ function animateSliderImageChange(imgElement, newSrc) {
 
   function renderPage() {
     productGrid.innerHTML = "";
-    const start = (currentPage - 1) * productsPerPage;
-    const end = start + productsPerPage;
-    const visibleProducts = filteredProducts.slice(start, end);
+    // Фильтрация по погоде
+const filteredByWeather = weatherFilter === "all"
+  ? filteredProducts
+  : filteredProducts.filter(p => p.weather === weatherFilter);
+
+// Пагинация на основе фильтрованных по погоде товаров
+const start = (currentPage - 1) * productsPerPage;
+const end = start + productsPerPage;
+const visibleProducts = filteredByWeather.slice(start, end);
+
+totalPages = Math.ceil(filteredByWeather.length / productsPerPage);
 
     visibleProducts.forEach(product => {
       const productCard = document.createElement("div");
@@ -548,7 +571,7 @@ img.addEventListener("touchend", (e) => {
     name.textContent = product.name;
 
     const colorInfo = document.createElement("div");
-    colorInfo.textContent = "Выбранные цвета: " + (bookmark.selectedColors?.join(", ") || "не выбраны");
+    colorInfo.textContent = bookmark.selectedColors?.join(", ") || "";
 
     const removeBtn = document.createElement("button");
     removeBtn.textContent = "Удалить";

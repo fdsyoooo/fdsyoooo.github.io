@@ -595,6 +595,40 @@
   user-select: none;
 }
 
+#weather-filter button.active {
+  background-color: #444;
+  color: white;
+  font-weight: bold;
+}
+#weather-filter {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#weather-filter button {
+  padding: 8px 16px;
+  border: 2px solid #ccc;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+#weather-filter button:hover {
+  background-color: #f0f0f0;
+}
+
+#weather-filter button.active {
+  background-color: #333;
+  color: white;
+  border-color: #333;
+  font-weight: bold;
+}
+
 
 
 
