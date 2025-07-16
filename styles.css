@@ -586,6 +586,14 @@
 #cancel-colors:hover {
   background-color: #ccc;
 }
+.weather-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 24px; /* размер иконки */
+  pointer-events: none; /* чтобы клики проходили сквозь иконку */
+  user-select: none;
+}
 
 
 

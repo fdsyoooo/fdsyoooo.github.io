@@ -5,6 +5,7 @@
     "price": "р50-56",
     "status": "new",
     "category": "pugovki",
+    "weather": "winter",
     "images": [
       "images/100/10/3d.webp",
       "images/100/10/3d2.webp",
@@ -18,6 +19,7 @@
     "name": "3к",
     "price": "р50-56",
     "status": "new",
+    "weather": "summer",
 
     "images": [
       "images/100/10/3k.webp",
@@ -34,6 +36,7 @@
     "name": "3р",
     "price": "р50-56",
     "status": "new",
+    "weather": "demiseason",
 
     "images": [
       "images/100/10/3r.webp",
@@ -49,7 +52,7 @@
     "name": "102д",
     "price": "р48-54",
     "status": "new",
-
+    "weather": "winter",
     "images": [
       "images/200/110/102d.webp"
     ],
@@ -61,7 +64,7 @@
     "name": "102л",
     "price": "р50-56",
     "status": "new",
-
+    "weather": "winter",
     "images": [
       "images/200/110/102L.webp",
       "images/200/110/102L2.webp",
@@ -80,6 +83,7 @@
     "name": "102л",
     "price": "р50-56",
     "status": "new",
+    "weather": "winter",
 
     "images": [
       "images/200/110/102L.webp",

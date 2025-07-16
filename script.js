@@ -258,6 +258,25 @@ sliderContainer.appendChild(leftArrow);
 sliderContainer.appendChild(sliderImage);
 sliderContainer.appendChild(rightArrow);
 productCard.appendChild(sliderContainer);
+    const weatherIcon = document.createElement("div");
+weatherIcon.classList.add("weather-icon");
+
+switch(product.weather) {
+  case "winter":
+    weatherIcon.textContent = "❄️"; // снежинка
+    break;
+  case "summer":
+    weatherIcon.textContent = "☀️"; // солнышко
+    break;
+  case "demiseason":
+    weatherIcon.textContent = "🍂"; // листочек для демисезона
+    break;
+  default:
+    weatherIcon.textContent = "";
+}
+
+sliderContainer.appendChild(weatherIcon);
+
 
       const productName = document.createElement("div");
       productName.classList.add("product-name");
@@ -305,6 +324,7 @@ const isCurrentlyBookmarked = bookmarks.some(b => {
       renderPage(); // Обновляем интерфейс после добавления
     });
   }
+
 };
 
     
