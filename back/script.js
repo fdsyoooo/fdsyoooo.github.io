@@ -262,24 +262,6 @@ productCard.appendChild(sliderContainer);
       const productName = document.createElement("div");
       productName.classList.add("product-name");
       productName.textContent = product.name;
-      const colorWrapper = document.createElement("div");
-colorWrapper.classList.add("color-selection");
-
-if (product.colors && product.colors.length > 0) {
-  product.colors.forEach(color => {
-    const label = document.createElement("label");
-    label.style.marginRight = "10px";
-
-    const checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.value = color;
-
-    label.appendChild(checkbox);
-    label.append(" " + color);
-    colorWrapper.appendChild(label);
-  });
-}
-
 
       const productPrice = document.createElement("div");
       productPrice.classList.add("product-price");
@@ -297,17 +279,7 @@ if (product.colors && product.colors.length > 0) {
           bookmarkBtn.classList.remove("remove");
           bookmarkBtn.classList.add("add");
         } else {
-          // Считываем выбранные цвета из чекбоксов этой карточки
-const selectedColors = Array.from(colorWrapper.querySelectorAll("input[type=checkbox]:checked"))
-                            .map(cb => cb.value);
-
-if (selectedColors.length === 0) {
-  alert("Выберите хотя бы один цвет для добавления в закладки");
-  return;
-}
-
-bookmarks.push({ id: product.id, selectedColors });
-
+          bookmarks.push(product.id);
           bookmarkBtn.textContent = "Удалить из закладок";
           bookmarkBtn.classList.remove("add");
           bookmarkBtn.classList.add("remove");
@@ -318,10 +290,8 @@ bookmarks.push({ id: product.id, selectedColors });
 
     
       productCard.appendChild(productName);
-      productCard.appendChild(colorWrapper);
       productCard.appendChild(productPrice);
       productCard.appendChild(bookmarkBtn);
-      
 
       productCard.onclick = () => {
         openModal(product);
@@ -513,47 +483,38 @@ img.addEventListener("touchend", (e) => {
   closeBookmarksBtn.onclick = () => bookmarksModal.style.display = "none";
 
   function renderBookmarks() {
-  bookmarksItems.innerHTML = "";
+    bookmarksItems.innerHTML = "";
+    const bookmarkedProducts = products.filter(p => bookmarks.includes(p.id));
 
-  if (bookmarks.length === 0) {
-    bookmarksEmpty.style.display = "block";
-    return;
+    if (bookmarkedProducts.length === 0) {
+      bookmarksEmpty.style.display = "block";
+    } else {
+      bookmarksEmpty.style.display = "none";
+      bookmarkedProducts.forEach(product => {
+        const item = document.createElement("div");
+        const name = document.createElement("span");
+        name.textContent = product.name;
+
+        const thumb = document.createElement("img");
+        thumb.src = product.images[0];
+        thumb.classList.add("bookmark-thumb");
+
+        const removeBtn = document.createElement("button");
+        removeBtn.textContent = "Удалить";
+        removeBtn.onclick = () => {
+          bookmarks = bookmarks.filter(id => id !== product.id);
+          localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+          updateBookmarkCount();
+          renderBookmarks();
+          renderPage();
+        };
+
+        item.appendChild(thumb);
+        item.appendChild(name);
+        item.appendChild(removeBtn);
+        bookmarksItems.appendChild(item);
+      });
+    }
   }
-
-  bookmarksEmpty.style.display = "none";
-
-  bookmarks.forEach(bookmark => {
-    const product = products.find(p => p.id === bookmark.id);
-    if (!product) return;
-
-    const item = document.createElement("div");
-    item.classList.add("bookmark-item");
-
-    const thumb = document.createElement("img");
-    thumb.src = product.images[0];
-    thumb.classList.add("bookmark-thumb");
-
-    const name = document.createElement("span");
-    name.textContent = product.name;
-
-    const colorInfo = document.createElement("div");
-    colorInfo.textContent = "Выбранные цвета: " + (bookmark.selectedColors?.join(", ") || "не выбраны");
-
-    const removeBtn = document.createElement("button");
-    removeBtn.textContent = "Удалить";
-    removeBtn.onclick = () => {
-      bookmarks = bookmarks.filter(b => b.id !== bookmark.id);
-      localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
-      updateBookmarkCount();
-      renderBookmarks();
-      renderPage();
-    };
-
-    item.appendChild(thumb);
-    item.appendChild(name);
-    item.appendChild(colorInfo);
-    item.appendChild(removeBtn);
-    bookmarksItems.appendChild(item);
-  });
-}
+  
 

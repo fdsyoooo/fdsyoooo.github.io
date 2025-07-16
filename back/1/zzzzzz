@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Главная — Мой Каталог</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #333;
+    }
+
+    header {
+      background: none;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    nav {
+      background: white;
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      display: block;
+      padding: 15px;
+      margin: 10px 0;
+      background: #000000;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 1.2rem;
+      text-align: center;
+      transition: background 0.3s ease;
+    }
+
+    nav a:hover {
+      background: #000000;
+    }
+
+    @media (max-width: 480px) {
+      header {
+        height: 200px;
+      }
+
+      nav {
+        margin: 10px;
+        padding: 15px;
+      }
+
+      nav a {
+        font-size: 1rem;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://cs15.pikabu.ru/post_img/big/2025/02/03/6/1738570100152867542.png" alt="Lanies" style="max-height: 200px;" />
+  </header>
+  <nav>
+    <a href="catalog.html">Перейти к Каталогу товаров</a>
+    <a href="contacts.html">Контакты</a>
+    <a href="about.html">О нас</a>
+  </nav>
+</body>
+</html>
