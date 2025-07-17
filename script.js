@@ -216,6 +216,7 @@ function showSwipeHintOnce() {
 }
 
 
+
 function animateSliderImageChange(imgElement, newSrc) {
   imgElement.style.transition = "opacity 0.3s ease";
   imgElement.style.opacity = 0;
@@ -224,6 +225,7 @@ function animateSliderImageChange(imgElement, newSrc) {
     imgElement.style.opacity = 1;
   }, 300);
 }
+
   function renderPage() {
     productGrid.innerHTML = "";
     // Фильтрация по погоде
@@ -506,8 +508,18 @@ if (!localStorage.getItem("swipeHintShown")) {
 
 showSwipeHintOnce(); 
 
-    prevBtn.onclick = () => showMedia(product, "prev");
-    nextBtn.onclick = () => showMedia(product, "next");
+    prevBtn.onclick = () => {
+  if (currentProductIndex === -1) return; // если ничего не открыто
+  const product = products[currentProductIndex];
+  showMedia(product, "prev");
+};
+
+nextBtn.onclick = () => {
+  if (currentProductIndex === -1) return;
+  const product = products[currentProductIndex];
+  showMedia(product, "next");
+};
+
   }
 
   function updateMediaDisplay(product) {
