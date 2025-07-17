@@ -4,16 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Каталог товаров</title>
-  <div id="weather-filter">
-  <button data-weather="all">Все</button>
-  <button data-weather="summer">☀️ Лето</button>
-  <button data-weather="winter">❄️ Зима</button>
-  <!--<button data-weather="demiseason">🍂 Демисезон</button>-->
-</div>
   <link rel="stylesheet" href="styles.css"/>
 </head>
 
 <body>
+    <div id="weather-filter">
+  <button data-weather="all">Все</button>
+  <button data-weather="summer">☀️ Лёгкие</button>
+  <button data-weather="winter">❄️ Тёплые</button>
+  <!--<button data-weather="demiseason">🍂 Демисезон</button>-->
+</div>
+
 
     <h1 id="category-title"></h1>
 
@@ -35,7 +36,7 @@
   <button id="prev-btn">←</button>
   <div id="media-display">
     <!-- Свайп-подсказка -->
-    <div id="swipe-hint" style="display: none;">
+    <div id="swipe-hint-modal" style="display: none;">
       <div class="hand-icon">👆</div>
     </div>
   </div>
@@ -58,11 +59,26 @@
   <div id="bookmarks-modal">
     <div>
       <button id="close-bookmarks">&times;</button>
-      <h2>Закладки</h2>
+      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
+<!-- Вместо отдельной кнопки и текста -->
+<button id="clear-bookmarks-container" aria-label="Удалить все закладки">
+
+  <span class="clear-label">Удалить все</span>
+</button>
+
+  <h2>Закладки</h2>
+</div>
+
       <div id="bookmarks-items"></div>
       <div id="bookmarks-empty">Нет товаров в закладках.</div>
 
-      <!-- Кнопка звонка -->
+
+    
+    <input id="bookmarks-link-output" type="text" readonly style="width: 100%; margin-bottom: 10px;" />
+<button id="copy-bookmarks-link">Скопировать ссылку</button>
+
+
+
 <a href="tel:+79998887766" id="call-button">📞 Позвонить: +7 (999) 999-99-99</a>
     </div>
   </div>

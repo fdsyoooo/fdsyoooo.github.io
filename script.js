@@ -22,6 +22,12 @@ if (!newCategory) {
   // можно сделать redirect на index.html
 }
 
+function isValidProduct(p) {
+  return p && typeof p.id === "string" &&
+         typeof p.name === "string" &&
+         Array.isArray(p.images) &&
+         typeof p.price === "string"; // или number
+}
 
 let weatherFilter = "all"; // по умолчанию показывать все
 
@@ -51,8 +57,30 @@ const productGrid = document.getElementById("product-grid");
   let totalPages = 0;
   let currentProductIndex = 0;
   let currentImageIndex = 0;
-  let bookmarks = JSON.parse(localStorage.getItem("bookmarks") || "[]");
+  function isValidBookmark(obj) {
+  return obj && typeof obj === "object" && typeof obj.id === "string";
+}
+
+let rawBookmarks;
+try {
+  rawBookmarks = JSON.parse(localStorage.getItem("bookmarks") || "[]");
+} catch (e) {
+  console.warn("Неверный формат в localStorage.bookmarks, сбрасываю", e);
+  rawBookmarks = [];
+}
+
+let bookmarks = Array.isArray(rawBookmarks)
+  ? rawBookmarks.filter(isValidBookmark)
+  : [];
+
+localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+
   updateBookmarkCount();
+// Приводим старый формат (строки) к объектам
+if (bookmarks.length && typeof bookmarks[0] === "string") {
+  bookmarks = bookmarks.map(id => ({ id }));
+  localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+}
 
   async function loadProducts() {
     const files = [
@@ -86,9 +114,12 @@ const productGrid = document.getElementById("product-grid");
 );
 
       // Присваиваем каждому товару категорию
-      products = allData.flatMap((arr, i) =>
-        arr.map(p => ({ ...p, category: files[i].category }))
-      );
+     products = allData.flatMap((arr, i) =>
+  arr
+    .filter(isValidProduct)
+    .map(p => ({ ...p, category: files[i].category }))
+);
+
 
       // Сортируем по статусу
       products.sort((a, b) => {
@@ -96,8 +127,40 @@ const productGrid = document.getElementById("product-grid");
         return order[a.status] - order[b.status];
       });
 
-      // Выставляем начальную категорию (например, pajamas)
-      setCategory(newCategory || 'index');
+      if (newCategory && categoryTitles[newCategory]) {
+  currentCategory = newCategory;
+} else {
+  currentCategory = 'tshirt'; // или любую другую дефолтную категорию
+}
+
+// Обработка закладок из URL
+const bookmarkIdsFromURL = decodeBookmarksFromURL();
+
+if (bookmarkIdsFromURL.length > 0) {
+  const bookmarksFromURL = bookmarkIdsFromURL.map(id => {
+    const product = products.find(p => p.id === id);
+    if (!product) return null;
+    return {
+      id: product.id,
+      name: product.name,
+      image: product.images?.[0],
+      price: product.price
+    };
+  }).filter(Boolean);
+
+  if (bookmarksFromURL.length > 0) {
+    bookmarks = bookmarksFromURL;
+    localStorage.setItem("bookmarks", JSON.stringify(bookmarks));
+    updateBookmarkCount();
+    // Здесь НЕ нужно вызывать setCategory — просто отрисуем закладки, если хочешь
+    renderPage(); 
+    return;
+  }
+}
+
+// Если нет bookmarks, то показать каталог категории
+setCategory(currentCategory);
+
 
     } catch (error) {
       console.error("Ошибка загрузки товаров:", error);
@@ -120,7 +183,7 @@ weatherFilterButtons.forEach(button => {
   });
 });
 
-  function setCategory(category) {
+ function setCategory(category) {
   currentCategory = category;
   filteredProducts = products.filter(p => p.category === category);
   totalPages = Math.ceil(filteredProducts.length / productsPerPage);
@@ -134,6 +197,7 @@ weatherFilterButtons.forEach(button => {
 
   renderPage();
 }
+
 
 
 function showSwipeHintOnce() {
@@ -160,8 +224,6 @@ function animateSliderImageChange(imgElement, newSrc) {
     imgElement.style.opacity = 1;
   }, 300);
 }
-
-
   function renderPage() {
     productGrid.innerHTML = "";
     // Фильтрация по погоде
@@ -313,12 +375,8 @@ sliderContainer.appendChild(weatherIcon);
 
      const bookmarkBtn = document.createElement("button");
 
-// Проверяем, есть ли уже в закладках
-const isBookmarked = bookmarks.some(b => {
-  // bookmarks может быть массивом строк (старый формат) или объектов
-  if (typeof b === 'string') return b === product.id;
-  return b.id === product.id;
-});
+const isBookmarked = bookmarks.some(b => b.id === product.id);
+
 
 // Устанавливаем текст и стиль
 bookmarkBtn.classList.add("bookmark-btn", isBookmarked ? "remove" : "add");
@@ -326,10 +384,8 @@ bookmarkBtn.textContent = isBookmarked ? "Удалить из закладок" 
 
 bookmarkBtn.onclick = (e) => {
   e.stopPropagation(); // не открывать модалку товара при клике на кнопку
-const isCurrentlyBookmarked = bookmarks.some(b => {
-    if (typeof b === 'string') return b === product.id;
-    return b.id === product.id;
-  });
+const isCurrentlyBookmarked = bookmarks.some(b => b.id === product.id);
+
 
   if (isCurrentlyBookmarked) {
     // Удаляем из закладок
@@ -341,14 +397,12 @@ const isCurrentlyBookmarked = bookmarks.some(b => {
     updateBookmarkCount();
     renderPage(); // Обновляем интерфейс
   } else {
-    // Показываем модалку выбора цвета
-    showColorSelectModal(product, (selectedColors) => {
-      addToBookmarks(product, selectedColors);
-      renderPage(); // Обновляем интерфейс после добавления
-    });
+    addToBookmarks(product);
+renderPage();
+
   }
 
-};
+}; 
 
     
       productCard.appendChild(productName);
@@ -365,7 +419,7 @@ const isCurrentlyBookmarked = bookmarks.some(b => {
     });
 
     renderPagination();
-  }
+  } 
 
   function renderPagination() {
   pagination.innerHTML = "";
@@ -438,7 +492,7 @@ modalDescription.textContent = product.description;
 updateMediaDisplay(product);
 
 // Подсказка свайпа в модалке только один раз
-const swipeHint = document.getElementById("swipe-hint");
+const swipeHint = document.getElementById("swipe-hint-modal");
 if (!localStorage.getItem("swipeHintShown")) {
   swipeHint.style.display = "block";
   localStorage.setItem("swipeHintShown", "true");
@@ -570,8 +624,6 @@ img.addEventListener("touchend", (e) => {
     const name = document.createElement("span");
     name.textContent = product.name;
 
-    const colorInfo = document.createElement("div");
-    colorInfo.textContent = bookmark.selectedColors?.join(", ") || "";
 
     const removeBtn = document.createElement("button");
     removeBtn.textContent = "Удалить";
@@ -585,68 +637,14 @@ img.addEventListener("touchend", (e) => {
 
     item.appendChild(thumb);
     item.appendChild(name);
-    item.appendChild(colorInfo);
     item.appendChild(removeBtn);
     bookmarksItems.appendChild(item);
   });
 }
-function showColorSelectModal(product, onConfirm) {
-  const modal = document.getElementById('color-select-modal');
-  const optionsContainer = document.getElementById('color-options');
-  optionsContainer.innerHTML = '';
 
-  // Отрисовка чекбоксов
-  product.colors.forEach(color => {
-    const label = document.createElement('label');
-    label.innerHTML = `
-      <input type="checkbox" value="${color}" />
-      ${color}
-    `;
-    optionsContainer.appendChild(label);
-  });
 
-  // Показать модалку
-  modal.style.display = 'flex';
-
-  const confirmBtn = document.getElementById('confirm-colors');
-  const cancelBtn = document.getElementById('cancel-colors');
-
-  const closeModal = () => {
-    modal.style.display = 'none';
-  };
-
-  // Обработка кнопок
-  confirmBtn.onclick = () => {
-    const selectedColors = Array.from(
-      optionsContainer.querySelectorAll('input:checked')
-    ).map(cb => cb.value);
-
-    if (selectedColors.length === 0) {
-      alert('Выберите хотя бы один цвет.');
-      return;
-    }
-
-    onConfirm(selectedColors);
-    closeModal();
-  };
-
-  cancelBtn.onclick = () => {
-    closeModal();
-  };
-
-}
-// Пример: внутри функции, где создаётся кнопка "добавить в закладки"
-button.classList.add('bookmark-btn', 'add');
-button.innerText = 'Добавить в закладки';
-button.onclick = () => {
-  showColorSelectModal(product, (selectedColors) => {
-    // Здесь добавление в закладки
-    addToBookmarks(product, selectedColors);
-  });
-};
-
-function addToBookmarks(product, selectedColors) {
-  // Обновляем глобальную переменную
+function addToBookmarks(product) {
+  // Удаляем, если уже есть
   bookmarks = bookmarks.filter(b => {
     if (typeof b === 'string') return b !== product.id;
     return b.id !== product.id;
@@ -656,17 +654,78 @@ function addToBookmarks(product, selectedColors) {
     id: product.id,
     name: product.name,
     image: product.images?.[0],
-    price: product.price,
-    selectedColors: selectedColors
+    price: product.price
+
   };
 
   bookmarks.push(newBookmark);
   localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
   updateBookmarkCount();
 }
+function encodeBookmarks(bookmarks) {
+  // Пример: берем только id
+  const ids = bookmarks.map(b => b.id);
+  const jsonStr = JSON.stringify(ids);
+  // base64 encode
+  return btoa(jsonStr);
+}
+function createBookmarksLink(bookmarks) {
+  const base64 = encodeBookmarks(bookmarks);
+  // Предположим, что текущий url без параметров — window.location.origin + window.location.pathname
+  return `${window.location.origin}${window.location.pathname}?bookmarks=${encodeURIComponent(base64)}`;
+}
+function decodeBookmarksFromURL() {
+  const params = new URLSearchParams(window.location.search);
+  const base64 = params.get('bookmarks');
+  if (!base64) return [];
+
+  try {
+    const jsonStr = atob(base64);
+    const ids = JSON.parse(jsonStr);
+    return Array.isArray(ids) && ids.every(id => typeof id === "string") ? ids : [];
+  } catch (e) {
+    console.warn("Ошибка декодирования закладок из URL", e);
+    return [];
+  }
+}
 
 
 
+const copyLinkBtn = document.getElementById("copy-bookmarks-link");
+const bookmarksLinkOutput = document.getElementById("bookmarks-link-output");
 
+copyLinkBtn.addEventListener("click", async () => {
+ console.log("bookmarks:", bookmarks); // ← добавь эту строку
+  console.log("Ссылка для закладок:", createBookmarksLink(bookmarks)); // ← и эту
+
+ 
+  const link = createBookmarksLink(bookmarks); 
+  bookmarksLinkOutput.value = link;
+
+  try {
+    await navigator.clipboard.writeText(link);
+    alert("Ссылка с закладками скопирована!");
+  } catch (err) {
+    // Fallback: старый метод на случай неподдержки
+    try {
+      bookmarksLinkOutput.select();
+      document.execCommand('copy');
+      alert("Ссылка скопирована устаревшим методом.");
+    } catch {
+      alert("Не удалось скопировать ссылку. Скопируйте вручную.");
+    }
+  }
+});
+const clearBookmarksBtn = document.getElementById('clear-bookmarks-container');
+
+clearBookmarksBtn.addEventListener('click', () => {
+  if (confirm('Вы действительно хотите удалить все закладки?')) {
+    bookmarks = []; // очищаем массив
+    localStorage.setItem('bookmarks', JSON.stringify(bookmarks)); // сохраняем пустой массив в localStorage
+    updateBookmarkCount(); // обновляем счетчик
+    renderBookmarks(); // обновляем модалку с закладками
+    renderPage(); // обновляем страницу с товарами
+  }
+});
 
 

@@ -279,8 +279,10 @@
     #bookmarks-modal h2 {
       margin-top: 0;
       margin-bottom: 15px;
-      text-align: center;
+      text-align: left;      /* убираем центрирование */
+  padding-left: 30px; 
     }
+  
     #close-bookmarks {
       position: absolute;
       top: 10px;
@@ -628,9 +630,106 @@
   border-color: #333;
   font-weight: bold;
 }
+#copy-bookmarks-link {
+  background-color: #1976d2;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* если хочешь добавить иконку рядом с текстом */
+}
 
 
 
+
+
+/* Кнопка удаления всех закладок */
+#clear-bookmarks {
+  background-color: #ff4c4c;
+  border: none;
+  color: white;
+  font-size: 14px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  line-height: 20px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+/* Контейнер с кнопкой и заголовком */
+#bookmarks-modal > div > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+/* Отцентровать заголовок */
+#bookmarks-modal > div > div:first-child h2 {
+  margin: 0 0 0 8px; /* сверху и справа 0, слева 8px */
+  flex-grow: 0;
+  text-align: 8px;
+}
+
+/* Добавим подпись "Удалить все" рядом с крестиком */
+#clear-bookmarks + .clear-label {
+  font-size: 12px;
+  color: #555;
+  cursor: pointer;
+  user-select: none;
+}
+
+#clear-bookmarks-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: #e53935;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: none;
+  user-select: none;
+  /* скошенные углы */
+  border-radius: 12px 4px 12px 4px; /* верхний левый и нижний правый — 12px, другие — 4px */
+  transition: background-color 0.3s ease;
+  box-shadow: 0 3px 8px rgba(229, 57, 53, 0.6);
+}
+
+#clear-bookmarks-container:hover {
+  background-color: #b92b2a;
+}
+
+/* Сам крестик в кнопке */
+#clear-bookmarks-container .clear-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  user-select: none;
+  pointer-events: none;
+  font-size: 1.1rem;
+}
+
+/* Текст "Удалить все" */
+#clear-bookmarks-container .clear-label {
+  user-select: none;
+}
 
 @keyframes fadeOutCardHint {
   0% { opacity: 1; }
