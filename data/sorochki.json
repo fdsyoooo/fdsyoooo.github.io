@@ -1,337 +1,503 @@
 [
   {
-    "id": 85943,
-    "name": "фыа",
-    "price": "1000 руб.",
-    "status": "new",
+    "id": "72-white",
+    "name": "Модель 72",
+    "price": "р.50-56",
+    "status": "",
     "category": "sorochki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
-  },
-  {
-    "id": 2,
-    "name": "Товар 2",
-    "price": "1200 руб.",
-    "status": "new",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 2"
-  },
-  {
-    "id": 3,
-    "name": "Товар 3",
-    "price": "1300 руб.",
-    "status": "new",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"
-      
+      "images/100/80/72-white-1-s.webp"
     ],
-    "description": "Описание товbbhjhhара 3"
+    "description": ""
   },
   {
-    "id": 4,
-    "name": "Товар 4",
-    "price": "1500 руб.",
-    "status": "out",
-
+    "id": "73g-white",
+    "name": "Модель 73g",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 4"
-  },
-  {
-    "id": 5,
-    "name": "Товар 5",
-    "price": "1700 руб.",
-    "status": "old",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 5"
-  },
-
-  {
-    "id": 6,
-    "name": "фыа",
-    "price": "1000 руб.",
-    "status": "new",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
-  },
-  {
-    "id": 7,
-    "name": "Товар 2",
-    "price": "1200 руб.",
-    "status": "new",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 2"
-  },
-  {
-    "id": 8,
-    "name": "Товар 3",
-    "price": "1300 руб.",
-    "status": "new",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"
-      
+      "images/100/80/73g-white-1-s.webp"
     ],
-    "description": "Описание товbbhjhhара 3"
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": 9,
-    "name": "Товар 4",
-    "price": "1500 руб.",
-    "status": "out",
-
+    "id": "74-blue",
+    "name": "Модель 74",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 4"
-  },
-  {
-    "id": 10,
-    "name": "Товар 5",
-    "price": "1700 руб.",
-    "status": "old",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 5"
-  },
-
-
-  {
-    "id": 11,
-    "name": "фыа",
-    "price": "1000 руб.",
-    "status": "new",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
-  },
-  {
-    "id": 12,
-    "name": "Товар 2",
-    "price": "1200 руб.",
-    "status": "new",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 2"
-  },
-  {
-    "id": 13,
-    "name": "Товар 3",
-    "price": "1300 руб.",
-    "status": "new",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"
-      
+      "images/100/80/74-blue-2-s.webp"
     ],
-    "description": "Описание товbbhjhhара 3"
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": 14,
-    "name": "Товар 4",
-    "price": "1500 руб.",
-    "status": "out",
-
+    "id": "74-bluecats",
+    "name": "Модель 74",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 4"
-  },
-  {
-    "id": 15,
-    "name": "Товар 5",
-    "price": "1700 руб.",
-    "status": "old",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 5"
-  },
-  {
-    "id": 15,
-    "name": "фыа",
-    "price": "1000 руб.",
-    "status": "new",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
-  },
-  {
-    "id": 16,
-    "name": "Товар 2",
-    "price": "1200 руб.",
-    "status": "new",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 2"
-  },
-  {
-    "id": 17,
-    "name": "Товар 3",
-    "price": "1300 руб.",
-    "status": "new",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"
-      
+      "images/100/80/74-bluecats-2-s.webp"
     ],
-    "description": "Описание товbbhjhhара 3"
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": 18,
-    "name": "Товар 4",
-    "price": "1500 руб.",
-    "status": "out",
-
+    "id": "74-pinkcats",
+    "name": "Модель 74",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 4"
-  },
-  {
-    "id": 19,
-    "name": "Товар 5",
-    "price": "1700 руб.",
-    "status": "old",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 5"
-  },
-
-  {
-    "id": 20,
-    "name": "фыа",
-    "price": "1000 руб.",
-    "status": "new",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
-  },
-  {
-    "id": 21,
-    "name": "Товар 2",
-    "price": "1200 руб.",
-    "status": "new",
-
-    "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 2"
-  },
-  {
-    "id": 22,
-    "name": "Товар 3",
-    "price": "1300 руб.",
-    "status": "new",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"
-      
+      "images/100/80/74-pinkcats-2-s.webp"
     ],
-    "description": "Описание товbbhjhhара 3"
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": 23,
-    "name": "Товар 4",
-    "price": "1500 руб.",
-    "status": "out",
-
+    "id": "74b-blue",
+    "name": "Модель 74б",
+    "price": "р.54-56",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 4"
+      "images/100/80/74b-blue-1-s.webp",
+      "images/100/80/74b-blue-5-s.webp"
+    ],
+    "description": ""
   },
   {
-    "id": 24,
-    "name": "Товар 5",
-    "price": "1700 руб.",
-    "status": "old",
-
-    "images":[
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp"],
-    "description": "Описание товара 5"
+    "id": "74b-pink",
+    "name": "Модель 74б",
+    "price": "р.54-56",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/80/74b-pink-1-s.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "76-blue",
+    "name": "Модель 76",
+    "price": "р.50-56",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/80/76-blue-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "76-pink",
+    "name": "Модель 76",
+    "price": "р.50-56",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/80/76-pink-1-s.webp",
+      "images/100/80/76-pink-51-s.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "76br-blue",
+    "name": "Модель 76br",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/80/76br-blue-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "76br-pink",
+    "name": "Модель 76br",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/80/76br-pink-2-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "171k-pink",
+    "name": "Модель 171к",
+    "price": "р.50-56, 46, 48",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/180/171k-pink1.webp",
+      "images/200/180/171k-pink2.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "171n-blue",
+    "name": "Модель 171н",
+    "price": "р.50-56, 46, 48",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "95% Вискоза, 5% Спандекс",
+    "images": [
+      "images/200/180/171n-blue1.webp",
+      "images/200/180/171n-blue2.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "171n-pink",
+    "name": "Модель 171н",
+    "price": "р.50-56",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "95% Вискоза, 5% Спандекс",
+    "images": [
+      "images/200/180/171n-pink-1.webp",
+      "images/200/180/171n-pink-2.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "171n-red",
+    "name": "Модель 171н",
+    "price": "р.50-56, 46, 48",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "95% Вискоза, 5% Спандекс",
+    "images": [
+      "images/200/180/171n-red1.webp",
+      "images/200/180/171n-red2.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "172r-pink",
+    "name": "Модель 172r",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/180/172r-pink-2-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "172r-white",
+    "name": "Модель 172r",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/180/172r-white-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "270a-blue",
+    "name": "Модель 270a",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/270a-blue-2-s.webp",
+      "images/300/270/270a-blue-71-s.webp",
+      "images/300/270/270a-blue-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "270a-majenta",
+    "name": "Модель 270a",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/270a-majenta-1-s.webp",
+      "images/300/270/270a-majenta-61-s.webp",
+      "images/300/270/270a-majenta-2-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "270a-salmon",
+    "name": "Модель 270a",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/270a-salmon-2-s.webp",
+      "images/300/270/270a-salmon-1-s.webp",
+      "images/300/270/270a-salmon-61-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "270d-pink",
+    "name": "Модель 270д",
+    "price": "р.48-56, 46, 58",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/270/270d-pink-1-s.webp",
+      "images/300/270/270d-pink-2-s.webp",
+      "images/300/270/270d-pink-51-s.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "270k-cream",
+    "name": "Модель 270к",
+    "price": "р.46-56",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "95% Вискоза, 5% Спандекс",
+    "images": [
+      "images/300/270/270k-cream-1-s.webp",
+      "images/300/270/270k-cream-51-s.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "270k-dots",
+    "name": "Модель 270k",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/270k-dots-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "270k-insect",
+    "name": "Модель 270k",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/270k-insect-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "270v-pink",
+    "name": "Модель 270в",
+    "price": "р.46-46",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "95% Вискоза, 5% Спандекс",
+    "images": [
+      "images/300/270/270v-pink-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "270v-white",
+    "name": "Модель 270v",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/270v-white-2-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "276k-balckdots",
+    "name": "Модель 276к",
+    "price": "р.46-56",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/280/276k-balckdots-1-s.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "285-cream",
+    "name": "Модель 285",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/290/285-cream-3-s.webp",
+      "images/300/290/285-cream-2-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "285b-blue",
+    "name": "Модель 285б",
+    "price": "р.48-54, 56",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/290/285b-blue-1-s.webp",
+      "images/300/290/285b-blue-11-s.webp",
+      "images/300/290/285b-blue-3-s.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "285b-cream",
+    "name": "Модель 285б",
+    "price": "р.48-54",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/290/285b-cream-1-s.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "286s-blue",
+    "name": "Модель 286s",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/290/286s-blue-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "286s-indeec",
+    "name": "Модель 286с",
+    "price": "р.46-52",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Атлас, 100% полиэстер",
+    "images": [
+      "images/300/290/286s-indeec-1-s.webp",
+      "images/300/290/286s-indeec-3-s.webp",
+      "images/300/290/286s-indeec-2-s.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "286s-pink",
+    "name": "Модель 286с",
+    "price": "р.46-52",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Атлас, 100% полиэстер",
+    "images": [
+      "images/300/290/286s-pink-1-s.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "286s-red",
+    "name": "Модель 286s",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/290/286s-red-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "585-pink",
+    "name": "Модель 585",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/600/590/585-pink-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "585-red",
+    "name": "Модель 585",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/600/590/585-red-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "585-white",
+    "name": "Модель 585",
+    "price": "р.",
+    "status": "",
+    "category": "sorochki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/600/590/585-white-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   }
-
-
-
-
-  
-
 ]

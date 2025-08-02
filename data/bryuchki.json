@@ -1,17 +1,316 @@
 [
   {
-    "id": 132890,
-    "name": "фыа",
-    "price": "1000 руб.",
-    "status": "new",
+    "id": "200c-bigflowers",
+    "name": "Модель 200c",
+    "price": "р.",
+    "status": "",
     "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
+      "images/200/200/200c-bigflowers-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "200c-browncells",
+    "name": "Модель 200c",
+    "price": "р.",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/200/200c-browncells-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "200c-graycells",
+    "name": "Модель 200c",
+    "price": "р.",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/200/200c-graycells-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "200c-small",
+    "name": "Модель 200c",
+    "price": "р.",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/200/200c-small-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "200c-yellowcells",
+    "name": "Модель 200c",
+    "price": "р.",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/200/200c-yellowcells-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "200f-darkblue",
+    "name": "Модель 200f",
+    "price": "р.",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/200/200f-darkblue-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "200ge-black",
+    "name": "Модель 200ge",
+    "price": "р.",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/200/200ge-black-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "200k-gray",
+    "name": "Модель 200к",
+    "price": "р.50-56",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "Кулирка меланж, 92% хлопок, 8% спандекс",
+    "images": [
+      "images/200/200/200k-gray-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "200n-blue",
+    "name": "Модель 200n",
+    "price": "р.",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/200/200n-blue-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "200sh-butterfly",
+    "name": "Модель 200ш",
+    "price": "р.46-48",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/200/200sh-butterfly-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "204-black",
+    "name": "Модель 204",
+    "price": "р.",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/210/204-black-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "204-blue",
+    "name": "Модель 204",
+    "price": "р.",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/210/204-blue-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "204n-blue",
+    "name": "Модель 204n",
+    "price": "р.",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/210/204n-blue-2-b.webp",
+      "images/300/210/204n-blue-61-b.webp",
+      "images/300/210/204n-blue-1-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "204t-gray",
+    "name": "Модель 204t",
+    "price": "р.",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/210/204t-gray-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "220-black",
+    "name": "Модель 220",
+    "price": "р.50-56, 46, 48",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "summer",
+    "material": "Кулирка, Хлопок 92%, Спандекс 8%",
+    "images": [
+      "images/300/220/220-black1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "220-green",
+    "name": "Модель 220",
+    "price": "р.50-56, 46, 48",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "summer",
+    "material": "Кулирка, Хлопок 92%, Спандекс 8%",
+    "images": [
+      "images/300/220/220-green1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "220ge-bluesquares",
+    "name": "Модель 220ge",
+    "price": "р.",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/220/220ge-bluesquares-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "220ge-white",
+    "name": "Модель 220ж",
+    "price": "р.50-56",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "summer",
+    "material": "Кулирка, Хлопок 92%, Спандекс 8%",
+    "images": [
+      "images/300/220/220g-white-2.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "221-flowers",
+    "name": "Модель 221",
+    "price": "р.50-56, 46, 48",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "summer",
+    "material": "Вискоза 95%, Спандекс 5%",
+    "images": [
+      "images/300/230/221-flowers1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "221d-blue",
+    "name": "Модель 221d",
+    "price": "р.",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/230/221d-blue-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "221d-white",
+    "name": "Модель 221d",
+    "price": "р.",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/230/221d-white-2-b.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "221k-darkblue",
+    "name": "Модель 221к",
+    "price": "р.50-56",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "summer",
+    "material": "Крэш, 100% полиэстер",
+    "images": [
+      "images/300/230/221k-darkblue-1-b.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "221k-red",
+    "name": "Модель 221к",
+    "price": "р.50-56",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "summer",
+    "material": "Крэш, 100% полиэстер",
+    "images": [
+      "images/300/230/221k-red-1-b.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "221k-white",
+    "name": "Модель 221к",
+    "price": "р.50-56",
+    "status": "",
+    "category": "bryuchki",
+    "weather": "summer",
+    "material": "Крэш, 100% полиэстер",
+    "images": [
+      "images/300/230/221k-white-1-b.webp"
+    ],
+    "description": ""
   }
 ]

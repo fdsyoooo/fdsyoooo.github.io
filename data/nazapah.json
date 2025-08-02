@@ -1,17 +1,709 @@
 [
   {
-    "id": 132,
-    "name": "фыа",
-    "price": "1000 руб.",
-    "status": "new",
+    "id": "35d-blue",
+    "name": "Модель 35d",
+    "price": "р.",
+    "status": "",
     "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
+      "images/100/40/35d-blue-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "35v-squares",
+    "name": "Модель 35v",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/40/35v-squares-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "36h-malepenguin",
+    "name": "Модель 36h",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/40/36h-malepenguin-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "36h-penguin",
+    "name": "Модель 36h",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/40/36h-penguin-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "36h-red",
+    "name": "Модель 36х",
+    "price": "р.40-44",
+    "status": "",
+    "category": "nazapah",
+    "weather": "winter",
+    "material": "Велсофт, 100% полиэстер",
+    "images": [
+      "images/100/40/36h-red-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "54k-gray",
+    "name": "Модель 54k",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/60/54k-gray-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "54k-graybears",
+    "name": "Модель 54k",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/60/54k-graybears-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "54k-purplebears",
+    "name": "Модель 54k",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/60/54k-purplebears-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "54z-pink",
+    "name": "Модель 54з",
+    "price": "р.48-52",
+    "status": "",
+    "category": "nazapah",
+    "weather": "winter",
+    "material": "Велсофт, 100% полиэстер",
+    "images": [
+      "images/100/60/54z-pink-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "55hc-blue",
+    "name": "Модель 55hc",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/60/55hc-blue-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "55hc-red",
+    "name": "Модель 55hc",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/60/55hc-red-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "121-blue",
+    "name": "Модель 121",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/130/121-blue-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "121m-kupon",
+    "name": "Модель 121m",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/130/121m-kupon-2-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "122n-brown",
+    "name": "Модель 122н",
+    "price": "р.48-54",
+    "status": "",
+    "category": "nazapah",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/130/122n-brown-1.webp",
+      "images/200/130/122n-brown-1-n.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "122n-deeppink",
+    "name": "Модель 122н",
+    "price": "р.48-54",
+    "status": "",
+    "category": "nazapah",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/130/122n-deeppink-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "122n-green",
+    "name": "Модель 122н",
+    "price": "р.48-54",
+    "status": "",
+    "category": "nazapah",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/130/122n-green-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "122n-multicolor",
+    "name": "Модель 122н",
+    "price": "р.48-54",
+    "status": "",
+    "category": "nazapah",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/130/122n-multicolor-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "122n-palmleaves",
+    "name": "Модель 122н",
+    "price": "р.48-54",
+    "status": "",
+    "category": "nazapah",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/130/122n-palmleaves-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "144n-black",
+    "name": "Модель 144н",
+    "price": "р.50-56",
+    "status": "",
+    "category": "nazapah",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/150/144n-black-1-n.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "144n-gray",
+    "name": "Модель 144н",
+    "price": "р.50-56",
+    "status": "",
+    "category": "nazapah",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/150/144n-gray-1-n.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "144n-green",
+    "name": "Модель 144н",
+    "price": "р.50-56",
+    "status": "",
+    "category": "nazapah",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/150/144n-green-1-n.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "153-white",
+    "name": "Модель 153",
+    "price": "р.46-52",
+    "status": "",
+    "category": "nazapah",
+    "weather": "winter",
+    "material": "Махра/бамбук, 100% хлопок",
+    "images": [
+      "images/200/160/153-white-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "153b-blue",
+    "name": "Модель 153b",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/160/153b-blue-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "153b-brown",
+    "name": "Модель 153b",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/160/153b-brown-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "154b-leopard",
+    "name": "Модель 154б",
+    "price": "р.48-56",
+    "status": "",
+    "category": "nazapah",
+    "weather": "winter",
+    "material": "Велсофт, 100% полиэстер",
+    "images": [
+      "images/200/160/154b-leopard-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "154b-snegniibars",
+    "name": "Модель 154б",
+    "price": "р.48-56",
+    "status": "",
+    "category": "nazapah",
+    "weather": "winter",
+    "material": "Велсофт, 100% полиэстер",
+    "images": [
+      "images/200/160/154b-snegniibars-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "202v-butterfly",
+    "name": "Модель 202v",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/210/202v-butterfly-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "202v-circles",
+    "name": "Модель 202v",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/210/202v-circles-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "202v-pink",
+    "name": "Модель 202v",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/210/202v-pink-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "236k-pink",
+    "name": "Модель 236к",
+    "price": "р.50-56",
+    "status": "",
+    "category": "nazapah",
+    "weather": "winter",
+    "material": "Вафля, 100% хлопок",
+    "images": [
+      "images/300/240/236k-pink-1-n.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "236k-white",
+    "name": "Модель 236к",
+    "price": "р.50-56",
+    "status": "",
+    "category": "nazapah",
+    "weather": "winter",
+    "material": "Вафля, 100% Хлопок",
+    "images": [
+      "images/300/240/236k-white-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "236m-lightblue",
+    "name": "Модель 236м",
+    "price": "р.50-56",
+    "status": "",
+    "category": "nazapah",
+    "weather": "winter",
+    "material": "Махра, 80% хлопок, 20% полиэстер",
+    "images": [
+      "images/300/240/236m-lightblue-2-n.webp",
+      "images/300/240/236m-lightblue-55-n.webp",
+      "images/300/240/236m-lightblue-1-n.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "236m-pink",
+    "name": "Модель 236м",
+    "price": "р.50-56, 46, 48",
+    "status": "",
+    "category": "nazapah",
+    "weather": "winter",
+    "material": "Махра, 80% хлопок, 20% полиэстер",
+    "images": [
+      "images/300/240/236m-pink-2-n.webp",
+      "images/300/240/236m-pink-55-n.webp",
+      "images/300/240/236m-pink-1-n.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "236v-black",
+    "name": "Модель 236v",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/236v-black-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "236v-pink",
+    "name": "Модель 236v",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/236v-pink-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "239k-cream",
+    "name": "Модель 239k",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/239k-cream-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "239k-mint",
+    "name": "Модель 239k",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/239k-mint-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "252L-blue",
+    "name": "Модель 252L",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/260/252L-blue-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "252L-green",
+    "name": "Модель 252L",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/260/252L-green-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "252d-bluefish",
+    "name": "Модель 252d",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/260/252d-bluefish-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "252d-greenpurple",
+    "name": "Модель 252d",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/260/252d-greenpurple-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "252d-redfish",
+    "name": "Модель 252d",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/260/252d-redfish-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "252d-redpurple",
+    "name": "Модель 252d",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/260/252d-redpurple-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "254c-brown",
+    "name": "Модель 254c",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/260/254c-brown-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "334-dollars",
+    "name": "Модель 334",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/340/334-dollars-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "334-gray",
+    "name": "Модель 334",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/340/334-gray-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "335-bluegray",
+    "name": "Модель 335",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/340/335-bluegray-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "354f-blue",
+    "name": "Модель 354f",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/360/354f-blue-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "354f-brown",
+    "name": "Модель 354f",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/360/354f-brown-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "454-blackcircles",
+    "name": "Модель 454",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/500/460/454-blackcircles-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "454-green",
+    "name": "Модель 454",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/500/460/454-green-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "454-palm",
+    "name": "Модель 454",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/500/460/454-palm-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "454-purple",
+    "name": "Модель 454",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/500/460/454-purple-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "454b-brown",
+    "name": "Модель 454б",
+    "price": "р.58",
+    "status": "",
+    "category": "nazapah",
+    "weather": "winter",
+    "material": "Велсофт, 100% полиэстер",
+    "images": [
+      "images/500/460/454b-brown-1-n.webp"
+    ],
+    "description": ""
   }
 ]

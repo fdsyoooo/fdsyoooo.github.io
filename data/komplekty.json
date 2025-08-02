@@ -1,17 +1,828 @@
 [
   {
-    "id": 12222,
-    "name": "фыа",
-    "price": "1000 руб.",
-    "status": "new",
+    "id": "37m-black",
+    "name": "Модель 37м",
+    "price": "р.50-56",
+    "status": "",
     "category": "komplekty",
+    "weather": "winter",
+    "material": "Футер двухнитка, 92% Хлопок, 8% Спандекс",
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
+      "images/100/40/37m-black-1-k.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "37m-green",
+    "name": "Модель 37м",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "winter",
+    "material": "Футер двухнитка, 92% Хлопок, 8% Спандекс",
+    "images": [
+      "images/100/40/37m-green-3.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "37m-red",
+    "name": "Модель 37м",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "winter",
+    "material": "Футер двухнитка, 92% Хлопок, 8% Спандекс",
+    "images": [
+      "images/100/40/37m-red-3.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "38-purple",
+    "name": "Модель 38",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "winter",
+    "material": "Махра с начёсом, 100% Полиэстер",
+    "images": [
+      "images/100/40/38-purple-1-k.webp",
+      "images/100/40/38-purple-2-k.webp",
+      "images/100/40/38-purple-71-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "38-red",
+    "name": "Модель 38",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "winter",
+    "material": "Махра с начёсом, 100% Полиэстер",
+    "images": [
+      "images/100/40/38-red-1-k.webp",
+      "images/100/40/38-red-2-k.webp",
+      "images/100/40/38-red-71-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "38t-blue",
+    "name": "Модель 38t",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/40/38t-blue-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "38t-darkblue",
+    "name": "Модель 38t",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/40/38t-darkblue-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "52f-blue",
+    "name": "Модель 52f",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/60/52f-blue-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "98v-darkblue",
+    "name": "Модель 98в",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "95% Вискоза, 5% Спандекс",
+    "images": [
+      "images/100/100/98v-darkblue-3.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "99g-pink",
+    "name": "Модель 99ж",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок Бриджи Кулирка 92% хлопок, 8% Лайкра",
+    "images": [
+      "images/100/100/99g-pink-1-k.webp",
+      "images/100/100/99g-pink-2-k.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "99ge-blackred",
+    "name": "Модель 99ж",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок Бриджи Кулирка 92% хлопок, 8% Лайкра",
+    "images": [
+      "images/100/100/99g-blackred-1-k.webp",
+      "images/100/100/99g-blackred-2-k.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "99ge-chaosgreen",
+    "name": "Модель 99ge",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/100/99ge-chaosgreen-1-k.webp",
+      "images/100/100/99ge-chaosgreen-2-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "99ge-green",
+    "name": "Модель 99ge",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/100/99ge-green-1-k.webp",
+      "images/100/100/99ge-green-2-k.webp",
+      "images/100/100/99ge-green-3-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "233-white",
+    "name": "Модель 233а",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Крэш, 100% Полиэстер",
+    "images": [
+      "images/300/240/233a-white-2.webp",
+      "images/300/240/233a-white-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "233a-begevii",
+    "name": "Модель 233а",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Крэш, 100% Полиэстер",
+    "images": [
+      "images/300/240/233a-begevii-2.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "233a-chernobel",
+    "name": "Модель 233a",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Крэш, 100% Полиэстер",
+    "images": [
+      "images/300/240/233a-chernobel-2.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "233a-pink",
+    "name": "Модель 233а",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Крэш, 100% Полиэстер",
+    "images": [
+      "images/300/240/233a-pink-3.webp",
+      "images/300/240/233a-pink-2.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "262f-cyberpunk",
+    "name": "Модель 262f",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/262f-cyberpunk-1-k.webp",
+      "images/300/270/262f-cyberpunk-2-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "262f-gray",
+    "name": "Модель 262ф",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "winter",
+    "material": "Футер двухнитка, 92% Хлопок, 8% Спандекс",
+    "images": [
+      "images/300/270/262f-gray-1-k.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "262n-biryuza",
+    "name": "Модель 262n",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/262n-biryuza-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "262n-bluewhite",
+    "name": "Модель 262n",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/262n-bluewhite-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "262n-darkpink",
+    "name": "Модель 262n",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/262n-darkpink-2-k.webp",
+      "images/300/270/262n-darkpink-1-k.webp",
+      "images/300/270/262n-darkpink-3-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "262n-green",
+    "name": "Модель 262n",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/262n-green-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "262n-pink",
+    "name": "Модель 262n",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/262n-pink-2-k.webp",
+      "images/300/270/262n-pink-1-k.webp",
+      "images/300/270/262n-pink-3-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "262n-red",
+    "name": "Модель 262n",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/262n-red-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "262t-brown",
+    "name": "Модель 262t",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/262t-brown-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "262t-green",
+    "name": "Модель 262t",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/262t-green-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "262t-purple",
+    "name": "Модель 262t",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/262t-purple-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "266n-darkbordo",
+    "name": "Модель 266n",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/266n-darkbordo-2-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "267ge-blue",
+    "name": "Модель 267ge",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/267ge-blue-1-k.webp",
+      "images/300/270/267ge-blue-2-k.webp",
+      "images/300/270/267ge-blue-71-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "267ge-green",
+    "name": "Модель 267ge",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/267ge-green-71-k.webp",
+      "images/300/270/267ge-green-1-k.webp",
+      "images/300/270/267ge-green-2-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "282ge-brown",
+    "name": "Модель 282ge",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/290/282ge-brown-71-k.webp",
+      "images/300/290/282ge-brown-2-k.webp",
+      "images/300/290/282ge-brown-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "282sh-blue",
+    "name": "Модель 282ш",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/290/282sh-blue-1-k.webp",
+      "images/300/290/282sh-blue-71-k.webp",
+      "images/300/290/282sh-blue-2-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "282sh-lightblue",
+    "name": "Модель 282ш",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/290/282sh-lightblue-3.webp",
+      "images/300/290/282sh-lightblue-2.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "283-deepblue",
+    "name": "Модель 283",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "images": [
+      "images/300/290/283-deepblue-1-k.webp",
+      "images/300/290/283-deepblue-4-k.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "283h-blue",
+    "name": "Модель 283х",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка, 92% Хлопок, 8% Лайкра",
+    "images": [
+      "images/300/290/283h-blue-1-k.webp",
+      "images/300/290/283h-blue-2-k.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "283h-green",
+    "name": "Модель 283х",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка, 92% Хлопок, 8% Лайкра",
+    "images": [
+      "images/300/290/283h-green-1-k.webp",
+      "images/300/290/283h-green-2-k.webp",
+      "images/300/290/283h-green-5-k.webp",
+      "images/300/290/283h-green-1-k_1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "283r-black",
+    "name": "Модель 283р",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "images": [
+      "images/300/290/283r-black-1-k.webp",
+      "images/300/290/283r-black-2-k.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "283r-blue",
+    "name": "Модель 283р",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "images": [
+      "images/300/290/283r-blue-1-k.webp",
+      "images/300/290/283r-blue-2-k.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "283r-purple",
+    "name": "Модель 283р",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "images": [
+      "images/300/290/283r-purple-1-k.webp",
+      "images/300/290/283r-purple-2-k.webp",
+      "images/300/290/283r-purple-3-k.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "289ge-blue",
+    "name": "Модель 289ge",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/290/289ge-blue-1-k.webp",
+      "images/300/290/289ge-blue-2-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "289ge-purple",
+    "name": "Модель 289ж",
+    "price": "р.58",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/290/289ge-purple-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "324m-pink",
+    "name": "Модель 324m",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/330/324m-pink-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "324m-red",
+    "name": "Модель 324m",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/330/324m-red-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "324m-yellow",
+    "name": "Модель 324m",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/330/324m-yellow-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "342t-latinos",
+    "name": "Модель 342t",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/350/342t-latinos-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "342t-pinkflowers",
+    "name": "Модель 342t",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/350/342t-pinkflowers-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "342t-waves",
+    "name": "Модель 342t",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/350/342t-waves-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "342v-city",
+    "name": "Модель 342в",
+    "price": "р.50-56, 58",
+    "status": "",
+    "category": "komplekty",
+    "weather": "winter",
+    "material": "Велюр, 80% Хлопок, 20% Спандекс",
+    "images": [
+      "images/400/350/342v-city-2-k.webp",
+      "images/400/350/342v-city-1-k.webp",
+      "images/400/350/342v-city-71-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "344-blue",
+    "name": "Модель 344",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/350/344-blue-2-k.webp",
+      "images/400/350/344-blue-1-k.webp",
+      "images/400/350/344-blue-2-k_1.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "344-red",
+    "name": "Модель 344",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/350/344-red-2-k.webp",
+      "images/400/350/344-red-1-k.webp",
+      "images/400/350/344-red-2-k_1.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "346-blue",
+    "name": "Модель 346",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/350/346-blue-1-k.webp",
+      "images/400/350/346-blue-71-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "346-red",
+    "name": "Модель 346",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/350/346-red-1-k.webp",
+      "images/400/350/346-red-2-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "430c-blackcircles",
+    "name": "Модель 430c",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/500/430/430c-blackcircles-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "430c-gzhel",
+    "name": "Модель 430c",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/500/430/430c-gzhel-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "437b-black",
+    "name": "Модель 437b",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/500/440/437b-black-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "437b-brown",
+    "name": "Модель 437b",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/500/440/437b-brown-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "437b-green",
+    "name": "Модель 437b",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/500/440/437b-green-71-k.webp",
+      "images/500/440/437b-green-1-k.webp",
+      "images/500/440/437b-green-2-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "437b-pink",
+    "name": "Модель 437b",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/500/440/437b-pink-1-k.webp",
+      "images/500/440/437b-pink-1-k_1.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "545n-india",
+    "name": "Модель 545n",
+    "price": "р.",
+    "status": "",
+    "category": "komplekty",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/600/550/545n-india-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   }
 ]

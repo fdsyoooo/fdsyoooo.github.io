@@ -1,16 +1,765 @@
 [
   {
-    "id": 1663346,
-    "name": "baaaaaaa",
-    "price": "1000 руб.",
-     "category": "tshirt",
+    "id": "62-bluelines",
+    "name": "Модель 62",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
+      "images/100/70/62-bluelines-51-t.webp",
+      "images/100/70/62-bluelines-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "62-pinklines",
+    "name": "Модель 62",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/62-pinklines-1-t.webp",
+      "images/100/70/62-pinklines-51-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "64-gray",
+    "name": "Модель 64",
+    "price": "р.52-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "images": [
+      "images/100/70/64-gray1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "64-green",
+    "name": "Модель 64",
+    "price": "р.52-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "images": [
+      "images/100/70/64-green-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "64-red",
+    "name": "Модель 64",
+    "price": "р.52-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "images": [
+      "images/100/70/64-red-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66-black",
+    "name": "Модель 66",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/66-black-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66-cream",
+    "name": "Модель 66",
+    "price": "р.52-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 92% хлопок, 8% лайкра",
+    "images": [
+      "images/100/70/66-cream-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66-green",
+    "name": "Модель 66",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/66-green-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66-pink",
+    "name": "Модель 66",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/66-pink-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66-white",
+    "name": "Модель 66",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 92% хлопок, 8% лайкра",
+    "images": [
+      "images/100/70/66-white-1-t.webp",
+      "images/100/70/66-white-1-t_1.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66-yellow",
+    "name": "Модель 66",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/66-yellow-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66r-blue",
+    "name": "Модель 66r",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/66r-blue-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66r-green",
+    "name": "Модель 66r",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/66r-green-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66r-pink",
+    "name": "Модель 66r",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/66r-pink-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66r-white",
+    "name": "Модель 66r",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/66r-white-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66z-pinkflowers",
+    "name": "Модель 66z",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/66z-pinkflowers-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66z-purpleflowers",
+    "name": "Модель 66z",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/66z-purpleflowers-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "68a-pinklines",
+    "name": "Модель 68а",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/70/68a-pinklines-1-t.webp",
+      "images/100/70/68a-pinklines-61-t.webp",
+      "images/100/70/68a-pinklines-2-t.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "68m-bejevii",
+    "name": "Модель 68м",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/70/68m-bejevii-1-t.webp",
+      "images/100/70/68m-bejevii-2-t.webp",
+      "images/100/70/68m-bejevii-61-t.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "68m-butterfly",
+    "name": "Модель 68м",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/70/68m-butterfly-1-t.webp",
+      "images/100/70/68m-butterfly-2-t.webp",
+      "images/100/70/68m-butterfly-61-t.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "68m-chaos",
+    "name": "Модель 68m",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/68m-chaos-2-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "68m-pink",
+    "name": "Модель 68м",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/70/68m-pink-1-t.webp",
+      "images/100/70/68m-pink-61-t.webp",
+      "images/100/70/68m-pink-2-t.webp",
+      "images/100/70/68m-pink-2-t_1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "68m-rings",
+    "name": "Модель 68m",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/68m-rings-2-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "68v-chaos",
+    "name": "Модель 68v",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/68v-chaos-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "68v-kontrast",
+    "name": "Модель 68v",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/68v-kontrast-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "68v-stars",
+    "name": "Модель 68v",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/68v-stars-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "70h-blue",
+    "name": "Модель 70х",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 92% хлопок, 8% лайкра",
+    "images": [
+      "images/100/70/70h-blue-1-t.webp",
+      "images/100/70/70h-blue-74-t.webp",
+      "images/100/70/70h-blue-2-t.webp",
+      "images/100/70/70h-blue-51-t.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "70h-bluepoloski",
+    "name": "Модель 70х",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 92% хлопок, 8% лайкра",
+    "images": [
+      "images/100/70/70h-bluepoloski-2-t.webp",
+      "images/100/70/70h-bluepoloski-55-t.webp",
+      "images/100/70/70h-bluepoloski-54-t.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "70h-green",
+    "name": "Модель 70х",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 92% хлопок, 8% лайкра",
+    "images": [
+      "images/100/70/70h-green-1-t.webp",
+      "images/100/70/70h-green-72-t.webp",
+      "images/100/70/70h-green-51-t.webp",
+      "images/100/70/70h-green-2-t.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "70h-lightpink",
+    "name": "Модель 70h",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/70/70h-lightpink-2-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "70h-salmon",
+    "name": "Модель 70х",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 92% хлопок, 8% лайкра",
+    "images": [
+      "images/100/70/70h-salmon-1-t.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "230-blue",
+    "name": "Модель 230",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Крэш, 100% полиэстер",
+    "images": [
+      "images/300/230/230-blue1.webp",
+      "images/300/230/230-blue2.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "230-lightblue",
+    "name": "Модель 230",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Крэш, 100% полиэстер",
+    "images": [
+      "images/300/230/230-lightblue1.webp",
+      "images/300/230/230-lightblue2.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "230-pink",
+    "name": "Модель 230",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Крэш, 100% полиэстер",
+    "images": [
+      "images/300/230/230-pink1.webp",
+      "images/300/230/230-pink2.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "230-white",
+    "name": "Модель 230",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Крэш, 100% полиэстер",
+    "images": [
+      "images/300/230/230-white1.webp",
+      "images/300/230/230-white2.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "231-yellow",
+    "name": "Модель 231",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/231-yellow-2-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "231a-blue",
+    "name": "Модель 231a",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/231a-blue-1-t.webp",
+      "images/300/240/231a-blue-61-t.webp",
+      "images/300/240/231a-blue-2-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "231a-green",
+    "name": "Модель 231a",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/231a-green-61-t.webp",
+      "images/300/240/231a-green-1-t.webp",
+      "images/300/240/231a-green-2-t.webp",
+      "images/300/240/231a-green-2-t_1.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "231a-pink",
+    "name": "Модель 231a",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/231a-pink-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "231k-cream",
+    "name": "Модель 231k",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/231k-cream-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "231k-insect",
+    "name": "Модель 231к",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/240/231k-insect-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "231k-majenta",
+    "name": "Модель 231k",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/231k-majenta-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "231k-pink",
+    "name": "Модель 231k",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/231k-pink-61-t.webp",
+      "images/300/240/231k-pink-2-t.webp",
+      "images/300/240/231k-pink-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "231n-pink",
+    "name": "Модель 231n",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/231n-pink-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "237k-brown",
+    "name": "Модель 237k",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/237k-brown-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "237k-clocks",
+    "name": "Модель 237k",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/237k-clocks-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "237k-cream",
+    "name": "Модель 237k",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Масло, 95% вискоза, 5% спандекс",
+    "images": [
+      "images/300/240/237k-cream-1-t.webp",
+      "images/300/240/237k-cream-1-t_1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "237k-gold",
+    "name": "Модель 237к",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Масло, 95% вискоза, 5% спандекс",
+    "images": [
+      "images/300/240/237k-gold-1-t.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "237k-morda",
+    "name": "Модель 237k",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/240/237k-morda-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "526k-bluehorses",
+    "name": "Модель 526k",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/600/530/526k-bluehorses-2-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "526k-yellowhorses",
+    "name": "Модель 526k",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/600/530/526k-yellowhorses-2-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "526k-pink",
+    "name": "Модель 526k",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/600/530/526k-pink-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "568L-biryuza",
+    "name": "Модель 568L",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/600/570/568L-biryuza-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "568a-blue",
+    "name": "Модель 568а",
+    "price": "р.48-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 92% хлопок, 8% лайкра",
+    "images": [
+      "images/600/570/568a-blue-1-t.webp",
+      "images/600/570/568a-blue-51-t.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "568a-pink",
+    "name": "Модель 568а",
+    "price": "р.48-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 92% хлопок, 8% лайкра",
+    "images": [
+      "images/600/570/568a-pink-1-t.webp",
+      "images/600/570/568a-pink-51-t.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "568a-white",
+    "name": "Модель 568а",
+    "price": "р.48-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 92% хлопок, 8% лайкра",
+    "images": [
+      "images/600/570/568a-white-1-t.webp",
+      "images/600/570/568a-white-51-t.webp"
+    ],
+    "description": ""
   }
 ]

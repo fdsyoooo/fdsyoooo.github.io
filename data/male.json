@@ -1,17 +1,70 @@
 [
   {
-    "id": 1333,
-    "name": "фыа",
-    "price": "1000 руб.",
-    "status": "new",
+    "id": "50-gray",
+    "name": "Модель 50",
+    "price": "р.50-56",
+    "status": "",
     "category": "male",
+    "weather": "summer",
+    "material": "Кулирка варёнка, 92% Хлопок, 8% Спандекс",
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
+      "images/100/50/50-gray-2-m.webp",
+      "images/100/50/50-gray-1-m.webp",
+      "images/100/50/50-gray-51-m.webp",
+      "images/100/50/50-gray-71-m.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "51k-brown",
+    "name": "Модель 51к",
+    "price": "р.50-56",
+    "status": "",
+    "category": "male",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/60/51k-brown-3.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "51k-greensquare",
+    "name": "Модель 51k",
+    "price": "р.50-56",
+    "status": "",
+    "category": "male",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/60/51k-greensquare-3.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "66m-pink",
+    "name": "Модель 66м",
+    "price": "р.",
+    "status": "",
+    "category": "male",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "images": [
+      "images/100/70/66m-pink-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "670m-symbols",
+    "name": "Модель 670м",
+    "price": "р.48-56",
+    "status": "",
+    "category": "male",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/700/670/670m-symbols-1-m.webp"
+    ],
+    "description": ""
   }
 ]

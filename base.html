@@ -14,21 +14,33 @@
   <button data-weather="winter">❄️ Тёплые</button>
   <!--<button data-weather="demiseason">🍂 Демисезон</button>-->
 </div>
+<div id="size-filter">
+  <button id="toggle-large">Размеры 58+</button>
+</div>
 
 
     <h1 id="category-title"></h1>
+<div id="search-container">
+  <input
+    type="text"
+    id="search-input"
+    placeholder="Поиск по номеру модели"
+    autocomplete="off"
+  />
+</div>
+<div class="pagination" id="pagination-bottom"></div>
+
 
   <div id="product-grid" class="product-grid"></div>
   <div class="pagination" id="pagination"></div>
   
-<div id="page-info"></div> <!-- Это для отображения информации о текущей странице -->
+<div id="page-info"></div>
 
   <!-- Модальное окно товара -->
   <div id="modal">
-    <div id="swipe-hint">
+  <div id="swipe-hint" class="hint-wrapper">
   <div class="hand-icon">👆</div>
 </div>
-
     <div id="modal-content">
       <span id="modal-close">&times;</span>
 
@@ -38,9 +50,10 @@
   <div id="media-display"></div>
 
   <!-- Подсказка о свайпе — вне #media-display -->
-  <div id="swipe-hint-modal" style="display: none;">
-    <div class="hand-icon">👆</div>
-  </div>
+ <div id="swipe-hint-modal" class="hint-wrapper" style="display: none;">
+  <div class="hand-icon">👆</div>
+</div>
+
 
   <button id="next-btn">→</button>
 </div>
@@ -49,6 +62,7 @@
 
       <h2 id="modal-name"></h2>
       <p id="modal-price"></p>
+      <p id="modal-material"></p>
       <p id="modal-description"></p>
     </div>
   </div>

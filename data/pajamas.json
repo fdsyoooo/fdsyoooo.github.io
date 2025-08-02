@@ -1,33 +1,581 @@
 [
   {
-    "id": 1323232,
-    "name": "фыaaaaaaа",
-    "price": "1000 руб.",
-    "status": "new",
+    "id": "98c-blue",
+    "name": "Модель 98ц",
+    "price": "р.52-58",
+    "status": "",
     "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
+      "images/100/100/98c-blue-1-pj.webp",
+      "images/100/100/98c-blue-2-pj.webp",
+      "images/100/100/98c-blue-71-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": 132323332,
-    "name": "фfdafыа",
-    "price": "1000 руб.",
-    "status": "new",
+    "id": "98c-brown",
+    "name": "Модель 98ц",
+    "price": "р.52-58",
+    "status": "",
     "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
-      "assets/images/cat1.webp", 
-      "assets/images/cat1.webp",
-      "assets/images/cat1.webp",
-      "assets/images/cat2.png",
-      "assets/images/cat1.webp"
-  ],
-    "description": "Лучший, просто восхитительный халат, 100 процентов хлопка и еще 100 шелка, соткано вручную младыми девами ростовских степей по древним техникам рукодельческим, материалы перевозились исключительно на натуральных средствах перемещенения, дабы не пропиталась ткань ни одным <p>срамным</p> веществом химическим, дарит благодать b"
+      "images/100/100/98c-brown-1-pj.webp",
+      "images/100/100/98c-brown-61-pj.webp",
+      "images/100/100/98c-brown-2-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "98c-green",
+    "name": "Модель 98ц",
+    "price": "р.52-58",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/100/98c-green-1-pj.webp",
+      "images/100/100/98c-green-2-pj.webp",
+      "images/100/100/98c-green-61-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "175-blue",
+    "name": "Модель 175",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/180/175-blue-2-pj.webp",
+      "images/200/180/175-blue-1-pj.webp",
+      "images/200/180/175-blue-71-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "175-gray",
+    "name": "Модель 175",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/180/175-gray-2-pj.webp",
+      "images/200/180/175-gray-71-pj.webp",
+      "images/200/180/175-gray-1-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "175-red",
+    "name": "Модель 175",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/180/175-red-1-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "267-blue",
+    "name": "Модель 267",
+    "price": "р.48-56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/270/267-blue-1-pj.webp",
+      "images/300/270/267-blue-4-pj.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "267-ships",
+    "name": "Модель 267",
+    "price": "р.48-56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/270/267-ships-1-pj.webp",
+      "images/300/270/267-ships-2-pj.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "267ge-brown",
+    "name": "Модель 267ge",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/267ge-brown-1-pj.webp",
+      "images/300/270/267ge-brown-71-pj.webp",
+      "images/300/270/267ge-brown-2-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "280b-green",
+    "name": "Модель 280б",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/280/280b-green-2-pj_1.webp",
+      "images/300/280/280b-green-2-pj.webp",
+      "images/300/280/280b-green-41-pj.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "280b-lightblue",
+    "name": "Модель 280б",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/280/280b-lightblue-1-pj.webp",
+      "images/300/280/280b-lightblue-2-pj.webp",
+      "images/300/280/280b-lightblue-41-pj.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "280b-yellow",
+    "name": "Модель 280б",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/280/280b-yellow-1-pj.webp",
+      "images/300/280/280b-yellow-2-pj.webp",
+      "images/300/280/280b-yellow-41-pj.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "280n-biryuza",
+    "name": "Модель 280n",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/280/280n-biryuza-1-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "280n-yellow",
+    "name": "Модель 280n",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/280/280n-yellow-1-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "281-brown",
+    "name": "Модель 281",
+    "price": "р.46-50",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/290/281-brown-1-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "281b-blue",
+    "name": "Модель 281b",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/290/281b-blue-2-pj.webp",
+      "images/300/290/281b-blue-1-pj.webp",
+      "images/300/290/281b-blue-71-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "281b-brown",
+    "name": "Модель 281b",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/290/281b-brown-1-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "281b-candy",
+    "name": "Модель 281b",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/290/281b-candy-1-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "281b-green",
+    "name": "Модель 281b",
+    "price": "р.52",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/290/281b-green-1-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "282a-biryuza",
+    "name": "Модель 282а",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/290/282a-biryuza-1-pj.webp",
+      "images/300/290/282a-biryuza-11-pj.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "282a-pink",
+    "name": "Модель 282а",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/290/282a-pink-1-pj.webp",
+      "images/300/290/282a-pink-12-pj.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "282a-yellow",
+    "name": "Модель 282a",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/290/282a-yellow-1-pj.webp",
+      "images/300/290/282a-yellow-11-pj.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "282ge-blue",
+    "name": "Модель 282ж",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/290/282ge-blue-1-pj.webp",
+      "images/300/290/282ge-blue-12-pj.webp",
+      "images/300/290/282ge-blue-41-pj.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "282ge-lightpurple",
+    "name": "Модель 282ge",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/290/282ge-lightpurple-1-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "282ge-pinkinsect",
+    "name": "Модель 282ge",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/290/282ge-pinkinsect-2-pj.webp",
+      "images/300/290/282ge-pinkinsect-1-pj.webp",
+      "images/300/290/282ge-pinkinsect-71-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "282ge-pinkjapan",
+    "name": "Модель 282ge",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/290/282ge-pinkjapan-1-pj.webp",
+      "images/300/290/282ge-pinkjapan-71-pj.webp",
+      "images/300/290/282ge-pinkjapan-2-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "282ge-purplejapan",
+    "name": "Модель 282ge",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/290/282ge-purplejapan-2-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "282ge-toxic",
+    "name": "Модель 282ж",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/290/282ge-toxic-1-pj.webp",
+      "images/300/290/282ge-toxic-2-pj.webp",
+      "images/300/290/282ge-toxic-41-pj.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "284z-blue",
+    "name": "Модель 284з",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок, Кулирка меланж 100% хлопок",
+    "images": [
+      "images/300/290/284z-blue-1-pj.webp",
+      "images/300/290/284z-blue-2-pj.webp",
+      "images/300/290/284z-blue-41-pj.webp",
+      "images/300/290/284z-blue-31-pj.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "284z-green",
+    "name": "Модель 284з",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок, Кулирка меланж 100% хлопок",
+    "images": [
+      "images/300/290/284z-green-1-pj.webp",
+      "images/300/290/284z-green-51-pj.webp",
+      "images/300/290/284z-green-41-pj.webp",
+      "images/300/290/284z-green-2-pj.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "289c-gray",
+    "name": "Модель 289ц",
+    "price": "р.48-56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/290/289c-gray-1-pj.webp",
+      "images/300/290/289c-gray-44-pj.webp",
+      "images/300/290/289c-gray-2-pj.webp",
+      "images/300/290/289c-gray-2-pj_1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "319c-green",
+    "name": "Модель 319c",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/320/319c-green-1-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "319c-red",
+    "name": "Модель 319c",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/320/319c-red-1-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "320n-stars",
+    "name": "Модель 320n",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/320/320n-stars-1-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "324d-nice",
+    "name": "Модель 324d",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/330/324d-nice-1-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "327-poloskashtani",
+    "name": "Модель 327",
+    "price": "р.46-52",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/400/330/327-poloskashtani-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "327b-poloskashtani",
+    "name": "Модель 327б",
+    "price": "р.54,56,58",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/400/330/327-poloskashtani-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "327n-bluelabel",
+    "name": "Модель 327н",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Интерлок",
+    "images": [
+      "images/400/330/327n-bluelabel-1-pj.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "327sh-buton",
+    "name": "Модель 327ш",
+    "price": "р.46-52",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/400/330/327sh-buton2.webp",
+      "images/400/330/327sh-buton1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "327sh-grayred",
+    "name": "Модель 327ш",
+    "price": "р.46-52",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/400/330/327sh-grayred-2.webp",
+      "images/400/330/327sh-grayred-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "327sh-poloska",
+    "name": "Модель 327ш",
+    "price": "р.54,56",
+    "status": "",
+    "category": "pajamas",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/400/330/327sh-poloska2.webp",
+      "images/400/330/327sh-poloska1.webp",
+      "images/400/330/327sh-poloska-81.webp"
+    ],
+    "description": ""
   }
-
 ]

@@ -2,6 +2,13 @@ const titleElement = document.getElementById("category-title");
 const params = new URLSearchParams(window.location.search);
 const newCategory = params.get("category"); // tshirt, hoodie, и т.д.
 
+let isSearching = false;
+let searchTerm = "";
+
+function generateDots(current, total) {
+  return Array.from({ length: total }, (_, i) => (i === current ? '●' : '○')).join(' ');
+}
+
 const categoryTitles = {
   bed: "Постельные принадлежности",
   bryuchki: "Брюки, Бриджи, Шорты",
@@ -30,12 +37,14 @@ function isValidProduct(p) {
 }
 
 let weatherFilter = "all"; // по умолчанию показывать все
+let largeFilter = false;
 
 const productGrid = document.getElementById("product-grid");
   const pagination = document.getElementById("pagination");
   const modal = document.getElementById("modal");
   const modalName = document.getElementById("modal-name");
   const modalPrice = document.getElementById("modal-price");
+  const modalMaterial = document.getElementById("modal-material");
   const modalDescription = document.getElementById("modal-description");
   const mediaDisplay = document.getElementById("media-display");
   const prevBtn = document.getElementById("prev-btn");
@@ -50,12 +59,32 @@ const productGrid = document.getElementById("product-grid");
   const bookmarksEmpty = document.getElementById("bookmarks-empty");
 
   let products = [];             // все товары
-  let filteredProducts = [];     // товары текущей категории
-  let currentCategory = null;    // выбранная категория
-  let currentPage = 1;
-  const productsPerPage = 9;
-  let totalPages = 0;
-  let currentProductIndex = 0;
+let filteredProducts = [];     // товары текущей категории
+let currentCategory = null;    // выбранная категория
+let currentPage = 1;
+
+function getProductsPerPage() {
+  const width = window.innerWidth;
+
+  if (width <= 480) return 12;
+  if (width <= 1024) return 16;
+  return 24;
+}
+
+let productsPerPage = getProductsPerPage();
+
+window.addEventListener("resize", () => {
+  const newCount = getProductsPerPage();
+  if (newCount !== productsPerPage) {
+    productsPerPage = newCount;
+    currentPage = 1;
+    renderPage();
+  }
+});
+
+let totalPages = 0;
+let currentProductIndex = 0;
+
   let currentImageIndex = 0;
   function isValidBookmark(obj) {
   return obj && typeof obj === "object" && typeof obj.id === "string";
@@ -183,9 +212,16 @@ weatherFilterButtons.forEach(button => {
   });
 });
 
+
  function setCategory(category) {
   currentCategory = category;
-  filteredProducts = products.filter(p => p.category === category);
+  filteredProducts = products
+    .filter(p => p.category === category)
+    .sort((a, b) => {
+      const order = { new: 0, old: 1, out: 2 };
+      return (order[a.status] ?? 1) - (order[b.status] ?? 1);
+    });
+
   totalPages = Math.ceil(filteredProducts.length / productsPerPage);
   currentPage = 1;
 
@@ -194,9 +230,29 @@ weatherFilterButtons.forEach(button => {
   } else {
     titleElement.textContent = "Категория не найдена";
   }
-
+  document.getElementById("search-input").value = "";
+  isSearching = false;
+  searchTerm = "";
+  
   renderPage();
 }
+
+document.getElementById("search-input").addEventListener("input", (e) => {
+  searchTerm = e.target.value.trim().toLowerCase();
+  isSearching = !!searchTerm;
+  currentPage = 1;
+  renderPage();
+});
+
+const toggleLargeBtn = document.getElementById("toggle-large");
+toggleLargeBtn.addEventListener("click", () => {
+  largeFilter = !largeFilter;
+  toggleLargeBtn.classList.toggle("active", largeFilter);
+  currentPage = 1;
+  renderPage();
+});
+
+
 
 
 
@@ -207,13 +263,41 @@ function showSwipeHintOnce() {
   if (!hint) return;
 
   hint.style.display = 'block';
+  hint.style.opacity = '1';
+  hint.style.transition = 'opacity 0.5s ease';
+
   localStorage.setItem('swipeHintShown', 'true');
 
-  // Через 3 секунды убираем подсказку
   setTimeout(() => {
-    swipeHint.remove();
+    hint.style.opacity = '0';
+    setTimeout(() => {
+      hint.style.display = 'none';
+      hint.style.opacity = '1'; // сброс
+    }, 500);
   }, 3000);
 }
+function showSwipeHintModalOnce() {
+  if (localStorage.getItem('swipeModalHintShown')) return;
+
+  const hint = document.getElementById('swipe-hint-modal');
+  if (!hint) return;
+
+  hint.style.display = 'block';
+  hint.style.opacity = '1';
+  hint.style.transition = 'opacity 0.5s ease';
+
+  localStorage.setItem('swipeModalHintShown', 'true');
+
+  setTimeout(() => {
+    hint.style.opacity = '0';
+    setTimeout(() => {
+      hint.style.display = 'none';
+      hint.style.opacity = '1';
+    }, 500);
+  }, 3000);
+}
+
+
 
 
 
@@ -226,19 +310,31 @@ function animateSliderImageChange(imgElement, newSrc) {
   }, 300);
 }
 
+
+
   function renderPage() {
     productGrid.innerHTML = "";
     // Фильтрация по погоде
-const filteredByWeather = weatherFilter === "all"
-  ? filteredProducts
-  : filteredProducts.filter(p => p.weather === weatherFilter);
+    let productsToRender;
 
+    if (isSearching) {
+      productsToRender = products.filter(p =>
+        (p.name.toLowerCase().includes(searchTerm) ||
+         p.name.replace(/^модель\s*/i, '').toLowerCase().includes(searchTerm)) &&
+        (!largeFilter || p.tags?.includes("large"))
+      );
+    } else {
+      productsToRender = filteredProducts.filter(p =>
+        (weatherFilter === "all" || p.weather === weatherFilter) &&
+        (!largeFilter || p.tags?.includes("large"))
+      );
+    }
+     
 // Пагинация на основе фильтрованных по погоде товаров
 const start = (currentPage - 1) * productsPerPage;
 const end = start + productsPerPage;
-const visibleProducts = filteredByWeather.slice(start, end);
-
-totalPages = Math.ceil(filteredByWeather.length / productsPerPage);
+const visibleProducts = productsToRender.slice(start, end);
+totalPages = Math.ceil(productsToRender.length / productsPerPage);
 
     visibleProducts.forEach(product => {
       const productCard = document.createElement("div");
@@ -251,6 +347,9 @@ if (start === 0 && product === visibleProducts[0] && !localStorage.getItem('swip
   swipeHint.textContent = "👆";
   productCard.appendChild(swipeHint);
   localStorage.setItem('swipeCardHintShown', 'true');
+  setTimeout(() => {
+  swipeHint.remove();
+}, 3000);
 }
 
      
@@ -283,6 +382,47 @@ sliderImage.src = product.images && product.images.length > 0 ? product.images[0
 sliderImage.classList.add("slider-image");
 
 let currentImageIndex = 0;
+
+if (product.images.length > 1) {
+  const imageCounter = document.createElement("div");
+  imageCounter.classList.add("image-counter", "image-counter-small");
+  imageCounter.textContent = generateDots(currentImageIndex, product.images.length);
+  sliderContainer.appendChild(imageCounter);
+
+  // Обновление при листании
+  leftArrow.onclick = (e) => {
+    e.stopPropagation();
+    currentImageIndex = (currentImageIndex - 1 + product.images.length) % product.images.length;
+    animateSliderImageChange(sliderImage, product.images[currentImageIndex]);
+    imageCounter.textContent = generateDots(currentImageIndex, product.images.length);
+
+  };
+
+  rightArrow.onclick = (e) => {
+    e.stopPropagation();
+    currentImageIndex = (currentImageIndex + 1) % product.images.length;
+    animateSliderImageChange(sliderImage, product.images[currentImageIndex]);
+    imageCounter.textContent = generateDots(currentImageIndex, product.images.length);
+
+  };
+
+  sliderImage.addEventListener("touchend", (e) => {
+    if (!isSwiping) return;
+    const touchEndX = e.changedTouches[0].screenX;
+    const diff = touchStartX - touchEndX;
+    if (Math.abs(diff) < 30) return;
+
+    if (diff > 0) {
+      currentImageIndex = (currentImageIndex + 1) % product.images.length;
+    } else {
+      currentImageIndex = (currentImageIndex - 1 + product.images.length) % product.images.length;
+    }
+
+    animateSliderImageChange(sliderImage, product.images[currentImageIndex]);
+    imageCounter.textContent = generateDots(currentImageIndex, product.images.length);
+
+  });
+}
 
 // Свайп для телефона
 let touchStartX = 0;
@@ -326,19 +466,6 @@ sliderImage.addEventListener("touchend", (e) => {
 
 
 
-// Листание влево / вправо
-leftArrow.onclick = (e) => {
-  e.stopPropagation();
-  currentImageIndex = (currentImageIndex - 1 + product.images.length) % product.images.length;
-  animateSliderImageChange(sliderImage, product.images[currentImageIndex]);
-
-};
-
-rightArrow.onclick = (e) => {
-  e.stopPropagation();
-  currentImageIndex = (currentImageIndex + 1) % product.images.length;
-  animateSliderImageChange(sliderImage, product.images[currentImageIndex]);
-};
 
 // Добавляем в карточку
 sliderContainer.appendChild(leftArrow);
@@ -368,12 +495,18 @@ sliderContainer.appendChild(weatherIcon);
       const productName = document.createElement("div");
       productName.classList.add("product-name");
       productName.textContent = product.name;
-     
+
 
 
       const productPrice = document.createElement("div");
       productPrice.classList.add("product-price");
       productPrice.textContent = product.price;
+
+
+const productExtraInfo = document.createElement("div");
+productExtraInfo.classList.add("product-material");
+productExtraInfo.textContent = product.material || "Материал не указан"; // <--- новая строка
+
 
      const bookmarkBtn = document.createElement("button");
 
@@ -408,8 +541,9 @@ renderPage();
 
     
       productCard.appendChild(productName);
-   
+
       productCard.appendChild(productPrice);
+      productCard.appendChild(productExtraInfo);
       productCard.appendChild(bookmarkBtn);
       
 
@@ -424,60 +558,65 @@ renderPage();
   } 
 
   function renderPagination() {
-  pagination.innerHTML = "";
-  const paginationContainer = document.createElement("div");
-  paginationContainer.style.display = "flex";
-  paginationContainer.style.alignItems = "center";
-  paginationContainer.style.justifyContent = "center";
-
-  // Кнопка Первая страница
-  const firstButton = document.createElement("button");
-  firstButton.textContent = "⏮";
-  firstButton.disabled = currentPage === 1;
-  firstButton.onclick = () => {
-    currentPage = 1;
-    renderPage();
-  };
-  paginationContainer.appendChild(firstButton);
-
-  // Кнопка Назад
-  const prevButton = document.createElement("button");
-  prevButton.textContent = "← Назад";
-  prevButton.disabled = currentPage === 1;
-  prevButton.onclick = () => {
-    currentPage--;
-    renderPage();
-  };
-  paginationContainer.appendChild(prevButton);
-
-  // Текущая страница
-  const pageInfo = document.createElement("div");
-  pageInfo.textContent = `${currentPage} из ${totalPages}`;
-  pageInfo.style.margin = "0 10px";
-  paginationContainer.appendChild(pageInfo);
-
-  // Кнопка Вперёд
-  const nextButton = document.createElement("button");
-  nextButton.textContent = "Вперёд →";
-  nextButton.disabled = currentPage === totalPages;
-  nextButton.onclick = () => {
-    currentPage++;
-    renderPage();
-  };
-  paginationContainer.appendChild(nextButton);
-
-  // Кнопка Последняя страница
-  const lastButton = document.createElement("button");
-  lastButton.textContent = "⏭";
-  lastButton.disabled = currentPage === totalPages;
-  lastButton.onclick = () => {
-    currentPage = totalPages;
-    renderPage();
-  };
-  paginationContainer.appendChild(lastButton);
-
-  pagination.appendChild(paginationContainer);
-}
+    const ids = ["pagination", "pagination-bottom"];
+  
+    ids.forEach(paginationId => {
+      const container = document.getElementById(paginationId);
+      if (!container) return;
+  
+      container.innerHTML = "";
+  
+      const paginationContainer = document.createElement("div");
+      paginationContainer.style.display = "flex";
+      paginationContainer.style.alignItems = "center";
+      paginationContainer.style.justifyContent = "center";
+  
+      const firstButton = document.createElement("button");
+      firstButton.textContent = "⏮";
+      firstButton.disabled = currentPage === 1;
+      firstButton.onclick = () => {
+        currentPage = 1;
+        renderPage();
+      };
+  
+      const prevButton = document.createElement("button");
+      prevButton.textContent = "← Назад";
+      prevButton.disabled = currentPage === 1;
+      prevButton.onclick = () => {
+        currentPage--;
+        renderPage();
+      };
+  
+      const pageInfo = document.createElement("div");
+      pageInfo.textContent = `${currentPage} из ${totalPages}`;
+      pageInfo.style.margin = "0 10px";
+  
+      const nextButton = document.createElement("button");
+      nextButton.textContent = "Вперёд →";
+      nextButton.disabled = currentPage === totalPages;
+      nextButton.onclick = () => {
+        currentPage++;
+        renderPage();
+      };
+  
+      const lastButton = document.createElement("button");
+      lastButton.textContent = "⏭";
+      lastButton.disabled = currentPage === totalPages;
+      lastButton.onclick = () => {
+        currentPage = totalPages;
+        renderPage();
+      };
+  
+      paginationContainer.appendChild(firstButton);
+      paginationContainer.appendChild(prevButton);
+      paginationContainer.appendChild(pageInfo);
+      paginationContainer.appendChild(nextButton);
+      paginationContainer.appendChild(lastButton);
+  
+      container.appendChild(paginationContainer);
+    });
+  }
+  
 
 
   function updateBookmarkCount() {
@@ -488,25 +627,23 @@ renderPage();
     currentProductIndex = products.findIndex(p => p.id === product.id);
     currentImageIndex = 0;
    modal.style.display = "flex";
-modalName.textContent = product.name;
+   modalName.textContent = product.name;
+
 modalPrice.textContent = product.price;
 modalDescription.textContent = product.description;
 updateMediaDisplay(product);
 
-// Подсказка свайпа в модалке только один раз
-const swipeHint = document.getElementById("swipe-hint-modal");
-if (!localStorage.getItem("swipeHintShown")) {
-  swipeHint.style.display = "block";
-  localStorage.setItem("swipeHintShown", "true");
-  setTimeout(() => {
-    swipeHint.style.display = "none";
-  }, 3000);
-} else {
-  swipeHint.style.display = "none";
+if (!localStorage.getItem('swipeHintShown')) {
+  showSwipeHintOnce();
+}
+
+if (!localStorage.getItem('swipeModalHintShown')) {
+  showSwipeHintModalOnce();
 }
 
 
-showSwipeHintOnce(); 
+
+
 
     prevBtn.onclick = () => {
   if (currentProductIndex === -1) return; // если ничего не открыто
@@ -578,8 +715,26 @@ img.addEventListener("touchend", (e) => {
   setTimeout(() => {
     img.src = product.images[currentImageIndex];
     img.style.opacity = 1;
+    const counter = document.querySelector(".modal-image-counter");
+  if (counter) {
+    counter.textContent = generateDots(currentImageIndex, product.images.length);
+  }
   }, 200);
 });
+const existingCounter = document.querySelector(".modal-image-counter");
+if (existingCounter) existingCounter.remove();
+
+if (product.images.length > 1) {
+  const counter = document.createElement("div");
+  counter.classList.add("modal-image-counter");
+  counter.textContent = generateDots(currentImageIndex, product.images.length);
+  img.style.position = 'relative';
+counter.style.position = 'absolute';
+img.parentElement.style.position = 'relative'; 
+img.parentElement.appendChild(counter);
+
+}
+
 
 }
 
@@ -635,6 +790,7 @@ img.addEventListener("touchend", (e) => {
 
     const name = document.createElement("span");
     name.textContent = product.name;
+
 
 
     const removeBtn = document.createElement("button");

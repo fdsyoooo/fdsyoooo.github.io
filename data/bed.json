@@ -1,117 +1,84 @@
 [
   {
-    "id": "3dblue",
-    "name": "Модель 3д(синий)",
-    "price": "р50-56",
+    "id": "820-blue",
+    "name": "Модель 820",
+    "price": "р.",
     "status": "",
-    "category": "pugovki",
-    "weather": "summer",
+    "category": "bed",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
     "images": [
-      "images/100/10/3d.webp"
-  ],
-    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш, Выполнен на пуговицах, с рукавом три четверти и двумя накладными карманами. Изготовлен из гипоаллергенной  дышащий  кулирки из 100% хлопка"
+      "images/900/820/820-blue-1-bed.webp",
+      "images/900/820/820-blue-6-bed.webp",
+      "images/900/820/820-blue-7-bed.webp",
+      "images/900/820/820-blue-2-bed.webp",
+      "images/900/820/820-blue-3-bed.webp",
+      "images/900/820/820-blue-5-bed.webp",
+      "images/900/820/820-blue-4-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "3dgray",
-    "name": "Модель 3д(серый)",
-    "price": "р50-56",
+    "id": "872-bejevii",
+    "name": "Модель 872",
+    "price": "р.",
     "status": "",
-    "category": "pugovki",
-    "weather": "summer",
+    "category": "bed",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
     "images": [
-      "images/100/10/3d2.webp"
-  ],
-    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш, Выполнен на пуговицах, с рукавом три четверти и двумя накладными карманами. Изготовлен из гипоаллергенной  дышащий  кулирки из 100% хлопка"
+      "images/900/880/872-bejevii-1-bed.webp",
+      "images/900/880/872-bejevii-10-bed_1.webp",
+      "images/900/880/872-bejevii-10-bed.webp",
+      "images/900/880/872-bejevii-2-bed.webp",
+      "images/900/880/872-bejevii-3-bed.webp",
+      "images/900/880/872-bejevii-5-bed.webp",
+      "images/900/880/872-bejevii-4-bed.webp",
+      "images/900/880/872-bejevii-6-bed.webp",
+      "images/900/880/872-bejevii-7-bed.webp",
+      "images/900/880/872-bejevii-8-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "3dflower",
-    "name": "Модель 3д(белый цветочек)",
-    "price": "р50-56",
+    "id": "872-blue",
+    "name": "Модель 872",
+    "price": "р.",
     "status": "",
-    "category": "pugovki",
-    "weather": "summer",
+    "category": "bed",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
     "images": [
-      "images/100/10/3d3.webp"
-  ],
-    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш, Выполнен на пуговицах, с рукавом три четверти и двумя накладными карманами. Изготовлен из гипоаллергенной  дышащий  кулирки из 100% хлопка"
+      "images/900/880/872-blue-1-bed.webp",
+      "images/900/880/872-blue-10-bed.webp",
+      "images/900/880/872-blue-3-bed.webp",
+      "images/900/880/872-blue-2-bed.webp",
+      "images/900/880/872-blue-4-bed.webp",
+      "images/900/880/872-blue-5-bed.webp",
+      "images/900/880/872-blue-6-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "3k",
-    "name": "3к",
-    "price": "р50-56",
-    "status": "new",
-    "weather": "summer",
-
+    "id": "872-purple",
+    "name": "Модель 872",
+    "price": "р.",
+    "status": "",
+    "category": "bed",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
     "images": [
-      "images/100/10/3k.webp",
-      "images/100/10/3k2.webp",
-      "images/100/10/3k3.webp",
-      "images/100/10/3k4.webp",
-      "images/100/10/3k5.webp"
+      "images/900/880/872-purple-1-bed.webp",
+      "images/900/880/872-purple-10-bed.webp",
+      "images/900/880/872-purple-2-bed.webp",
+      "images/900/880/872-purple-3-bed.webp",
+      "images/900/880/872-purple-5-bed.webp",
+      "images/900/880/872-purple-4-bed.webp",
+      "images/900/880/872-purple-8-bed.webp",
+      "images/900/880/872-purple-9-bed.webp",
+      "images/900/880/872-purple-6-bed.webp",
+      "images/900/880/872-purple-7-bed.webp"
     ],
-    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш. Выполнен на пуговицах, с короткими рукавом и двумя накладными карманами. Изготовлен гипоаллергенной  дышащий  кулирки 100% хлопка."
-  },
-  {
-    "id": "3r",
-    "name": "3р",
-    "price": "р50-56",
-    "status": "new",
-    "weather": "summer",
-
-    "images": [
-      "images/100/10/3r.webp",
-      "images/100/10/3r2.webp",
-      "images/100/10/3r3.webp",
-      "images/100/10/3r4.webp"
-    ],
-    "description": "Трапецевидный халат хорошей длины с боковыми вытачками, длинным рукавом и высокой застежкой под горло на пуговицах. Выполнен с полноценным воротником с закругленными краями. Украшен двумя накладными карманами."
-  },
-  {
-    "id": "102d",
-    "name": "102д",
-    "price": "р48-54",
-    "status": "new",
-    "weather": "winter",
-    "images": [
-      "images/200/110/102d.webp"
-    ],
-    "description": "р.48,52,54, кулирка, состав 100% хлопок"
-  },
-  {
-    "id": "102L",
-    "name": "102л",
-    "price": "р50-56",
-    "status": "new",
-    "weather": "winter",
-    "images": [
-      "images/200/110/102L.webp",
-      "images/200/110/102L2.webp",
-      "images/200/110/102L3.webp",
-      "images/200/110/102L4.webp",
-      "images/200/110/102L5.webp",
-      "images/200/110/102L6.webp",
-      "images/200/110/102L7.webp",
-      "images/200/110/102L8.webp"
-    ],
-    "description": "кулирка, 100% хлопок\n\nНа фото и видео размер 50\nпараметры девушки:\nрост 168\nОГ-ОТ-ОБ 104-88-110"
-  },
-  {
-    "id": "102Lfasfsfsfs",
-    "name": "102л",
-    "price": "р50-56",
-    "status": "new",
-    "weather": "winter",
-
-    "images": [
-      "images/200/110/102L.webp",
-      "images/200/110/102L2.webp",
-      "images/200/110/102L3.webp",
-      "images/200/110/102L4.webp",
-      "images/200/110/102L5.webp",
-      "images/200/110/102L6.webp",
-      "images/200/110/102L7.webp",
-      "images/200/110/102L8.webp"
-    ],
-    "description": "кулирка, 100% хлопок\n\nНа фото и видео размер 50\nпараметры девушки:\nрост 168\nОГ-ОТ-ОБ 104-88-110"
+    "description": "aaaaaaaaaaaaaaa"
   }
 ]

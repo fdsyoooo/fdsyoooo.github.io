@@ -1,73 +1,509 @@
 [
   {
-    "id": "3d",
-    "name": "3д",
-    "price": "р50-56",
-    "status": "new",
+    "id": "3d-darkblue",
+    "name": "Модель 3д",
+    "price": "р.50-56",
+    "status": "",
     "category": "pugovki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
-      "images/100/10/3d.webp",
-      "images/100/10/3d2.webp",
-      "images/100/10/3d3.webp"
-  ],
-    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш, Выполнен на пуговицах, с рукавом три четверти и двумя накладными карманами. Изготовлен из гипоаллергенной  дышащий  кулирки из 100% хлопка"
-  },
-  {
-    "id": "3k",
-    "name": "3к",
-    "price": "р50-56",
-    "status": "new",
-
-    "images": [
-      "images/100/10/3k.webp",
-      "images/100/10/3k2.webp",
-      "images/100/10/3k3.webp",
-      "images/100/10/3k4.webp",
-      "images/100/10/3k5.webp"
+      "images/100/10/3d-darkblue-1.webp"
     ],
-    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш. Выполнен на пуговицах, с короткими рукавом и двумя накладными карманами. Изготовлен гипоаллергенной  дышащий  кулирки 100% хлопка."
+    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш, Выполнен на пуговицах, с рукавом три четверти и двумя накладными карманами. Изготовлен из гипоаллергенной  дышащий"
   },
   {
-    "id": "3r",
-    "name": "3р",
-    "price": "р50-56",
-    "status": "new",
-
+    "id": "3d-flower",
+    "name": "Модель 3д",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pugovki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
-      "images/100/10/3r.webp",
-      "images/100/10/3r2.webp",
-      "images/100/10/3r3.webp",
-      "images/100/10/3r4.webp"
+      "images/100/10/3d-flowers-1.webp"
+    ],
+    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш, Выполнен на пуговицах, с рукавом три четверти и двумя накладными карманами. Изготовлен из гипоаллергенной  дышащий"
+  },
+  {
+    "id": "3d-gray",
+    "name": "Модель 3д",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pugovki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/10/3d-gray-1.webp"
+    ],
+    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш, Выполнен на пуговицах, с рукавом три четверти и двумя накладными карманами. Изготовлен из гипоаллергенной  дышащий"
+  },
+  {
+    "id": "3k-blue",
+    "name": "Модель 3к",
+    "price": "р.50-56",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/10/3k-blue-1.webp"
+    ],
+    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш. Выполнен на пуговицах, с короткими рукавом и двумя накладными карманами. Изготовлен гипоаллергенной  дышащий"
+  },
+  {
+    "id": "3k-burgundi",
+    "name": "Модель 3к",
+    "price": "р.50-56",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/100/10/3k-burgundi-1.webp"
+    ],
+    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш. Выполнен на пуговицах, с короткими рукавом и двумя накладными карманами. Изготовлен гипоаллергенной  дышащий"
+  },
+  {
+    "id": "3k-colors",
+    "name": "Модель 3к",
+    "price": "р.50-56",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/10/3k-colors-1.webp"
+    ],
+    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш. Выполнен на пуговицах, с короткими рукавом и двумя накладными карманами. Изготовлен гипоаллергенной  дышащий"
+  },
+  {
+    "id": "3k-flowers",
+    "name": "Модель 3к",
+    "price": "р.50-56",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/10/3k-flowers-1.webp"
+    ],
+    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш. Выполнен на пуговицах, с короткими рукавом и двумя накладными карманами. Изготовлен гипоаллергенной  дышащий"
+  },
+  {
+    "id": "3k-gray",
+    "name": "Модель 3к",
+    "price": "р.50-56",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/10/3k-gray-1.webp"
+    ],
+    "description": "Трапецевидный халат хорошей длины с боковыми вытачками и полноценным воротником апаш. Выполнен на пуговицах, с короткими рукавом и двумя накладными карманами. Изготовлен гипоаллергенной  дышащий"
+  },
+  {
+    "id": "3k-purpleflowers",
+    "name": "Модель 3к",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pugovki",
+    "weather": "",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/10/3k-purpleflowers-1-p.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "3r-brown",
+    "name": "Модель 3р",
+    "price": "р.48-54",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/10/3r-brown-1.webp"
     ],
     "description": "Трапецевидный халат хорошей длины с боковыми вытачками, длинным рукавом и высокой застежкой под горло на пуговицах. Выполнен с полноценным воротником с закругленными краями. Украшен двумя накладными карманами."
   },
   {
-    "id": "102d",
-    "name": "102д",
-    "price": "р48-54",
-    "status": "new",
-
+    "id": "3r-darkblue",
+    "name": "Модель 3р",
+    "price": "р.48-54",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
-      "images/200/110/102d.webp"
+      "images/100/10/3r-darkblue-1.webp"
     ],
-    "description": "р.48,52,54, кулирка, состав 100% хлопок"
+    "description": "Трапецевидный халат хорошей длины с боковыми вытачками, длинным рукавом и высокой застежкой под горло на пуговицах. Выполнен с полноценным воротником с закругленными краями. Украшен двумя накладными карманами."
   },
   {
-    "id": "102L",
-    "name": "102л",
-    "price": "р50-56",
-    "status": "new",
-
+    "id": "3r-lightblue",
+    "name": "Модель 3р",
+    "price": "р.48-54",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
-      "images/200/110/102L.webp",
-      "images/200/110/102L2.webp",
-      "images/200/110/102L3.webp",
-      "images/200/110/102L4.webp",
-      "images/200/110/102L5.webp",
-      "images/200/110/102L6.webp",
-      "images/200/110/102L7.webp",
-      "images/200/110/102L8.webp"
+      "images/100/10/3r-lightblue-1.webp"
     ],
-    "description": "кулирка, 100% хлопок\n\nНа фото и видео размер 50\nпараметры девушки:\nрост 168\nОГ-ОТ-ОБ 104-88-110"
+    "description": "Трапецевидный халат хорошей длины с боковыми вытачками, длинным рукавом и высокой застежкой под горло на пуговицах. Выполнен с полноценным воротником с закругленными краями. Украшен двумя накладными карманами."
+  },
+  {
+    "id": "3r-purple",
+    "name": "Модель 3р",
+    "price": "р.48-54",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/10/3r-purple-1.webp"
+    ],
+    "description": "Трапецевидный халат хорошей длины с боковыми вытачками, длинным рукавом и высокой застежкой под горло на пуговицах. Выполнен с полноценным воротником с закругленными краями. Украшен двумя накладными карманами."
+  },
+  {
+    "id": "42a-blackdwhite",
+    "name": "Модель 42a",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/50/42a-blackdwhite-1-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "45f-biryuza",
+    "name": "Модель 45f",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/50/45f-biryuza-1-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "45f-blue",
+    "name": "Модель 45f",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/50/45f-blue-1-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "45f-bluedwhite",
+    "name": "Модель 45f",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/50/45f-bluedwhite-1-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "45f-blueflowers",
+    "name": "Модель 45f",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/50/45f-blueflowers-1-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "45f-purple",
+    "name": "Модель 45f",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/50/45f-purple-1-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "45v-green",
+    "name": "Модель 45v",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/50/45v-green-1-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "102L-green",
+    "name": "Модель 102л",
+    "price": "р.50-56",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/110/102L-green-1-p.webp",
+      "images/200/110/102L-green-51-p.webp"
+    ],
+    "description": "На фото и видео размер 50\nпараметры девушки:\nрост 168\nОГ-ОТ-ОБ 104-88-110"
+  },
+  {
+    "id": "102L-poloski",
+    "name": "Модель 102л",
+    "price": "р.50-56, 48",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/110/102L-poloski-1.webp",
+      "images/200/110/102L-poloski-81.webp",
+      "images/200/110/102L-poloski-82.webp",
+      "images/200/110/102L-poloski-83.webp",
+      "images/200/110/102L-poloski-84.webp",
+      "images/200/110/102L-poloski-85.webp"
+    ],
+    "description": "На фото и видео размер 50\nпараметры девушки:\nрост 168\nОГ-ОТ-ОБ 104-88-110"
+  },
+  {
+    "id": "102L-red",
+    "name": "Модель 102л",
+    "price": "р.50-56",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/110/102L-red-1-p.webp",
+      "images/200/110/102L-red-51-p.webp"
+    ],
+    "description": "На фото и видео размер 50\nпараметры девушки:\nрост 168\nОГ-ОТ-ОБ 104-88-110"
+  },
+  {
+    "id": "102d-devchuli",
+    "name": "Модель 102д",
+    "price": "р.52,54",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/110/102d-devchuli-2.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "145-blue",
+    "name": "Модель 145",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/150/145-blue-1-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "145-brown",
+    "name": "Модель 145",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/150/145-brown-1-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "145-majenta",
+    "name": "Модель 145",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/150/145-majenta-1-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "145t-pinkflowers",
+    "name": "Модель 145t",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/150/145t-pinkflowers-1-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "145t-redroses",
+    "name": "Модель 145t",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/200/150/145t-redroses-1-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "246L-chess",
+    "name": "Модель 246л",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pugovki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/300/250/246L-chess-2-p.webp",
+      "images/300/250/246L-chess-1-p.webp",
+      "images/300/250/246L-chess-61-p.webp",
+      "images/300/250/246L-chess-2-p_1.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "246L-square",
+    "name": "Модель 246L",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/250/246L-square-61-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "246sh-brown",
+    "name": "Модель 246sh",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/250/246sh-brown-2-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "522-gray",
+    "name": "Модель 522",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/600/530/522-gray-61-p.webp",
+      "images/600/530/522-gray-1-p.webp",
+      "images/600/530/522-gray-2-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "522-redsquare",
+    "name": "Модель 522",
+    "price": "р.50-56",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/600/530/522-redsquare-1.webp",
+      "images/600/530/522-redsquare-2-p.webp"
+    ],
+    "description": "На фото и видео размер 50\nпараметры девушки:\nрост 168\nОГ-ОТ-ОБ 104-88-110"
+  },
+  {
+    "id": "522-redsquares",
+    "name": "Модель 522",
+    "price": "р.",
+    "status": "",
+    "category": "pugovki",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/600/530/522-redsquares-1-p.webp",
+      "images/600/530/522-redsquares-61-p.webp",
+      "images/600/530/522-redsquares-2-p.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "523c-blue",
+    "name": "Модель 523ц",
+    "price": "р.50-56",
+    "status": "",
+    "category": "pugovki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/600/530/523c-blue-1-p.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "525-blue",
+    "name": "Модель 525",
+    "price": "р.50-56",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/600/530/525-blue1.webp",
+      "images/600/530/525-blue-1-p.webp"
+    ],
+    "description": "На фото и видео размер 50\nпараметры девушки:\nрост 168\nОГ-ОТ-ОБ 104-88-110"
+  },
+  {
+    "id": "525-gray",
+    "name": "Модель 525",
+    "price": "р.50-56, 48",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/600/530/525-gray1.webp"
+    ],
+    "description": "На фото и видео размер 50\nпараметры девушки:\nрост 168\nОГ-ОТ-ОБ 104-88-110"
+  },
+  {
+    "id": "525-pink",
+    "name": "Модель 525",
+    "price": "р.50-56",
+    "status": "",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/600/530/525-pink1.webp"
+    ],
+    "description": "На фото и видео размер 50\nпараметры девушки:\nрост 168\nОГ-ОТ-ОБ 104-88-110"
   }
 ]
