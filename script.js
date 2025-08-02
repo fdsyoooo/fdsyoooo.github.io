@@ -381,30 +381,59 @@ sliderImage.loading = "lazy";
 sliderImage.src = product.images && product.images.length > 0 ? product.images[0] : "cat2.png";
 sliderImage.classList.add("slider-image");
 
-let currentImageIndex = 0;
+// Индекс изображения храним в data-атрибуте
+sliderImage.dataset.index = "0";
 
 if (product.images.length > 1) {
   const imageCounter = document.createElement("div");
   imageCounter.classList.add("image-counter", "image-counter-small");
-  imageCounter.textContent = generateDots(currentImageIndex, product.images.length);
+  imageCounter.textContent = generateDots(0, product.images.length);
   sliderContainer.appendChild(imageCounter);
 
-  // Обновление при листании
+  const changeImage = (direction) => {
+    let currentIndex = parseInt(sliderImage.dataset.index);
+    if (direction === "prev") {
+      currentIndex = (currentIndex - 1 + product.images.length) % product.images.length;
+    } else {
+      currentIndex = (currentIndex + 1) % product.images.length;
+    }
+    sliderImage.dataset.index = currentIndex;
+    animateSliderImageChange(sliderImage, product.images[currentIndex]);
+    imageCounter.textContent = generateDots(currentIndex, product.images.length);
+  };
+
   leftArrow.onclick = (e) => {
     e.stopPropagation();
-    currentImageIndex = (currentImageIndex - 1 + product.images.length) % product.images.length;
-    animateSliderImageChange(sliderImage, product.images[currentImageIndex]);
-    imageCounter.textContent = generateDots(currentImageIndex, product.images.length);
-
+    e.preventDefault();
+    changeImage("prev");
   };
 
   rightArrow.onclick = (e) => {
     e.stopPropagation();
-    currentImageIndex = (currentImageIndex + 1) % product.images.length;
-    animateSliderImageChange(sliderImage, product.images[currentImageIndex]);
-    imageCounter.textContent = generateDots(currentImageIndex, product.images.length);
-
+    e.preventDefault();
+    changeImage("next");
   };
+
+  // Swipe
+  let touchStartX = 0;
+  let touchStartY = 0;
+  let isSwiping = false;
+
+  sliderImage.addEventListener("touchstart", (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+    isSwiping = false;
+  });
+
+  sliderImage.addEventListener("touchmove", (e) => {
+    const touchMoveX = e.changedTouches[0].screenX;
+    const touchMoveY = e.changedTouches[0].screenY;
+
+    if (Math.abs(touchMoveX - touchStartX) > Math.abs(touchMoveY - touchStartY)) {
+      isSwiping = true;
+      e.preventDefault(); // блокируем вертикальный скролл
+    }
+  });
 
   sliderImage.addEventListener("touchend", (e) => {
     if (!isSwiping) return;
@@ -413,56 +442,12 @@ if (product.images.length > 1) {
     if (Math.abs(diff) < 30) return;
 
     if (diff > 0) {
-      currentImageIndex = (currentImageIndex + 1) % product.images.length;
+      changeImage("next");
     } else {
-      currentImageIndex = (currentImageIndex - 1 + product.images.length) % product.images.length;
+      changeImage("prev");
     }
-
-    animateSliderImageChange(sliderImage, product.images[currentImageIndex]);
-    imageCounter.textContent = generateDots(currentImageIndex, product.images.length);
-
   });
 }
-
-// Свайп для телефона
-let touchStartX = 0;
-let touchStartY = 0;
-let isSwiping = false;
-
-sliderImage.addEventListener("touchstart", (e) => {
-  touchStartX = e.changedTouches[0].screenX;
-  touchStartY = e.changedTouches[0].screenY;
-  isSwiping = false;
-});
-
-sliderImage.addEventListener("touchmove", (e) => {
-  const touchMoveX = e.changedTouches[0].screenX;
-  const touchMoveY = e.changedTouches[0].screenY;
-
-  const diffX = Math.abs(touchMoveX - touchStartX);
-  const diffY = Math.abs(touchMoveY - touchStartY);
-
-  if (diffX > diffY) {
-    isSwiping = true;
-    e.preventDefault(); // Блокируем вертикальный скролл при горизонтальном свайпе
-  }
-});
-
-sliderImage.addEventListener("touchend", (e) => {
-  if (!isSwiping) return;
-  const touchEndX = e.changedTouches[0].screenX;
-  const diff = touchStartX - touchEndX;
-  if (Math.abs(diff) < 30) return;
-
-  if (diff > 0) {
-    currentImageIndex = (currentImageIndex + 1) % product.images.length;
-  } else {
-    currentImageIndex = (currentImageIndex - 1 + product.images.length) % product.images.length;
-  }
-
-  animateSliderImageChange(sliderImage, product.images[currentImageIndex]);
-
-});
 
 
 
@@ -660,83 +645,95 @@ nextBtn.onclick = () => {
   }
 
   function updateMediaDisplay(product) {
-  mediaDisplay.innerHTML = "";
-
-  if (!product.images || product.images.length === 0) {
-    mediaDisplay.textContent = "Нет изображений";
-    return;
+    mediaDisplay.innerHTML = "";
+  
+    if (!product.images || product.images.length === 0) {
+      mediaDisplay.textContent = "Нет изображений";
+      return;
+    }
+  
+    const img = document.createElement("img");
+    img.src = product.images[0];
+    img.classList.add("modal-slider-image");
+    img.style.transition = "opacity 0.3s ease";
+    img.dataset.index = "0"; // начальный индекс
+    mediaDisplay.appendChild(img);
+  
+    // Счётчик
+    const existingCounter = document.querySelector(".modal-image-counter");
+    if (existingCounter) existingCounter.remove();
+  
+    if (product.images.length > 1) {
+      const counter = document.createElement("div");
+      counter.classList.add("modal-image-counter");
+      counter.textContent = generateDots(0, product.images.length);
+  
+      img.style.position = "relative";
+      counter.style.position = "absolute";
+      img.parentElement.style.position = "relative";
+      img.parentElement.appendChild(counter);
+    }
+  
+    const changeImage = (direction) => {
+      let index = parseInt(img.dataset.index);
+      if (direction === "prev") {
+        index = (index - 1 + product.images.length) % product.images.length;
+      } else {
+        index = (index + 1) % product.images.length;
+      }
+  
+      img.dataset.index = index;
+      img.style.opacity = 0;
+      setTimeout(() => {
+        img.src = product.images[index];
+        img.style.opacity = 1;
+  
+        const counter = document.querySelector(".modal-image-counter");
+        if (counter) {
+          counter.textContent = generateDots(index, product.images.length);
+        }
+      }, 200);
+    };
+  
+    // Swipe
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let isSwiping = false;
+  
+    img.addEventListener("touchstart", (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+      touchStartY = e.changedTouches[0].screenY;
+      isSwiping = false;
+    });
+  
+    img.addEventListener("touchmove", (e) => {
+      const touchMoveX = e.changedTouches[0].screenX;
+      const touchMoveY = e.changedTouches[0].screenY;
+  
+      if (Math.abs(touchMoveX - touchStartX) > Math.abs(touchMoveY - touchStartY)) {
+        isSwiping = true;
+        e.preventDefault();
+      }
+    });
+  
+    img.addEventListener("touchend", (e) => {
+      if (!isSwiping) return;
+      const touchEndX = e.changedTouches[0].screenX;
+      const diff = touchStartX - touchEndX;
+      if (Math.abs(diff) < 30) return;
+  
+      if (diff > 0) {
+        changeImage("next");
+      } else {
+        changeImage("prev");
+      }
+    });
+  
+    // Привязываем к кнопкам
+    prevBtn.onclick = () => changeImage("prev");
+    nextBtn.onclick = () => changeImage("next");
   }
-
-  // Создаем картинку
-  const img = document.createElement("img");
-  img.src = product.images[currentImageIndex];
-  img.classList.add("modal-slider-image");
-  img.style.transition = "opacity 0.3s ease";
-  mediaDisplay.appendChild(img);
-
-  let touchStartX = 0;
-let touchStartY = 0;
-let isSwiping = false;
-
-img.addEventListener("touchstart", (e) => {
-  touchStartX = e.changedTouches[0].screenX;
-  touchStartY = e.changedTouches[0].screenY;
-  isSwiping = false;
-});
-
-img.addEventListener("touchmove", (e) => {
-  const touchMoveX = e.changedTouches[0].screenX;
-  const touchMoveY = e.changedTouches[0].screenY;
-
-  if (Math.abs(touchMoveX - touchStartX) > Math.abs(touchMoveY - touchStartY)) {
-    isSwiping = true;
-    e.preventDefault(); // отключить вертикальную прокрутку
-  }
-});
-
-img.addEventListener("touchend", (e) => {
-  if (!isSwiping) return;
-
-  const touchEndX = e.changedTouches[0].screenX;
-  const diff = touchStartX - touchEndX;
-
-  if (Math.abs(diff) < 30) return;
-
-  if (diff > 0) {
-    // Вперёд
-    currentImageIndex = (currentImageIndex + 1) % product.images.length;
-  } else {
-    // Назад
-    currentImageIndex = (currentImageIndex - 1 + product.images.length) % product.images.length;
-  }
-
-  // Анимация смены изображения
-  img.style.opacity = 0;
-  setTimeout(() => {
-    img.src = product.images[currentImageIndex];
-    img.style.opacity = 1;
-    const counter = document.querySelector(".modal-image-counter");
-  if (counter) {
-    counter.textContent = generateDots(currentImageIndex, product.images.length);
-  }
-  }, 200);
-});
-const existingCounter = document.querySelector(".modal-image-counter");
-if (existingCounter) existingCounter.remove();
-
-if (product.images.length > 1) {
-  const counter = document.createElement("div");
-  counter.classList.add("modal-image-counter");
-  counter.textContent = generateDots(currentImageIndex, product.images.length);
-  img.style.position = 'relative';
-counter.style.position = 'absolute';
-img.parentElement.style.position = 'relative'; 
-img.parentElement.appendChild(counter);
-
-}
-
-
-}
+  
 
 
 
