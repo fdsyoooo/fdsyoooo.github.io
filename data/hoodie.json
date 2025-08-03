@@ -2,11 +2,12 @@
   {
     "id": "260-brown",
     "name": "Модель 260",
-    "price": "р.",
+    "price": "р.50-56, 48, 58",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Флис, 100% полиэстер",
+    "tags": ["large"],
     "images": [
       "images/300/260/260-brown-1-h.webp"
     ],
@@ -15,11 +16,11 @@
   {
     "id": "261-blue",
     "name": "Модель 261",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велсофт меланж, 100% полиэстер",
     "images": [
       "images/300/270/261-blue-1-h.webp"
     ],
@@ -32,23 +33,56 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Велсофт, 100% Полиэстер",
+    "material": "Велсофт меланж, 100% полиэстер",
     "images": [
       "images/300/270/261-green1.webp"
     ],
     "description": ""
   },
   {
-    "id": "261h-gray",
-    "name": "Модель 261h",
-    "price": "р.",
+    "id": "261h-brown",
+    "name": "Модель 261х",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велсофт меланж, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/300/270/261h-brown-0-h.webp",
+      "images/300/270/261h-brown-1-h.webp",
+      "images/300/270/261h-brown-2-h.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "261h-gray",
+    "name": "Модель 261х",
+    "price": "р.50-56",
+    "status": "",
+    "category": "hoodie",
+    "weather": "winter",
+    "material": "Велсофт меланж, 100% полиэстер",
     "images": [
       "images/300/270/261h-gray-11-h.webp",
-      "images/300/270/261h-gray-1-h.webp"
+      "images/300/270/261h-gray-1-h.webp",
+      "images/300/270/261h-gray-2-h.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "261h-green",
+    "name": "Модель 261х",
+    "price": "р.50-56",
+    "status": "",
+    "category": "hoodie",
+    "weather": "winter",
+    "material": "Велсофт меланж, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/300/270/261h-green-0-h.webp",
+      "images/300/270/261h-green-1-h.webp",
+      "images/300/270/261h-green-2-h.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -59,7 +93,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Футер трёхнитка с начёсом, 92% Хлопок, 8% Спандекс",
+    "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/262-cream-1-h.webp",
       "images/300/270/262-cream-2-h.webp",
@@ -74,7 +108,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Футер трёхнитка с начёсом, 92% Хлопок, 8% Спандекс",
+    "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/262-snowflakes-1-h.webp",
       "images/300/270/262-snowflakes-2-h.webp",
@@ -89,7 +123,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Эпис, 65% Вискоза, 30% Полиэстер, 5% Спандекс",
+    "material": "Эпис, 65% вискоза, 30% полиэстер, 5% спандекс",
     "images": [
       "images/300/270/262a-blue-1-h.webp",
       "images/300/270/262a-blue-2-h.webp",
@@ -105,7 +139,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Пантирома, 65% Вискоза, 30% Полиэстер, 5% Спандекс",
+    "material": "Пантирома, 65% вискоза, 30% полиэстер, 5% спандекс",
     "images": [
       "images/300/270/262a-telnyashka-1.webp",
       "images/300/270/262a-telnyashka-2.webp"
@@ -119,7 +153,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "",
+    "material": "Мех, 100% полиэстер",
     "images": [
       "images/300/270/262b-brown-1-h.webp",
       "images/300/270/262b-brown-2-h.webp",
@@ -134,7 +168,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Футер двухнитка, 92% Хлопок, 8% Спандекс",
+    "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/262d-blue1.webp",
       "images/300/270/262d-blue2.webp"
@@ -144,11 +178,12 @@
   {
     "id": "262d-blueflowers",
     "name": "Модель 262д",
-    "price": "р.50-56, 58",
+    "price": "р.50-56, 48, 58",
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Футер двухнитка, 92% Хлопок, 8% Спандекс",
+    "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
+    "tags": ["large"],
     "images": [
       "images/300/270/262d-blueflowers-2.webp"
     ],
@@ -161,7 +196,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Футер двухнитка, 92% Хлопок, 8% Спандекс",
+    "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/262d-green1.webp",
       "images/300/270/262d-green2.webp"
@@ -175,7 +210,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Футер двухнитка, 92% Хлопок, 8% Спандекс",
+    "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/262d-purple1.webp",
       "images/300/270/262d-purple2.webp"
@@ -185,11 +220,11 @@
   {
     "id": "262h-pink",
     "name": "Модель 262h",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велсофт жакард, 100% полиэстер",
     "images": [
       "images/300/270/262h-pink-1-h.webp"
     ],
@@ -202,7 +237,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Пантирома, 65% Вискоза, 30% Полиэстер, 5% Спандекс",
+    "material": "Пантирома, 65% вискоза, 30% полиэстер, 5% спандекс",
     "images": [
       "images/300/270/262k-pochtitelnyashka-1-h.webp",
       "images/300/270/262k-pochtitelnyashka-2-h.webp",
@@ -213,11 +248,11 @@
   {
     "id": "263-brown",
     "name": "Модель 263",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер диагональ, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/263-brown-2-h.webp",
       "images/300/270/263-brown-61-h.webp",
@@ -228,11 +263,11 @@
   {
     "id": "263-yellow",
     "name": "Модель 263",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер диагональ, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/263-yellow-1-h.webp",
       "images/300/270/263-yellow-61-h.webp",
@@ -271,11 +306,11 @@
   {
     "id": "265-gray",
     "name": "Модель 265",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/265-gray-1-h.webp"
     ],
@@ -288,7 +323,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Футер трёхнитка с начёсом, 92% Хлопок, 8% Спандекс",
+    "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/265-green-2.webp"
     ],
@@ -301,7 +336,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Футер трёхнитка с начёсом, 92% Хлопок, 8% Спандекс",
+    "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/265-pink-2.webp"
     ],
@@ -314,7 +349,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Футер трёхнитка с начёсом, 92% Хлопок, 8% Спандекс",
+    "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/265-purple-1.webp",
       "images/300/270/265-purple-2.webp"
@@ -328,7 +363,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Футер трёхнитка с начёсом, 92% Хлопок, 8% Спандекс",
+    "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/265n-brown-1.webp",
       "images/300/270/265n-brown-2.webp"
@@ -342,7 +377,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Футер трёхнитка с начёсом, 92% Хлопок, 8% Спандекс",
+    "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/265n-red-1.webp",
       "images/300/270/265n-red-2.webp"
@@ -352,11 +387,11 @@
   {
     "id": "266-brown",
     "name": "Модель 266",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Флис, 100% полиэстер",
     "images": [
       "images/300/270/266-brown-1-h.webp"
     ],
@@ -365,11 +400,11 @@
   {
     "id": "266-cream",
     "name": "Модель 266",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Флис, 100% полиэстер",
     "images": [
       "images/300/270/266-cream-1-h.webp"
     ],
@@ -378,11 +413,11 @@
   {
     "id": "266-red",
     "name": "Модель 266",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Флис, 100% полиэстер",
     "images": [
       "images/300/270/266-red-1-h.webp"
     ],
@@ -390,12 +425,12 @@
   },
   {
     "id": "266n-bordo",
-    "name": "Модель 266n",
-    "price": "р.",
+    "name": "Модель 266н",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Флис, 100% полиэстер",
     "images": [
       "images/300/270/266n-bordo-2-h.webp"
     ],
@@ -403,12 +438,12 @@
   },
   {
     "id": "266n-deepblue",
-    "name": "Модель 266n",
-    "price": "р.",
+    "name": "Модель 266н",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Флис, 100% полиэстер",
     "images": [
       "images/300/270/266n-deepblue-2-h.webp"
     ],
@@ -416,12 +451,12 @@
   },
   {
     "id": "266n-green",
-    "name": "Модель 266n",
-    "price": "р.",
+    "name": "Модель 266н",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Флис, 100% полиэстер",
     "images": [
       "images/300/270/266n-green-2-h.webp",
       "images/300/270/266n-green-1-h.webp"
@@ -430,12 +465,12 @@
   },
   {
     "id": "400ge-brown",
-    "name": "Модель 400ge",
-    "price": "р.",
+    "name": "Модель 400ж",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велсофт жакард, 100% полиэстер",
     "images": [
       "images/400/400/400ge-brown-2-h.webp",
       "images/400/400/400ge-brown-1-h.webp"
@@ -444,12 +479,12 @@
   },
   {
     "id": "400ge-cream",
-    "name": "Модель 400ge",
-    "price": "р.",
+    "name": "Модель 400ж",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велсофт жакард, 100% полиэстер",
     "images": [
       "images/400/400/400ge-cream-2-h.webp",
       "images/400/400/400ge-cream-1-h.webp"
@@ -463,7 +498,7 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Велсофт, 100% Полиэстер",
+    "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/400/400/400n-stars1.webp",
       "images/400/400/400n-stars2.webp"
@@ -472,12 +507,13 @@
   },
   {
     "id": "400t-red",
-    "name": "Модель 400t",
-    "price": "р.",
+    "name": "Модель 400т",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
+    "tags": ["large"],
     "images": [
       "images/400/400/400t-red-2-h.webp",
       "images/400/400/400t-red-1-h.webp"
@@ -486,40 +522,44 @@
   },
   {
     "id": "521k-blue",
-    "name": "Модель 521k",
-    "price": "р.",
+    "name": "Модель 521к",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
     "images": [
       "images/600/530/521k-blue-1-h.webp",
-      "images/600/530/521k-blue-2-h.webp"
+      "images/600/530/521k-blue-2-h.webp",
+      "images/600/530/521k-blue-51-h.webp",
+      "images/600/530/521k-blue-61-h.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "521k-purple",
-    "name": "Модель 521k",
-    "price": "р.",
+    "name": "Модель 521к",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
     "images": [
+      "images/600/530/521k-purple-1-h.webp",
       "images/600/530/521k-purple-2-h.webp",
-      "images/600/530/521k-purple-1-h.webp"
+      "images/600/530/521k-purple-51-h.webp",
+      "images/600/530/521k-purple-61-h.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "547-cream",
     "name": "Модель 547",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Милана, 65% вискоза, 30 полиэстер, 5 спандекс",
     "images": [
       "images/600/550/547-cream-2-h.webp"
     ],
@@ -528,11 +568,11 @@
   {
     "id": "547-red",
     "name": "Модель 547",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Милана, 65% вискоза, 30 полиэстер, 5 спандекс",
     "images": [
       "images/600/550/547-red-2-h.webp"
     ],
@@ -540,12 +580,12 @@
   },
   {
     "id": "569a-black",
-    "name": "Модель 569a",
-    "price": "р.",
+    "name": "Модель 569а",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Ангора, 65% вискоза, 30%  полиэстер,  5% спандекс",
     "images": [
       "images/600/570/569a-black-1-h.webp"
     ],
@@ -553,12 +593,12 @@
   },
   {
     "id": "569a-purple",
-    "name": "Модель 569a",
-    "price": "р.",
+    "name": "Модель 569а",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Ангора, 65% вискоза, 30%  полиэстер,  5% спандекс",
     "images": [
       "images/600/570/569a-purple-1-h.webp"
     ],
@@ -567,11 +607,11 @@
   {
     "id": "570-blue",
     "name": "Модель 570",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер двухнитка, 100% хлопок",
     "images": [
       "images/600/570/570-blue-2-h.webp"
     ],
@@ -580,11 +620,11 @@
   {
     "id": "570-cream",
     "name": "Модель 570",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер двухнитка, 100% хлопок",
     "images": [
       "images/600/570/570-cream-2-h.webp"
     ],
@@ -593,11 +633,11 @@
   {
     "id": "573-gray",
     "name": "Модель 573",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Букле, 65%  вискоза, 30% полиэстер, 5% спандекс",
     "images": [
       "images/600/580/573-gray-1-h.webp"
     ],
@@ -609,8 +649,8 @@
     "price": "р.",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Букле, 65%  вискоза, 30% полиэстер, 5% спандекс",
     "images": [
       "images/600/580/573-purple-1-h.webp"
     ],
@@ -619,11 +659,11 @@
   {
     "id": "602-green",
     "name": "Модель 602",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
     "images": [
       "images/700/610/602-green-1-h.webp"
     ],
@@ -632,11 +672,11 @@
   {
     "id": "602-purple",
     "name": "Модель 602",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
     "images": [
       "images/700/610/602-purple-1-h.webp"
     ],

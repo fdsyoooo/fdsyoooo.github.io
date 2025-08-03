@@ -1,5 +1,89 @@
 [
   {
+    "id": "35L-bluesquares",
+    "name": "Модель 35L",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/40/35L-bluesquares-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "35L-darkgreen",
+    "name": "Модель 35L",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/40/35L-darkgreen-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "35L-graydyellowsquares",
+    "name": "Модель 35L",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/40/35L-graydyellowsquares-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "35L-graysquares",
+    "name": "Модель 35L",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/40/35L-graysquares-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "35L-green",
+    "name": "Модель 35L",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/40/35L-green-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "35L-lanies",
+    "name": "Модель 35L",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/40/35L-lanies-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "35d-blue",
     "name": "Модель 35d",
     "price": "р.",
@@ -9,6 +93,20 @@
     "material": "aaaaaaaaaa",
     "images": [
       "images/100/40/35d-blue-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "35t-deepblue",
+    "name": "Модель 35t",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/40/35t-deepblue-1-n.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -104,6 +202,34 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "54n-peach",
+    "name": "Модель 54n",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/60/54n-peach-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "54z-blue",
+    "name": "Модель 54z",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/60/54z-blue-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "54z-pink",
     "name": "Модель 54з",
     "price": "р.48-52",
@@ -156,6 +282,34 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "121-diffroses",
+    "name": "Модель 121",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/130/121-diffroses-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "121-peacock",
+    "name": "Модель 121",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/130/121-peacock-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "121m-kupon",
     "name": "Модель 121m",
     "price": "р.",
@@ -169,6 +323,38 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "121m-smalldots",
+    "name": "Модель 121m",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/130/121m-smalldots-1-n.webp",
+      "images/200/130/121m-smalldots-2-n.webp",
+      "images/200/130/121m-smalldots-61-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "121m-whitedots",
+    "name": "Модель 121m",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/130/121m-whitedots-1-n.webp",
+      "images/200/130/121m-whitedots-2-n.webp",
+      "images/200/130/121m-whitedots-61-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "122n-brown",
     "name": "Модель 122н",
     "price": "р.48-54",
@@ -177,8 +363,7 @@
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
     "images": [
-      "images/200/130/122n-brown-1.webp",
-      "images/200/130/122n-brown-1-n.webp"
+      "images/200/130/122n-brown-1.webp"
     ],
     "description": ""
   },
@@ -192,6 +377,19 @@
     "material": "Кулирка, 100% хлопок",
     "images": [
       "images/200/130/122n-deeppink-1.webp"
+    ],
+    "description": ""
+  },
+  {
+    "id": "122n-devochki",
+    "name": "Модель 122н",
+    "price": "р.48-54",
+    "status": "",
+    "category": "nazapah",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/130/122n-devochki-1-n.webp"
     ],
     "description": ""
   },
@@ -248,6 +446,34 @@
     "description": ""
   },
   {
+    "id": "144n-bluetriangles",
+    "name": "Модель 144n",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/150/144n-bluetriangles-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "144n-brownddots",
+    "name": "Модель 144n",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/150/144n-brownddots-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "144n-gray",
     "name": "Модель 144н",
     "price": "р.50-56",
@@ -272,6 +498,34 @@
       "images/200/150/144n-green-1-n.webp"
     ],
     "description": ""
+  },
+  {
+    "id": "144n-greenchaos",
+    "name": "Модель 144n",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/150/144n-greenchaos-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "144n-pink",
+    "name": "Модель 144n",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/150/144n-pink-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "153-white",
@@ -326,6 +580,48 @@
     "description": ""
   },
   {
+    "id": "154b-majenta",
+    "name": "Модель 154b",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/160/154b-majenta-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "154b-pink",
+    "name": "Модель 154b",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/160/154b-pink-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "154b-purple",
+    "name": "Модель 154b",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/160/154b-purple-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "154b-snegniibars",
     "name": "Модель 154б",
     "price": "р.48-56",
@@ -378,6 +674,48 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "236-mint",
+    "name": "Модель 236",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/300/240/236-mint-2-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "236d-blue",
+    "name": "Модель 236d",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/300/240/236d-blue-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "236k-brown",
+    "name": "Модель 236k",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/300/240/236k-brown-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "236k-pink",
     "name": "Модель 236к",
     "price": "р.50-56",
@@ -412,9 +750,9 @@
     "weather": "winter",
     "material": "Махра, 80% хлопок, 20% полиэстер",
     "images": [
+      "images/300/240/236m-lightblue-1-n.webp",
       "images/300/240/236m-lightblue-2-n.webp",
-      "images/300/240/236m-lightblue-55-n.webp",
-      "images/300/240/236m-lightblue-1-n.webp"
+      "images/300/240/236m-lightblue-55-n.webp"
     ],
     "description": ""
   },
@@ -427,9 +765,9 @@
     "weather": "winter",
     "material": "Махра, 80% хлопок, 20% полиэстер",
     "images": [
+      "images/300/240/236m-pink-1-n.webp",
       "images/300/240/236m-pink-2-n.webp",
-      "images/300/240/236m-pink-55-n.webp",
-      "images/300/240/236m-pink-1-n.webp"
+      "images/300/240/236m-pink-55-n.webp"
     ],
     "description": ""
   },
@@ -443,6 +781,20 @@
     "material": "aaaaaaaaaa",
     "images": [
       "images/300/240/236v-black-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "236v-brown",
+    "name": "Модель 236v",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/300/240/236v-brown-1-n.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -512,6 +864,20 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "252L-roses",
+    "name": "Модель 252L",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/300/260/252L-roses-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "252d-bluefish",
     "name": "Модель 252d",
     "price": "р.",
@@ -564,6 +930,20 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "252d-roses",
+    "name": "Модель 252d",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/300/260/252d-roses-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "254c-brown",
     "name": "Модель 254c",
     "price": "р.",
@@ -577,15 +957,16 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "334-dollars",
+    "id": "334-boyare",
     "name": "Модель 334",
     "price": "р.",
     "status": "",
     "category": "nazapah",
     "weather": "aaaaa",
     "material": "aaaaaaaaaa",
+    "tags": [],
     "images": [
-      "images/400/340/334-dollars-1-n.webp"
+      "images/400/340/334-boyare-1-n.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -616,6 +997,34 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "335-darkblue",
+    "name": "Модель 335",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/400/340/335-darkblue-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "335-graybrown",
+    "name": "Модель 335",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/400/340/335-graybrown-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "354f-blue",
     "name": "Модель 354f",
     "price": "р.",
@@ -638,6 +1047,92 @@
     "material": "aaaaaaaaaa",
     "images": [
       "images/400/360/354f-brown-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "354f-cherry",
+    "name": "Модель 354f",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/400/360/354f-cherry-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "354n-blue",
+    "name": "Модель 354n",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/400/360/354n-blue-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "354n-green",
+    "name": "Модель 354n",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/400/360/354n-green-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "354n-pink",
+    "name": "Модель 354n",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/400/360/354n-pink-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "439-bluedwaves",
+    "name": "Модель 439",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/500/440/439-bluedwaves-1-n.webp",
+      "images/500/440/439-bluedwaves-2-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "439-browndwaves",
+    "name": "Модель 439",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/500/440/439-browndwaves-1-n.webp",
+      "images/500/440/439-browndwaves-2-n.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -690,6 +1185,20 @@
     "material": "aaaaaaaaaa",
     "images": [
       "images/500/460/454-purple-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "454b-blue",
+    "name": "Модель 454b",
+    "price": "р.",
+    "status": "",
+    "category": "nazapah",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/500/460/454b-blue-1-n.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },

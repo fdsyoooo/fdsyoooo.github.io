@@ -15,21 +15,6 @@
     "description": ""
   },
   {
-    "id": "7n-bluepink",
-    "name": "Модель 7н",
-    "price": "р.50-56",
-    "status": "",
-    "category": "zipka",
-    "weather": "summer",
-    "material": "Кулирка, 100% хлопок",
-    "images": [
-      "images/100/10/7n-bluepink-1-z.webp",
-      "images/100/10/7n-bluepink-61-z.webp",
-      "images/100/10/7n-bluepink-2-z.webp"
-    ],
-    "description": ""
-  },
-  {
     "id": "7n-pinklines",
     "name": "Модель 7н",
     "price": "р.50-56",
@@ -438,6 +423,48 @@
     "description": ""
   },
   {
+    "id": "15r-bluepalms",
+    "name": "Модель 15r",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/20/15r-bluepalms-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "15r-bluewaves",
+    "name": "Модель 15r",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/20/15r-bluewaves-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "15r-graygreen",
+    "name": "Модель 15r",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/20/15r-graygreen-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "15r-pinkchaos",
     "name": "Модель 15р",
     "price": "р.50-56",
@@ -449,6 +476,20 @@
       "images/100/20/15r-pinkchaos-1-z.webp"
     ],
     "description": ""
+  },
+  {
+    "id": "15r-purple",
+    "name": "Модель 15r",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/20/15r-purple-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "16k-green",
@@ -475,6 +516,34 @@
       "images/100/20/16k-purple-1.webp"
     ],
     "description": ""
+  },
+  {
+    "id": "17-green",
+    "name": "Модель 17",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/20/17-green-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "17-peacock",
+    "name": "Модель 17",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/20/17-peacock-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "17n-biryuza",
@@ -542,16 +611,16 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "17n-lightgreen",
+    "id": "17n-gray",
     "name": "Модель 17n",
     "price": "р.",
     "status": "",
     "category": "zipka",
     "weather": "aaaaa",
     "material": "aaaaaaaaaa",
+    "tags": [],
     "images": [
-      "images/100/20/17n-lightgreen-1-z.webp"
-      
+      "images/100/20/17n-gray-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -565,12 +634,22 @@
     "material": "aaaaaaaaaa",
     "images": [
       "images/100/20/17n-green-1-z.webp"
-      
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
-
-  
+  {
+    "id": "17n-lightgreen",
+    "name": "Модель 17n",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/100/20/17n-lightgreen-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
   {
     "id": "17n-pinkflowers",
     "name": "Модель 17n",
@@ -594,6 +673,20 @@
     "material": "aaaaaaaaaa",
     "images": [
       "images/100/20/17n-smallpinkflowers-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "25k-brownred",
+    "name": "Модель 25k",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/30/25k-brownred-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -771,6 +864,48 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "32b-brown",
+    "name": "Модель 32b",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/40/32b-brown-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "32b-green",
+    "name": "Модель 32b",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/40/32b-green-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "32b-purple",
+    "name": "Модель 32b",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/40/32b-purple-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "32n-aqua",
     "name": "Модель 32н",
     "price": "р.50-56",
@@ -854,6 +989,20 @@
     "description": ""
   },
   {
+    "id": "41n-girls",
+    "name": "Модель 41n",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/50/41n-girls-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "41n-grayred",
     "name": "Модель 41н",
     "price": "р.50-56",
@@ -878,6 +1027,48 @@
       "images/100/50/41n-letters-1-z.webp"
     ],
     "description": ""
+  },
+  {
+    "id": "41nb-chaos",
+    "name": "Модель 41nb",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/50/41nb-chaos-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "41nb-green",
+    "name": "Модель 41nb",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/50/41nb-green-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "41nb-portals",
+    "name": "Модель 41nb",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/50/41nb-portals-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "42n-poloski",
@@ -1020,9 +1211,9 @@
     "weather": "aaaaa",
     "material": "aaaaaaaaaa",
     "images": [
-      "images/200/110/101-bigdots-61-z.webp",
+      "images/200/110/101-bigdots-1-z.webp",
       "images/200/110/101-bigdots-2-z.webp",
-      "images/200/110/101-bigdots-1-z.webp"
+      "images/200/110/101-bigdots-61-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -1082,19 +1273,6 @@
     "description": ""
   },
   {
-    "id": "102a-pink",
-    "name": "Модель 102a",
-    "price": "р.",
-    "status": "",
-    "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/200/110/102a-pink-1-z.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
     "id": "102a-pinkwhite",
     "name": "Модель 102a",
     "price": "р.",
@@ -1103,20 +1281,8 @@
     "weather": "aaaaa",
     "material": "aaaaaaaaaa",
     "images": [
-      "images/200/110/102a-pinkwhite-1-z.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
-    "id": "102a-whitepink",
-    "name": "Модель 102a",
-    "price": "р.",
-    "status": "",
-    "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/200/110/102a-whitepink-51-z.webp"
+      "images/200/110/102a-pinkwhite-1-z.webp",
+      "images/200/110/102a-pinkwhite-51-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -1239,6 +1405,34 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "102k-pinklines",
+    "name": "Модель 102k",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/110/102k-pinklines-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "102k-stars",
+    "name": "Модель 102k",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/110/102k-stars-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "102k-white",
     "name": "Модель 102k",
     "price": "р.",
@@ -1291,6 +1485,34 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "102s-brown",
+    "name": "Модель 102s",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/110/102s-brown-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "102s-browndots",
+    "name": "Модель 102s",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/110/102s-browndots-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "102s-pink",
     "name": "Модель 102s",
     "price": "р.",
@@ -1313,6 +1535,20 @@
     "material": "aaaaaaaaaa",
     "images": [
       "images/200/110/102s-pinkflowers-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "102s-redletters",
+    "name": "Модель 102s",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/110/102s-redletters-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -1356,6 +1592,20 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "102v-pink",
+    "name": "Модель 102v",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/110/102v-pink-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "102v-red",
     "name": "Модель 102v",
     "price": "р.",
@@ -1378,6 +1628,20 @@
     "material": "aaaaaaaaaa",
     "images": [
       "images/200/110/102v-yellow-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "102z-penguins",
+    "name": "Модель 102z",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/110/102z-penguins-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -1416,7 +1680,8 @@
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
     "images": [
-      "images/200/120/111r-greenleaves-1-z.webp"
+      "images/200/120/111r-greenleaves-1-z.webp",
+      "images/200/120/111r-greenleaves-1-z_1.webp"
     ],
     "description": ""
   },
@@ -1512,6 +1777,34 @@
     "description": ""
   },
   {
+    "id": "115r-greenleaves",
+    "name": "Модель 115r",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/120/115r-greenleaves-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "115r-purpleleaves",
+    "name": "Модель 115r",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/200/120/115r-purpleleaves-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "116g-greenlines",
     "name": "Модель 116g",
     "price": "р.",
@@ -1597,6 +1890,7 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/190/186-flowers-1-z.webp"
     ],
@@ -1605,32 +1899,47 @@
   {
     "id": "186-gray",
     "name": "Модель 186",
-    "price": "р.",
+    "price": "р.58, 60",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/190/186-gray-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "208-black",
-    "name": "Модель 208",
+    "id": "186-flowers",
+    "name": "Модель 186",
+    "price": "р.58,60",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/200/190/186-flowers-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "186d-brown",
+    "name": "Модель 186d",
     "price": "р.",
     "status": "",
     "category": "zipka",
     "weather": "aaaaa",
     "material": "aaaaaaaaaa",
+    "tags": [],
     "images": [
-      "images/300/210/208-black-1-z.webp",
-      "images/300/210/208-black-2-z.webp"
+      "images/200/190/186d-brown-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "208-poloskiblue",
+    "id": "208-black",
     "name": "Модель 208",
     "price": "р.50-56, 58",
     "status": "",
@@ -1638,9 +1947,10 @@
     "weather": "summer",
     "material": "95% вискоза, 5% спандекс",
     "images": [
-      "images/300/210/208-poloskiblue-1-z.webp"
+      "images/300/210/208-black-1-z.webp",
+      "images/300/210/208-black-2-z.webp"
     ],
-    "description": ""
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "208-red",
@@ -1705,9 +2015,6 @@
     "weather": "aaaaa",
     "material": "aaaaaaaaaa",
     "images": [
-      "images/400/310/301-blue-2-z.webp",
-      "images/400/310/301-blue-1-z.webp",
-      "images/400/310/301-blue-61-z.webp",
       "images/400/310/301-blue-2-z_1.webp",
       "images/400/310/301-blue-1-z_1.webp"
     ],
@@ -1737,8 +2044,8 @@
     "weather": "aaaaa",
     "material": "aaaaaaaaaa",
     "images": [
-      "images/400/310/301-mint-2-z.webp",
-      "images/400/310/301-mint-1-z.webp"
+      "images/400/310/301-mint-1-z.webp",
+      "images/400/310/301-mint-2-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -1754,6 +2061,21 @@
       "images/400/310/301-pink-1-z.webp",
       "images/400/310/301-pink-61-z.webp",
       "images/400/310/301-pink-2-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "301-poloskiblue",
+    "name": "Модель 301",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/400/310/301-poloskiblue-2-z.webp",
+      "images/400/310/301-poloskiblue-1-z.webp",
+      "images/400/310/301-poloskiblue-61-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -1821,9 +2143,9 @@
     "weather": "aaaaa",
     "material": "aaaaaaaaaa",
     "images": [
+      "images/400/320/311m-blue-1-z.webp",
       "images/400/320/311m-blue-2-z.webp",
-      "images/400/320/311m-blue-61-z.webp",
-      "images/400/320/311m-blue-1-z.webp"
+      "images/400/320/311m-blue-61-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -1890,6 +2212,20 @@
     "material": "aaaaaaaaaa",
     "images": [
       "images/400/320/313-red-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "322-deepred",
+    "name": "Модель 322",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/400/330/322-deepred-2-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -2000,6 +2336,22 @@
     "description": ""
   },
   {
+    "id": "401f-brown",
+    "name": "Модель 401f",
+    "price": "р.",
+    "status": "",
+    "category": "zipka",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/500/410/401f-brown-1-z.webp",
+      "images/500/410/401f-brown-2-z.webp",
+      "images/500/410/401f-brown-51-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "439-gradient",
     "name": "Модель 439",
     "price": "р.",
@@ -2013,19 +2365,6 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "522-brightsquare",
-    "name": "Модель 522",
-    "price": "р.",
-    "status": "",
-    "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/600/530/522-brightsquare-1-z.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
     "id": "522m-brightsquares",
     "name": "Модель 522m",
     "price": "р.",
@@ -2034,20 +2373,8 @@
     "weather": "aaaaa",
     "material": "aaaaaaaaaa",
     "images": [
-      "images/600/530/522m-brightsquares-1-z.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
-    "id": "522m-square",
-    "name": "Модель 522m",
-    "price": "р.",
-    "status": "",
-    "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/600/530/522m-square-2-z.webp"
+      "images/600/530/522m-brightsquares-1-z.webp",
+      "images/600/530/522m-brightsquares-2-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },

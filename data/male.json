@@ -16,6 +16,20 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "51f-red",
+    "name": "Модель 51f",
+    "price": "р.",
+    "status": "",
+    "category": "male",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/60/51f-red-1-m.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "51k-brown",
     "name": "Модель 51к",
     "price": "р.50-56",

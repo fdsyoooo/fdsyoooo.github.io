@@ -146,6 +146,20 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "66a-whiteflower",
+    "name": "Модель 66a",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/70/66a-whiteflower-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "66r-blue",
     "name": "Модель 66r",
     "price": "р.",
@@ -423,6 +437,22 @@
     "description": ""
   },
   {
+    "id": "88f-leopard",
+    "name": "Модель 88f",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/100/90/88f-leopard-1-t.webp",
+      "images/100/90/88f-leopard-2-t.webp",
+      "images/100/90/88f-leopard-51-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "230-blue",
     "name": "Модель 230",
     "price": "р.50-56",
@@ -682,19 +712,6 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "526k-yellowhorses",
-    "name": "Модель 526k",
-    "price": "р.",
-    "status": "",
-    "category": "tshirt",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/600/530/526k-yellowhorses-2-t.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
     "id": "526k-pink",
     "name": "Модель 526k",
     "price": "р.",
@@ -704,6 +721,19 @@
     "material": "aaaaaaaaaa",
     "images": [
       "images/600/530/526k-pink-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "526k-yellowhorses",
+    "name": "Модель 526k",
+    "price": "р.",
+    "status": "",
+    "category": "tshirt",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/600/530/526k-yellowhorses-2-t.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },

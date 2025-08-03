@@ -15,6 +15,22 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "16d-greenleaves",
+    "name": "Модель 16д",
+    "price": "р.50-56",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/20/16d-greenleaves-1-d.webp",
+      "images/100/20/16d-greenleaves-2-d.webp",
+      "images/100/20/16d-greenleaves-61-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "16d-pinklines",
     "name": "Модель 16д",
     "price": "р.50-56",
@@ -43,29 +59,61 @@
     "description": ""
   },
   {
-    "id": "16r-biryuzovii",
-    "name": "Модель 16р",
-    "price": "р.50-56",
+    "id": "16db-gray",
+    "name": "Модель 16дб",
+    "price": "р.58",
     "status": "",
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
-      "images/100/20/16r-biryuzovii-1.webp",
-      "images/100/20/16r-biryuzovii-2.webp"
+      "images/100/20/16db-gray-1-d.webp",
+      "images/100/20/16db-gray-2-d.webp",
+      "images/100/20/16db-gray-61-d.webp"
     ],
-    "description": ""
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "16r-biryuzadots",
+    "name": "Модель 16р",
+    "price": "р.50",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/20/16r-biryuzadots-2-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "16r-blackdotpurple",
-    "name": "Модель 16",
-    "price": "р.",
+    "name": "Модель 16р",
+    "price": "р.50, 56",
     "status": "",
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/20/16r-blackdotpurple-2-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "16r-blackdwhite",
+    "name": "Модель 16р",
+    "price": "р.56",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/20/16r-blackdwhite-1-d.webp",
+      "images/100/20/16r-blackdwhite-2-d.webp",
+      "images/100/20/16r-blackdwhite-51-d.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -85,25 +133,70 @@
   },
   {
     "id": "16r-green",
-    "name": "Модель 16r",
-    "price": "р.",
+    "name": "Модель 16р",
+    "price": "р.50-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/20/16r-green-1-d.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "16rb-pink",
-    "name": "Модель 16rb",
-    "price": "р.",
+    "id": "16r-greenleaves",
+    "name": "Модель 16р",
+    "price": "р.50-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/20/16r-greenleaves-1-d.webp",
+      "images/100/20/16r-greenleaves-2-d.webp",
+      "images/100/20/16r-greenleaves-61-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "16r-neurons",
+    "name": "Модель 16р",
+    "price": "р.50",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/20/16r-neurons-2-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "16r-yellowdots",
+    "name": "Модель 16р",
+    "price": "р.52",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/20/16r-yellowdots-2-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "16rb-pink",
+    "name": "Модель 16рб",
+    "price": "р.58, 60",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/20/16rb-pink-2-d.webp"
     ],
@@ -117,6 +210,7 @@
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/20/18-pink-1-d.webp"
     ],
@@ -130,6 +224,7 @@
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/20/19d-leaves-1-d.webp",
       "images/100/20/19d-leaves-51-d.webp"
@@ -144,6 +239,7 @@
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/20/19d-multicolor-1-d.webp",
       "images/100/20/19d-multicolor-51-d.webp"
@@ -168,7 +264,7 @@
   {
     "id": "20r-pink",
     "name": "Модель 20р",
-    "price": "р.50-56",
+    "price": "р.50-56, 48",
     "status": "",
     "category": "dresses",
     "weather": "summer",
@@ -181,12 +277,12 @@
   },
   {
     "id": "20r-pinkrope",
-    "name": "Модель 20r",
-    "price": "р.",
+    "name": "Модель 20р",
+    "price": "р.50-56, 48",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/20/20r-pinkrope-2-d.webp"
     ],
@@ -208,13 +304,14 @@
     "description": ""
   },
   {
-    "id": "20rb-leaf",
-    "name": "Модель 20rb",
-    "price": "р.",
+    "id": "20r-leaf",
+    "name": "Модель 20р",
+    "price": "р.48,58",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/20/20rb-leaf-2-d.webp"
     ],
@@ -222,12 +319,12 @@
   },
   {
     "id": "22d-blue",
-    "name": "Модель 22d",
-    "price": "р.",
+    "name": "Модель 22д",
+    "price": "р.48-54",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
     "images": [
       "images/100/30/22d-blue-2-d.webp"
     ],
@@ -235,12 +332,12 @@
   },
   {
     "id": "22d-bordo",
-    "name": "Модель 22d",
-    "price": "р.",
+    "name": "Модель 22д",
+    "price": "р.48-54",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
     "images": [
       "images/100/30/22d-bordo-2-d.webp"
     ],
@@ -248,12 +345,12 @@
   },
   {
     "id": "22d-lightred",
-    "name": "Модель 22d",
-    "price": "р.",
+    "name": "Модель 22д",
+    "price": "р.48-54",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
     "images": [
       "images/100/30/22d-lightred-1-d.webp"
     ],
@@ -261,12 +358,12 @@
   },
   {
     "id": "22m-red",
-    "name": "Модель 22m",
-    "price": "р.",
+    "name": "Модель 22м",
+    "price": "р.48-54",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
     "images": [
       "images/100/30/22m-red-2-d.webp"
     ],
@@ -274,12 +371,12 @@
   },
   {
     "id": "22m-salmon",
-    "name": "Модель 22m",
-    "price": "р.",
+    "name": "Модель 22м",
+    "price": "р.48-54",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
     "images": [
       "images/100/30/22m-salmon-2-d.webp"
     ],
@@ -287,12 +384,13 @@
   },
   {
     "id": "24s-blueflowers",
-    "name": "Модель 24s",
-    "price": "р.",
+    "name": "Модель 24с",
+    "price": "р.50-56, 58, 60",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/30/24s-blueflowers-1-d.webp"
     ],
@@ -300,12 +398,12 @@
   },
   {
     "id": "24s-brown",
-    "name": "Модель 24s",
-    "price": "р.",
+    "name": "Модель 24с",
+    "price": "р.50-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/30/24s-brown-1-d.webp"
     ],
@@ -313,12 +411,12 @@
   },
   {
     "id": "24s-square",
-    "name": "Модель 24s",
-    "price": "р.",
+    "name": "Модель 24с",
+    "price": "р.50-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/30/24s-square-1-d.webp"
     ],
@@ -331,11 +429,43 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Вискоза, 95%, Спандекс 5%",
+    "material": "Вискоза, 95%, спандекс 5%",
+    "tags": ["large"],
     "images": [
       "images/100/50/46L-romashki-1-d.webp"
     ],
     "description": ""
+  },
+  {
+    "id": "47-green",
+    "name": "Модель 47",
+    "price": "р.48-56",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/50/47-green-1-d.webp",
+      "images/100/50/47-green-2-d.webp",
+      "images/100/50/47-green-61-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "47-greenletters",
+    "name": "Модель 47",
+    "price": "р.52-56",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/50/47-greenletters-1-d.webp",
+      "images/100/50/47-greenletters-2-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "47-news",
@@ -364,90 +494,130 @@
     "description": ""
   },
   {
-    "id": "57-brown",
-    "name": "Модель 57",
-    "price": "р.",
+    "id": "47-pinkletters",
+    "name": "Модель 47",
+    "price": "р.48-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
     "images": [
-      "images/100/60/57-brown-2-d.webp",
-      "images/100/60/57-brown-1-d.webp"
+      "images/100/50/47-pinkletters-1-d.webp",
+      "images/100/50/47-pinkletters-2-d.webp",
+      "images/100/50/47-pinkletters-51-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "57-brown",
+    "name": "Модель 57",
+    "price": "р.50-56",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/60/57-brown-1-d.webp",
+      "images/100/60/57-brown-2-d.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "57-cream",
     "name": "Модель 57",
-    "price": "р.50-56",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
-      "images/100/60/57-cream-2-d.webp"
+      "images/100/60/57-cream-2-d.webp",
+      "images/100/60/57-cream-1-d.webp",
+      "images/100/60/57-cream-61-d.webp"
     ],
     "description": ""
-  },
-  {
-    "id": "57-khaki",
-    "name": "Модель 57",
-    "price": "р.50-56",
-    "status": "",
-    "category": "dresses",
-    "weather": "summer",
-    "material": "Кулирка, 100% хлопок",
-    "images": [
-      "images/100/60/57-khaki-1.webp",
-      "images/100/60/57-khaki-2.webp"
-    ],
-    "description": ""
-  },
-  {
-    "id": "74-green",
-    "name": "Модель 74",
-    "price": "р.",
-    "status": "",
-    "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/100/80/74-green-2-d.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "77d-blue",
     "name": "Модель 77д",
-    "price": "р.50-56",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
-      "images/100/80/77d-blue-2.webp",
       "images/100/80/77d-blue-2-d.webp"
     ],
     "description": ""
   },
   {
     "id": "77d-green",
-    "name": "Модель 77d",
-    "price": "р.",
+    "name": "Модель 77д",
+    "price": "р.50-56, 48, 58",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/80/77d-green-2-d.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "77d-pinkflowers",
+    "name": "Модель 77д",
+    "price": "р.50-56, 58",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/100/80/77d-pinkflowers-1-d.webp",
+      "images/100/80/77d-pinkflowers-2-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "77d-whitecircles",
+    "name": "Модель 77д",
+    "price": "р.50-56,58",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/100/80/77d-whitecircles-1-d.webp",
+      "images/100/80/77d-whitecircles-2-d.webp",
+      "images/100/80/77d-whitecircles-61-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "77d-yellowleaves",
+    "name": "Модель 77д",
+    "price": "р.50-56, 58",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/100/80/77d-yellowleaves-1-d.webp",
+      "images/100/80/77d-yellowleaves-2-d.webp",
+      "images/100/80/77d-yellowleaves-61-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "114L-green",
     "name": "Модель 114л",
-    "price": "р.50-56",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "dresses",
     "weather": "summer",
@@ -458,13 +628,29 @@
     "description": ""
   },
   {
+    "id": "114L-roses",
+    "name": "Модель 114л",
+    "price": "р.50-56",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/200/120/114L-roses-1-d.webp",
+      "images/200/120/114L-roses-2-d.webp",
+      "images/200/120/114L-roses-61-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "114k-green",
     "name": "Модель 114к",
     "price": "р.50-56",
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Дорно, 100% полиэстер",
+    "material": "Дорна, 100% полиэстер",
     "images": [
       "images/200/120/114k-green-1-d.webp",
       "images/200/120/114k-green-2-d.webp",
@@ -475,27 +661,28 @@
   },
   {
     "id": "114n-brown",
-    "name": "Модель 114n",
-    "price": "р.",
+    "name": "Модель 114н",
+    "price": "р.50-56, 48",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/200/120/114n-brown-1-d.webp",
-      "images/200/120/114n-brown-61-d.webp",
-      "images/200/120/114n-brown-2-d.webp"
+      "images/200/120/114n-brown-2-d.webp",
+      "images/200/120/114n-brown-61-d.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "114r-flowers",
     "name": "Модель 114р",
-    "price": "р.50-56",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/120/114r-flowers-1-d.webp",
       "images/200/120/114r-flowers-2-d.webp",
@@ -517,26 +704,13 @@
     "description": ""
   },
   {
-    "id": "125-blue",
-    "name": "Модель 125",
-    "price": "р.",
-    "status": "",
-    "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/200/130/125-blue-1-d.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
     "id": "160-blackdwhite",
     "name": "Модель 160",
-    "price": "р.",
+    "price": "р.48-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/200/160/160-blackdwhite-1-d.webp"
     ],
@@ -545,37 +719,78 @@
   {
     "id": "160-green",
     "name": "Модель 160",
-    "price": "р.",
+    "price": "р.48-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/200/160/160-green-1-d.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "160d-green",
-    "name": "Модель 160d",
-    "price": "р.",
+    "id": "160-purpleflowers",
+    "name": "Модель 160",
+    "price": "р.48-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/200/160/160-purpleflowers-1-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "160d-green",
+    "name": "Модель 160д",
+    "price": "р.50-56",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/200/160/160d-green-1-d.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "169-white",
-    "name": "Модель 169",
-    "price": "р.",
+    "id": "160d-purple",
+    "name": "Модель 160д",
+    "price": "р.50-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/200/160/160d-purple-1-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "169-leopard",
+    "name": "Модель 169",
+    "price": "р.48-52",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/200/170/169-leopard-1-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "169-white",
+    "name": "Модель 169",
+    "price": "р.48, 50",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/200/170/169-white-1-d.webp"
     ],
@@ -668,12 +883,12 @@
   },
   {
     "id": "170m-diffdots",
-    "name": "Модель 170m",
-    "price": "р.",
+    "name": "Модель 170м",
+    "price": "р.50-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Масло, 95% вискоза, 5% спандекс",
     "images": [
       "images/200/170/170m-diffdots-1-d.webp",
       "images/200/170/170m-diffdots-2-d.webp"
@@ -682,26 +897,26 @@
   },
   {
     "id": "170m-green",
-    "name": "Модель 170m",
-    "price": "р.",
+    "name": "Модель 170м",
+    "price": "р.50-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Масло, 95% вискоза, 5% спандекс",
     "images": [
-      "images/200/170/170m-green-2-d.webp",
-      "images/200/170/170m-green-1-d.webp"
+      "images/200/170/170m-green-1-d.webp",
+      "images/200/170/170m-green-2-d.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "170m-pinkcucumber",
-    "name": "Модель 170m",
-    "price": "р.",
+    "name": "Модель 170м",
+    "price": "р.50-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Масло, 95% вискоза, 5% спандекс",
     "images": [
       "images/200/170/170m-pinkcucumber-2-d.webp"
     ],
@@ -709,118 +924,26 @@
   },
   {
     "id": "170m-plams",
-    "name": "Модель 170m",
-    "price": "р.",
+    "name": "Модель 170м",
+    "price": "р.50-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Масло, 95% вискоза, 5% спандекс",
     "images": [
       "images/200/170/170m-plams-2-d.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "172n-pink",
-    "name": "Модель 172н",
-    "price": "р.50-56",
-    "status": "",
-    "category": "dresses",
-    "weather": "summer",
-    "material": "Кулирка, 100% хлопок",
-    "images": [
-      "images/200/180/172n-pink-1-d.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
-    "id": "172n-yellow",
-    "name": "Модель 172н",
-    "price": "р.50-56",
-    "status": "",
-    "category": "dresses",
-    "weather": "summer",
-    "material": "Кулирка, 100% хлопок",
-    "images": [
-      "images/200/180/172n-yellow-1-d.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
-    "id": "186-flowers",
-    "name": "Модель 186",
-    "price": "р.",
-    "status": "",
-    "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/200/190/186-flowers-1-d.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
-    "id": "246-sh-greensquare",
-    "name": "Модель 246ш",
-    "price": "р.46-52",
-    "status": "",
-    "weather": "summer",
-    "material": "Штапель, 100% Вискоза",
-    "images": [
-      "images/300/250/246sh-greensquare-2.webp"
-    ],
-    "description": "На фото и видео размер 50\nпараметры девушки:\nрост 168\nОГ-ОТ-ОБ 104-88-110"
-  },
-  {
-    "id": "246sh-blue",
-    "name": "Модель 246ш",
-    "price": "р.52",
-    "status": "",
-    "category": "dresses",
-    "weather": "summer",
-    "material": "Штапель, 100% Вискоза",
-    "images": [
-      "images/300/250/246sh-blue-1-d.webp",
-      "images/300/250/246sh-blue-2-d.webp",
-      "images/300/250/246sh-blue-51-d.webp"
-    ],
-    "description": ""
-  },
-  {
-    "id": "246sh-flowers",
-    "name": "Модель 246ш",
-    "price": "р.54-56",
-    "status": "",
-    "weather": "summer",
-    "material": "Штапель, 100% Вискоза",
-    "images": [
-      "images/300/250/246sh-flowers2.webp"
-    ],
-    "description": "На фото и видео размер 50\nпараметры девушки:\nрост 168\nОГ-ОТ-ОБ 104-88-110"
-  },
-  {
-    "id": "246sh-green",
-    "name": "Модель 246ш",
-    "price": "р.52",
-    "status": "",
-    "category": "dresses",
-    "weather": "summer",
-    "material": "Штапель, 100% Вискоза",
-    "images": [
-      "images/300/250/246sh-green-2-d.webp",
-      "images/300/250/246sh-green-1-d.webp",
-      "images/300/250/246sh-green-51-d.webp"
-    ],
-    "description": ""
-  },
-  {
     "id": "258-chaos",
     "name": "Модель 258",
-    "price": "р.50-56, 58",
+    "price": "р.50, 52, 56, 58",
     "status": "",
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/300/260/258-chaos-1.webp"
     ],
@@ -834,23 +957,11 @@
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/300/260/258-gray-1-d.webp"
     ],
     "description": ""
-  },
-  {
-    "id": "258-newspaper",
-    "name": "Модель 258",
-    "price": "р.",
-    "status": "",
-    "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/300/260/258-newspaper-1-d.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "258-pinkflowers",
@@ -860,6 +971,7 @@
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/300/260/258-pinkflowers-1-d.webp"
     ],
@@ -873,6 +985,7 @@
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/300/260/258-purple-1-d.webp"
     ],
@@ -886,6 +999,7 @@
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/300/260/258-red-1.webp"
     ],
@@ -894,11 +1008,12 @@
   {
     "id": "258k-blue",
     "name": "Модель 258к",
-    "price": "р.50-56",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/300/260/258k-blue-1-d.webp",
       "images/300/260/258k-blue-2-d.webp",
@@ -909,11 +1024,12 @@
   {
     "id": "258k-brown",
     "name": "Модель 258к",
-    "price": "р.50-56",
+    "price": "р.50-56, 48, 58",
     "status": "",
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/300/260/258k-brown-1-d.webp",
       "images/300/260/258k-brown-2-d.webp",
@@ -944,6 +1060,7 @@
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/400/330/328-neuron1.webp",
       "images/400/330/328-neuron2.webp"
@@ -958,9 +1075,9 @@
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/400/330/328-pink-1.webp",
-      "images/400/330/328-pink-05.webp",
       "images/400/330/328-pink-52-d.webp",
       "images/400/330/328-pink-71-d.webp"
     ],
@@ -982,12 +1099,12 @@
   },
   {
     "id": "408k-blue",
-    "name": "Модель 408k",
-    "price": "р.",
+    "name": "Модель 408к",
+    "price": "р.48-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/500/410/408k-blue-1-d.webp"
     ],
@@ -995,12 +1112,12 @@
   },
   {
     "id": "408k-green",
-    "name": "Модель 408k",
-    "price": "р.",
+    "name": "Модель 408к",
+    "price": "р.48-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/500/410/408k-green-1-d.webp"
     ],
@@ -1008,12 +1125,12 @@
   },
   {
     "id": "417c-green",
-    "name": "Модель 417c",
-    "price": "р.",
+    "name": "Модель 417ц",
+    "price": "р.48-54, 56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Ангора, 65% вискоза, 30 полиэстер, 5 спандекс",
     "images": [
       "images/500/420/417c-green-1-d.webp"
     ],
@@ -1021,12 +1138,12 @@
   },
   {
     "id": "417c-largemedals",
-    "name": "Модель 417c",
-    "price": "р.",
+    "name": "Модель 417ц",
+    "price": "р.48-54",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Ангора, 65% вискоза, 30 полиэстер, 5 спандекс",
     "images": [
       "images/500/420/417c-largemedals-1-d.webp"
     ],
@@ -1034,12 +1151,12 @@
   },
   {
     "id": "417c-smallmedals",
-    "name": "Модель 417c",
-    "price": "р.",
+    "name": "Модель 417ц",
+    "price": "р.48-54",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Ангора, 65% вискоза, 30 полиэстер, 5 спандекс",
     "images": [
       "images/500/420/417c-smallmedals-1-d.webp"
     ],
@@ -1052,7 +1169,7 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Масло, 95% Вискоза, 5% Спандекс",
+    "material": "Масло, 95% вискоза, 5% спандекс",
     "images": [
       "images/500/430/426m-darkblue-2-d.webp"
     ],
@@ -1065,7 +1182,7 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Масло, 95% Вискоза, 5% Спандекс",
+    "material": "Масло, 95% вискоза, 5% спандекс",
     "images": [
       "images/500/430/426m-deepblue-1-d.webp"
     ],
@@ -1078,7 +1195,7 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Масло, 95% Вискоза, 5% Спандекс",
+    "material": "Масло, 95% вискоза, 5% спандекс",
     "images": [
       "images/500/430/426m-flowersredwhite-1-d.webp"
     ],
@@ -1091,7 +1208,7 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Масло, 95% Вискоза, 5% Спандекс",
+    "material": "Масло, 95% вискоза, 5% спандекс",
     "images": [
       "images/500/430/426m-leftflower1.webp"
     ],
@@ -1099,12 +1216,12 @@
   },
   {
     "id": "432n-bluelines",
-    "name": "Модель 432n",
-    "price": "р.",
+    "name": "Модель 432н",
+    "price": "р.48-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "95% вискоза, 5% спандекс",
     "images": [
       "images/500/440/432n-bluelines-2-d.webp"
     ],
@@ -1113,11 +1230,12 @@
   {
     "id": "441-pink",
     "name": "Модель 441",
-    "price": "р.50-56",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/500/450/441-pink-1.webp",
       "images/500/450/441-pink-2.webp"
@@ -1126,12 +1244,13 @@
   },
   {
     "id": "441b-brown",
-    "name": "Модель 441b",
+    "name": "Модель 441б",
     "price": "р.58",
     "status": "",
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/500/450/441b-brown-1-d.webp",
       "images/500/450/441b-brown-2-d.webp",
@@ -1147,6 +1266,7 @@
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/500/450/441b-pinkpurple-1-d.webp",
       "images/500/450/441b-pinkpurple-41-d.webp",
@@ -1191,6 +1311,7 @@
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/500/450/441rb-blue-2-d.webp"
     ],
@@ -1199,37 +1320,25 @@
   {
     "id": "442-bluelines",
     "name": "Модель 442",
-    "price": "р.",
+    "price": "р.50-56 , 48",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
+      "images/500/450/442-bluelines-1-d.webp",
       "images/500/450/442-bluelines-2-d.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
-    "id": "442-bluepoloski",
-    "name": "Модель 442",
-    "price": "р.",
-    "status": "",
-    "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/500/450/442-bluepoloski-1-d.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "442-pink",
     "name": "Модель 442",
-    "price": "р.",
+    "price": "р.52-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/500/450/442-pink-2-d.webp"
     ],
@@ -1238,11 +1347,12 @@
   {
     "id": "443-blue",
     "name": "Модель 443",
-    "price": "р.50-56",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/500/450/443-blue-2-d.webp"
     ],
@@ -1251,11 +1361,12 @@
   {
     "id": "443-brown",
     "name": "Модель 443",
-    "price": "р.50-56",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/500/450/443-brown-1.webp",
       "images/500/450/443-brown-2.webp"
@@ -1265,11 +1376,12 @@
   {
     "id": "443-green",
     "name": "Модель 443",
-    "price": "р.",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/500/450/443-green-2-d.webp"
     ],
@@ -1295,7 +1407,7 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Штапель, 100% Вискоза",
+    "material": "Штапель, 100% вискоза",
     "images": [
       "images/500/450/443sh-brown-1.webp"
     ],
@@ -1308,7 +1420,7 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Штапель, 100% Вискоза",
+    "material": "Штапель, 100% вискоза",
     "images": [
       "images/500/450/443sh-darkblue-1.webp"
     ],
@@ -1321,7 +1433,7 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Штапель, 100% Вискоза",
+    "material": "Штапель, 100% вискоза",
     "images": [
       "images/500/450/443sh-green-1.webp"
     ],
@@ -1334,7 +1446,7 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Штапель, 100% Вискоза",
+    "material": "Штапель, 100% вискоза",
     "images": [
       "images/500/450/443sh-yellow-1.webp"
     ],
@@ -1369,6 +1481,22 @@
     "description": ""
   },
   {
+    "id": "445b-greenleaves",
+    "name": "Модель 445б",
+    "price": "р.58",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/500/450/445b-greenleaves-1-d.webp",
+      "images/500/450/445b-greenleaves-2-d.webp",
+      "images/500/450/445b-greenleaves-61-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "447-blue",
     "name": "Модель 447",
     "price": "р.50-56",
@@ -1378,8 +1506,7 @@
     "material": "Крэш, 100% полиэстер",
     "images": [
       "images/500/450/447-blue-1.webp",
-      "images/500/450/447-blue-2.webp",
-      "images/500/450/447-blue-1-d.webp"
+      "images/500/450/447-blue-2.webp"
     ],
     "description": ""
   },
@@ -1403,10 +1530,10 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Дорно, 100% полиэстер",
+    "material": "Дорна, 100% полиэстер",
     "images": [
-      "images/500/450/447-yellow-2.webp",
-      "images/500/450/447-yellow-1-d.webp"
+      "images/500/450/447-yellow-1-d.webp",
+      "images/500/450/447-yellow-2.webp"
     ],
     "description": ""
   },
@@ -1423,6 +1550,22 @@
       "images/500/450/447n-blackflowers-2.webp"
     ],
     "description": ""
+  },
+  {
+    "id": "448-gray",
+    "name": "Модель 448",
+    "price": "р.48-54",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/500/450/448-gray-1-d.webp",
+      "images/500/450/448-gray-2-d.webp",
+      "images/500/450/448-gray-61-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "448-green",
@@ -1444,7 +1587,7 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Кулирка 100% хлопок, Штапель 100 % Вискоза",
+    "material": "Кулирка 100% хлопок, Штапель 100 % вискоза",
     "images": [
       "images/500/450/449-green-1.webp"
     ],
@@ -1457,7 +1600,7 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Кулирка 100% хлопок, Штапель 100 % Вискоза",
+    "material": "Кулирка 100% хлопок, Штапель 100 % вискоза",
     "images": [
       "images/500/450/449-red-1.webp"
     ],
@@ -1466,14 +1609,14 @@
   {
     "id": "452-blue",
     "name": "Модель 452",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "95% вискоза, 5% лайкра",
     "images": [
-      "images/500/460/452-blue-2-d.webp",
       "images/500/460/452-blue-1-d.webp",
+      "images/500/460/452-blue-2-d.webp",
       "images/500/460/452-blue-61-d.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
@@ -1485,11 +1628,11 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "95% Вискоза, 5% Спандекс",
+    "material": "95% вискоза, 5% спандекс",
     "images": [
+      "images/500/490/488-reddots-1-d.webp",
       "images/500/490/488-reddots-2.webp",
-      "images/500/490/488-reddots-61-d.webp",
-      "images/500/490/488-reddots-1-d.webp"
+      "images/500/490/488-reddots-61-d.webp"
     ],
     "description": ""
   },
@@ -1500,7 +1643,7 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Масло, 95% Вискоза, 5% Спандекс",
+    "material": "Масло, 95% вискоза, 5% спандекс",
     "images": [
       "images/500/490/488d-cream-1.webp"
     ],
@@ -1513,7 +1656,7 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Масло, 95% Вискоза, 5% Спандекс",
+    "material": "Масло, 95% вискоза, 5% спандекс",
     "images": [
       "images/500/490/488d-devochki-2.webp"
     ],
@@ -1526,7 +1669,7 @@
     "status": "",
     "category": "dresses",
     "weather": "summer",
-    "material": "Масло, 95% Вискоза, 5% Спандекс",
+    "material": "Масло, 95% вискоза, 5% спандекс",
     "images": [
       "images/500/490/488z-trikolor-2.webp"
     ],
@@ -1535,11 +1678,11 @@
   {
     "id": "516-brown",
     "name": "Модель 516",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "65% вискоза, 30% полиэстер, 5% спандекс ",
     "images": [
       "images/600/520/516-brown-1-d.webp"
     ],
@@ -1548,11 +1691,11 @@
   {
     "id": "516-purple",
     "name": "Модель 516",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "65% вискоза, 30% полиэстер, 5% спандекс ",
     "images": [
       "images/600/520/516-purple-1-d.webp"
     ],
@@ -1565,7 +1708,7 @@
     "status": "",
     "category": "dresses",
     "weather": "winter",
-    "material": "65% Вискоза, 30% Полиэстер, 5% Спандекс ",
+    "material": "65% вискоза, 30% полиэстер, 5% спандекс ",
     "images": [
       "images/600/520/519-black2.webp"
     ],
@@ -1578,23 +1721,51 @@
     "status": "",
     "category": "dresses",
     "weather": "winter",
-    "material": "65% Вискоза, 30% Полиэстер, 5% Спандекс ",
+    "material": "65% вискоза, 30% полиэстер, 5% спандекс ",
     "images": [
       "images/600/520/519-gray2.webp"
     ],
     "description": ""
   },
   {
+    "id": "521-blue",
+    "name": "Модель 521",
+    "price": "р.",
+    "status": "",
+    "category": "dresses",
+    "weather": "winter",
+    "material": "Футер двухнитка, 80% хлопок, 20 спандекс",
+    "tags": [],
+    "images": [
+      "images/600/530/521-blue-2-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "521-blueletters",
+    "name": "Модель 521",
+    "price": "р.50-56",
+    "status": "",
+    "category": "dresses",
+    "weather": "winter",
+    "material": "Футер двухнитка, 80% хлопок, 20 спандекс",
+    "images": [
+      "images/600/530/521-blueletters-1-d.webp",
+      "images/600/530/521-blueletters-2-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "521-green",
     "name": "Модель 521",
     "price": "р.",
     "status": "",
     "category": "dresses",
     "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "material": "Футер двухнитка, 80% хлопок, 20 спандекс",
+    "tags": [],
     "images": [
-      "images/600/530/521-blueletters-1-d.webp",
-      "images/600/530/521-blueletters-2-d.webp"
+      "images/600/530/521-green-2-d.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -1604,10 +1775,27 @@
     "price": "р.",
     "status": "",
     "category": "dresses",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер двухнитка, 80% хлопок, 20 спандекс",
     "images": [
       "images/600/530/521-purple-2-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "526-graywhite",
+    "name": "Модель 526",
+    "price": "р.58",
+    "status": "",
+    "category": "dresses",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/600/530/526-graywhite-1-d.webp",
+      "images/600/530/526-graywhite-2-d.webp",
+      "images/600/530/526-graywhite-51-d.webp",
+      "images/600/530/526-graywhite-61-d.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },

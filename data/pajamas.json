@@ -484,6 +484,20 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "324-cream",
+    "name": "Модель 324",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/400/330/324-cream-2-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "324d-nice",
     "name": "Модель 324d",
     "price": "р.",
@@ -493,6 +507,20 @@
     "material": "aaaaaaaaaa",
     "images": [
       "images/400/330/324d-nice-1-pj.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "324z-gray",
+    "name": "Модель 324z",
+    "price": "р.",
+    "status": "",
+    "category": "pajamas",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/400/330/324z-gray-1-pj.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
