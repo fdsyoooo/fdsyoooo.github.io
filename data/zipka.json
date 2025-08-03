@@ -37,6 +37,7 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Масло, 95% вискоза, 5% лайкра",
+    "tags": ["large"],
     "images": [
       "images/100/10/8m-beans-1-z.webp"
     ],
@@ -102,7 +103,7 @@
   },
   {
     "id": "9a-biryuza",
-    "name": "Модель 9a",
+    "name": "Модель 9а",
     "price": "р.50-56",
     "status": "",
     "category": "zipka",
@@ -117,7 +118,7 @@
   },
   {
     "id": "9a-blue",
-    "name": "Модель 9a",
+    "name": "Модель 9а",
     "price": "р.50-56",
     "status": "",
     "category": "zipka",
@@ -198,12 +199,12 @@
   },
   {
     "id": "10n-smallsquare",
-    "name": "Модель 10n",
-    "price": "р.",
+    "name": "Модель 10н",
+    "price": "р.46-50",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/10/10n-smallsquare-1-z.webp"
     ],
@@ -251,26 +252,13 @@
     "description": ""
   },
   {
-    "id": "11-purple",
-    "name": "Модель 11",
+    "id": "11r-blue",
+    "name": "Модель 11р",
     "price": "р.50-56",
     "status": "",
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "images": [
-      "images/100/20/11-purple-1.webp"
-    ],
-    "description": ""
-  },
-  {
-    "id": "11r-blue",
-    "name": "Модель 11r",
-    "price": "р.",
-    "status": "",
-    "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
     "images": [
       "images/100/20/11r-blue-1-z.webp"
     ],
@@ -279,7 +267,7 @@
   {
     "id": "11r-bordo",
     "name": "Модель 11р",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
     "weather": "summer",
@@ -293,7 +281,7 @@
   {
     "id": "11r-cats",
     "name": "Модель 11р",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
     "weather": "summer",
@@ -307,7 +295,7 @@
   {
     "id": "11r-green",
     "name": "Модель 11р",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
     "weather": "summer",
@@ -320,12 +308,12 @@
   },
   {
     "id": "11r-purple",
-    "name": "Модель 11r",
-    "price": "р.",
+    "name": "Модель 11р",
+    "price": "р.52-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/20/11r-purple-1-z.webp"
     ],
@@ -385,12 +373,12 @@
   },
   {
     "id": "15k-pink",
-    "name": "Модель 15k",
-    "price": "р.",
+    "name": "Модель 15к",
+    "price": "р.52-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/20/15k-pink-1-z.webp"
     ],
@@ -424,12 +412,12 @@
   },
   {
     "id": "15r-bluepalms",
-    "name": "Модель 15r",
-    "price": "р.",
+    "name": "Модель 15р",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "tags": [],
     "images": [
       "images/100/20/15r-bluepalms-1-z.webp"
@@ -438,12 +426,12 @@
   },
   {
     "id": "15r-bluewaves",
-    "name": "Модель 15r",
-    "price": "р.",
+    "name": "Модель 15р",
+    "price": "р.50",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "tags": [],
     "images": [
       "images/100/20/15r-bluewaves-1-z.webp"
@@ -452,12 +440,12 @@
   },
   {
     "id": "15r-graygreen",
-    "name": "Модель 15r",
-    "price": "р.",
+    "name": "Модель 15р",
+    "price": "р.50-52",
     "status": "",
     "category": "zipka",
     "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "material": "Кулирка, 100% хлопок",
     "tags": [],
     "images": [
       "images/100/20/15r-graygreen-1-z.webp"
@@ -479,12 +467,12 @@
   },
   {
     "id": "15r-purple",
-    "name": "Модель 15r",
-    "price": "р.",
+    "name": "Модель 15р",
+    "price": "р.50-52",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "tags": [],
     "images": [
       "images/100/20/15r-purple-1-z.webp"
@@ -520,11 +508,11 @@
   {
     "id": "17-green",
     "name": "Модель 17",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "95% вискоза, 5% спандекс",
     "tags": [],
     "images": [
       "images/100/20/17-green-1-z.webp"
@@ -534,11 +522,11 @@
   {
     "id": "17-peacock",
     "name": "Модель 17",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "95% вискоза, 5% спандекс",
     "tags": [],
     "images": [
       "images/100/20/17-peacock-1-z.webp"
@@ -547,12 +535,12 @@
   },
   {
     "id": "17n-biryuza",
-    "name": "Модель 17n",
-    "price": "р.",
+    "name": "Модель 17н",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/20/17n-biryuza-1-z.webp"
     ],
@@ -560,12 +548,12 @@
   },
   {
     "id": "17n-blackdotsred",
-    "name": "Модель 17n",
-    "price": "р.",
+    "name": "Модель 17н",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/20/17n-blackdotsred-1-z.webp"
     ],
@@ -586,12 +574,12 @@
   },
   {
     "id": "17n-dotsblueflowers",
-    "name": "Модель 17n",
-    "price": "р.",
+    "name": "Модель 17н",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/20/17n-dotsblueflowers-1-z.webp"
     ],
@@ -599,12 +587,12 @@
   },
   {
     "id": "17n-dotsdarkblue",
-    "name": "Модель 17n",
-    "price": "р.",
+    "name": "Модель 17н",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/20/17n-dotsdarkblue-1-z.webp"
     ],
@@ -612,12 +600,12 @@
   },
   {
     "id": "17n-gray",
-    "name": "Модель 17n",
-    "price": "р.",
+    "name": "Модель 17н",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "tags": [],
     "images": [
       "images/100/20/17n-gray-1-z.webp"
@@ -626,12 +614,12 @@
   },
   {
     "id": "17n-green",
-    "name": "Модель 17n",
-    "price": "р.",
+    "name": "Модель 17н",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/20/17n-green-1-z.webp"
     ],
@@ -639,12 +627,12 @@
   },
   {
     "id": "17n-lightgreen",
-    "name": "Модель 17n",
-    "price": "р.",
+    "name": "Модель 17н",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/20/17n-lightgreen-1-z.webp"
     ],
@@ -652,12 +640,12 @@
   },
   {
     "id": "17n-pinkflowers",
-    "name": "Модель 17n",
-    "price": "р.",
+    "name": "Модель 17н",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/20/17n-pinkflowers-1-z.webp"
     ],
@@ -665,12 +653,12 @@
   },
   {
     "id": "17n-smallpinkflowers",
-    "name": "Модель 17n",
-    "price": "р.",
+    "name": "Модель 17н",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/20/17n-smallpinkflowers-1-z.webp"
     ],
@@ -678,12 +666,12 @@
   },
   {
     "id": "25k-brownred",
-    "name": "Модель 25k",
-    "price": "р.",
+    "name": "Модель 25к",
+    "price": "р.46, 48",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "tags": [],
     "images": [
       "images/100/30/25k-brownred-1-z.webp"
@@ -745,7 +733,7 @@
   {
     "id": "27-black",
     "name": "Модель 27",
-    "price": "р.52-54",
+    "price": "р.52, 54",
     "status": "",
     "category": "zipka",
     "weather": "summer",
@@ -788,7 +776,7 @@
   {
     "id": "27-pomehi",
     "name": "Модель 27",
-    "price": "р.52-56",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
     "weather": "summer",
@@ -801,11 +789,11 @@
   {
     "id": "27-red",
     "name": "Модель 27",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/30/27-red-1-z.webp"
     ],
@@ -825,26 +813,26 @@
     "description": ""
   },
   {
-    "id": "31-blueflowers",
-    "name": "Модель 31",
+    "id": "31n-blueflowers",
+    "name": "Модель 31н",
     "price": "р.50-56",
     "status": "",
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
     "images": [
-      "images/100/40/31-blueflowers-1-z.webp"
+      "images/100/40/31n-blueflowers-1-z.webp"
     ],
     "description": ""
   },
   {
     "id": "31n-orange",
-    "name": "Модель 31n",
-    "price": "р.",
+    "name": "Модель 31н",
+    "price": "р.50, 56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/40/31n-orange-1-z.webp"
     ],
@@ -853,7 +841,7 @@
   {
     "id": "31n-purple",
     "name": "Модель 31н",
-    "price": "р.",
+    "price": "р.50, 56",
     "status": "",
     "category": "zipka",
     "weather": "summer",
@@ -865,13 +853,13 @@
   },
   {
     "id": "32b-brown",
-    "name": "Модель 32b",
-    "price": "р.",
+    "name": "Модель 32 б",
+    "price": "р.58, 60",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "tags": [],
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/40/32b-brown-1-z.webp"
     ],
@@ -879,13 +867,13 @@
   },
   {
     "id": "32b-green",
-    "name": "Модель 32b",
-    "price": "р.",
+    "name": "Модель 32 б",
+    "price": "р.58, 60",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "tags": [],
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/40/32b-green-1-z.webp"
     ],
@@ -893,13 +881,13 @@
   },
   {
     "id": "32b-purple",
-    "name": "Модель 32b",
-    "price": "р.",
+    "name": "Модель 32 б",
+    "price": "р.58, 60",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "tags": [],
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/40/32b-purple-1-z.webp"
     ],
@@ -990,12 +978,12 @@
   },
   {
     "id": "41n-girls",
-    "name": "Модель 41n",
+    "name": "Модель 41н",
     "price": "р.",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "tags": [],
     "images": [
       "images/100/50/41n-girls-1-z.webp"
@@ -1030,27 +1018,40 @@
   },
   {
     "id": "41nb-chaos",
-    "name": "Модель 41nb",
-    "price": "р.",
+    "name": "Модель 41нб",
+    "price": "р.58, 60",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "tags": [],
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/50/41nb-chaos-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "41nb-green",
-    "name": "Модель 41nb",
-    "price": "р.",
+    "id": "41nb-gray",
+    "name": "Модель 41нб",
+    "price": "р.58, 60",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "tags": [],
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/50/41nb-gray-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "41nb-green",
+    "name": "Модель 41нб",
+    "price": "р.58, 60",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/50/41nb-green-1-z.webp"
     ],
@@ -1058,13 +1059,13 @@
   },
   {
     "id": "41nb-portals",
-    "name": "Модель 41nb",
-    "price": "р.",
+    "name": "Модель 41нб",
+    "price": "р.58, 60",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "tags": [],
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/50/41nb-portals-1-z.webp"
     ],
@@ -1086,26 +1087,13 @@
     "description": ""
   },
   {
-    "id": "42nb-gray",
-    "name": "Модель 42nb",
-    "price": "р.",
-    "status": "",
-    "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/100/50/42nb-gray-1-z.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
     "id": "43v-black",
-    "name": "Модель 43v",
-    "price": "р.",
+    "name": "Модель 43в",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/100/50/43v-black-1-z.webp"
     ],
@@ -1113,12 +1101,12 @@
   },
   {
     "id": "43v-green",
-    "name": "Модель 43v",
-    "price": "р.",
+    "name": "Модель 43в",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/100/50/43v-green-1-z.webp"
     ],
@@ -1126,12 +1114,12 @@
   },
   {
     "id": "43v-red",
-    "name": "Модель 43v",
-    "price": "р.",
+    "name": "Модель 43в",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/100/50/43v-red-1-z.webp"
     ],
@@ -1139,12 +1127,12 @@
   },
   {
     "id": "100c-bears",
-    "name": "Модель 100c",
-    "price": "р.",
+    "name": "Модель 100ц",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/100/100/100c-bears-1-z.webp"
     ],
@@ -1152,12 +1140,12 @@
   },
   {
     "id": "100c-blueflowers",
-    "name": "Модель 100c",
-    "price": "р.",
+    "name": "Модель 100ц",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/100/100/100c-blueflowers-1-z.webp"
     ],
@@ -1165,12 +1153,12 @@
   },
   {
     "id": "100c-hearts",
-    "name": "Модель 100c",
-    "price": "р.",
+    "name": "Модель 100ц",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/100/100/100c-hearts-1-z.webp"
     ],
@@ -1178,8 +1166,8 @@
   },
   {
     "id": "100k-green",
-    "name": "Модель 100k",
-    "price": "р.",
+    "name": "Модель 100к",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
     "weather": "aaaaa",
@@ -1191,8 +1179,8 @@
   },
   {
     "id": "100k-pink",
-    "name": "Модель 100k",
-    "price": "р.",
+    "name": "Модель 100к",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
     "weather": "aaaaa",
@@ -1205,11 +1193,11 @@
   {
     "id": "101-bigdots",
     "name": "Модель 101",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/200/110/101-bigdots-1-z.webp",
       "images/200/110/101-bigdots-2-z.webp",
@@ -1220,11 +1208,11 @@
   {
     "id": "101-largedots",
     "name": "Модель 101",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/200/110/101-largedots-1-z.webp",
       "images/200/110/101-largedots-2-z.webp"
@@ -1234,15 +1222,15 @@
   {
     "id": "101-smalldots",
     "name": "Модель 101",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
-      "images/200/110/101-smalldots-61-z.webp",
       "images/200/110/101-smalldots-1-z.webp",
-      "images/200/110/101-smalldots-2-z.webp"
+      "images/200/110/101-smalldots-2-z.webp",
+      "images/200/110/101-smalldots-61-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -1253,7 +1241,7 @@
     "status": "",
     "category": "zipka",
     "weather": "winter",
-    "material": "Барби, 100% полиэстер",
+    "material": "Барби, 65% вискоза, 30% полиэстер, 5% спандекс",
     "images": [
       "images/200/110/102-blue-2.webp"
     ],
@@ -1266,7 +1254,7 @@
     "status": "",
     "category": "zipka",
     "weather": "winter",
-    "material": "Барби, 100% полиэстер",
+    "material": "Барби, 65% вискоза, 30% полиэстер, 5% спандекс",
     "images": [
       "images/200/110/102-bluebrown-2.webp"
     ],
@@ -1274,12 +1262,12 @@
   },
   {
     "id": "102a-pinkwhite",
-    "name": "Модель 102a",
-    "price": "р.",
+    "name": "Модель 102а",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/200/110/102a-pinkwhite-1-z.webp",
       "images/200/110/102a-pinkwhite-51-z.webp"
@@ -1307,6 +1295,7 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/110/102c-pinkpoloski-1-z.webp",
       "images/200/110/102c-pinkpoloski-2-z.webp"
@@ -1328,12 +1317,13 @@
   },
   {
     "id": "102ge-purple",
-    "name": "Модель 102ge",
-    "price": "р.",
+    "name": "Модель 102ж",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велсофт жакард, 100% полиэстер",
+    "tags": ["large"],
     "images": [
       "images/200/110/102ge-purple-1-z.webp"
     ],
@@ -1341,12 +1331,12 @@
   },
   {
     "id": "102ge-salmon",
-    "name": "Модель 102ge",
-    "price": "р.",
+    "name": "Модель 102ж",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велсофт жакард, 100% полиэстер",
     "images": [
       "images/200/110/102ge-salmon-1-z.webp"
     ],
@@ -1354,12 +1344,12 @@
   },
   {
     "id": "102h-brown",
-    "name": "Модель 102h",
-    "price": "р.",
+    "name": "Модель 102х",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/200/110/102h-brown-1-z.webp"
     ],
@@ -1367,14 +1357,27 @@
   },
   {
     "id": "102h-purple",
-    "name": "Модель 102h",
-    "price": "р.",
+    "name": "Модель 102х",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/200/110/102h-purple-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "102k-blue",
+    "name": "Модель 102к",
+    "price": "р.50-56",
+    "status": "",
+    "category": "zipka",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
+    "images": [
+      "images/200/110/102k-blue-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -1393,12 +1396,12 @@
   },
   {
     "id": "102k-pink",
-    "name": "Модель 102k",
-    "price": "р.",
+    "name": "Модель 102к",
+    "price": "р.52, 54",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/200/110/102k-pink-2-z.webp"
     ],
@@ -1406,12 +1409,12 @@
   },
   {
     "id": "102k-pinklines",
-    "name": "Модель 102k",
-    "price": "р.",
+    "name": "Модель 102к",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "tags": [],
     "images": [
       "images/200/110/102k-pinklines-1-z.webp"
@@ -1420,12 +1423,12 @@
   },
   {
     "id": "102k-stars",
-    "name": "Модель 102k",
-    "price": "р.",
+    "name": "Модель 102к",
+    "price": "р.50-56, 48",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "tags": [],
     "images": [
       "images/200/110/102k-stars-1-z.webp"
@@ -1433,13 +1436,26 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "102k-white",
-    "name": "Модель 102k",
-    "price": "р.",
+    "id": "102k-yellow",
+    "name": "Модель 102к",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
+    "images": [
+      "images/200/110/102k-yellow-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "102k-white",
+    "name": "Модель 102к",
+    "price": "р.52-54",
+    "status": "",
+    "category": "zipka",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/200/110/102k-white-2-z.webp"
     ],
@@ -1447,12 +1463,12 @@
   },
   {
     "id": "102m-gray",
-    "name": "Модель 102m",
-    "price": "р.",
+    "name": "Модель 102м",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "zipka",
     "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "material": "Милано, 65% вискоза, 30% полиэстер, 5% спандекс",
     "images": [
       "images/200/110/102m-gray-1-z.webp"
     ],
@@ -1460,12 +1476,12 @@
   },
   {
     "id": "102n-red",
-    "name": "Модель 102n",
-    "price": "р.",
+    "name": "Модель 102н",
+    "price": "р.48-54",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Махра, 80% хлопок, 20% спандекс",
     "images": [
       "images/200/110/102n-red-1-z.webp"
     ],
@@ -1473,12 +1489,12 @@
   },
   {
     "id": "102s-blue",
-    "name": "Модель 102s",
-    "price": "р.",
+    "name": "Модель 102с",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр-антистресс, 100% полиэстер",
     "images": [
       "images/200/110/102s-blue-1-z.webp"
     ],
@@ -1486,12 +1502,12 @@
   },
   {
     "id": "102s-brown",
-    "name": "Модель 102s",
-    "price": "р.",
+    "name": "Модель 102с",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр-антистресс, 100% полиэстер",
     "tags": [],
     "images": [
       "images/200/110/102s-brown-1-z.webp"
@@ -1500,12 +1516,12 @@
   },
   {
     "id": "102s-browndots",
-    "name": "Модель 102s",
+    "name": "Модель 102с",
     "price": "р.",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр-антистресс, 100% полиэстер",
     "tags": [],
     "images": [
       "images/200/110/102s-browndots-1-z.webp"
@@ -1514,12 +1530,12 @@
   },
   {
     "id": "102s-pink",
-    "name": "Модель 102s",
-    "price": "р.",
+    "name": "Модель 102с",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр-антистресс, 100% полиэстер",
     "images": [
       "images/200/110/102s-pink-1-z.webp"
     ],
@@ -1527,12 +1543,12 @@
   },
   {
     "id": "102s-pinkflowers",
-    "name": "Модель 102s",
-    "price": "р.",
+    "name": "Модель 102с",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр-антистресс, 100% полиэстер",
     "images": [
       "images/200/110/102s-pinkflowers-1-z.webp"
     ],
@@ -1540,12 +1556,12 @@
   },
   {
     "id": "102s-redletters",
-    "name": "Модель 102s",
+    "name": "Модель 102с",
     "price": "р.",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр-антистресс, 100% полиэстер",
     "tags": [],
     "images": [
       "images/200/110/102s-redletters-1-z.webp"
@@ -1554,38 +1570,25 @@
   },
   {
     "id": "102s-whitedots",
-    "name": "Модель 102s",
-    "price": "р.",
+    "name": "Модель 102с",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр-антистресс, 100% полиэстер",
     "images": [
       "images/200/110/102s-whitedots-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "102v-blue",
-    "name": "Модель 102v",
-    "price": "р.",
-    "status": "",
-    "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/200/110/102v-blue-1-z.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
     "id": "102v-greenflowers",
-    "name": "Модель 102v",
-    "price": "р.",
+    "name": "Модель 102в",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/200/110/102v-greenflowers-1-z.webp"
     ],
@@ -1593,12 +1596,12 @@
   },
   {
     "id": "102v-pink",
-    "name": "Модель 102v",
-    "price": "р.",
+    "name": "Модель 102в",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "tags": [],
     "images": [
       "images/200/110/102v-pink-1-z.webp"
@@ -1607,39 +1610,25 @@
   },
   {
     "id": "102v-red",
-    "name": "Модель 102v",
-    "price": "р.",
+    "name": "Модель 102в",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/200/110/102v-red-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "102v-yellow",
-    "name": "Модель 102v",
-    "price": "р.",
-    "status": "",
-    "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/200/110/102v-yellow-1-z.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
     "id": "102z-penguins",
-    "name": "Модель 102z",
-    "price": "р.",
+    "name": "Модель 102з",
+    "price": "р.46-52",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "tags": [],
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/200/110/102z-penguins-1-z.webp"
     ],
@@ -1647,12 +1636,13 @@
   },
   {
     "id": "111r-figuri",
-    "name": "Модель 111r",
-    "price": "р.",
+    "name": "Модель 111р",
+    "price": "р.58, 60",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/120/111r-figuri-1-z.webp"
     ],
@@ -1660,12 +1650,13 @@
   },
   {
     "id": "111r-girls",
-    "name": "Модель 111r",
-    "price": "р.",
+    "name": "Модель 111р",
+    "price": "р.58, 60",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/120/111r-girls-1-z.webp"
     ],
@@ -1679,6 +1670,7 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/120/111r-greenleaves-1-z.webp",
       "images/200/120/111r-greenleaves-1-z_1.webp"
@@ -1687,12 +1679,12 @@
   },
   {
     "id": "115b-blue",
-    "name": "Модель 115b",
-    "price": "р.",
+    "name": "Модель 115 б",
+    "price": "р.60",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/200/120/115b-blue-1-z.webp"
     ],
@@ -1700,12 +1692,12 @@
   },
   {
     "id": "115b-chaos",
-    "name": "Модель 115b",
-    "price": "р.",
+    "name": "Модель 115 б",
+    "price": "р.60",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/200/120/115b-chaos-1-z.webp"
     ],
@@ -1713,38 +1705,40 @@
   },
   {
     "id": "115b-gray",
-    "name": "Модель 115b",
-    "price": "р.",
+    "name": "Модель 115 б",
+    "price": "р.60",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/200/120/115b-gray-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "115m-flowersblue",
-    "name": "Модель 115м",
+    "id": "115n-flowersblue",
+    "name": "Модель 115н",
     "price": "р.58",
     "status": "",
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
-      "images/200/120/115m-flowersblue-1-z.webp"
+      "images/200/120/115n-flowersblue-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "115n-blue",
-    "name": "Модель 115n",
-    "price": "р.",
+    "name": "Модель 115н",
+    "price": "р.58",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/120/115n-blue-1-z.webp"
     ],
@@ -1752,12 +1746,13 @@
   },
   {
     "id": "115n-whitezip",
-    "name": "Модель 115n",
-    "price": "р.",
+    "name": "Модель 115н",
+    "price": "р.58",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/120/115n-whitezip-1-z.webp"
     ],
@@ -1771,6 +1766,7 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/120/115r-fan-1-z.webp"
     ],
@@ -1778,13 +1774,13 @@
   },
   {
     "id": "115r-greenleaves",
-    "name": "Модель 115r",
-    "price": "р.",
+    "name": "Модель 115р",
+    "price": "р.58",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "tags": [],
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/120/115r-greenleaves-1-z.webp"
     ],
@@ -1792,13 +1788,13 @@
   },
   {
     "id": "115r-purpleleaves",
-    "name": "Модель 115r",
-    "price": "р.",
+    "name": "Модель 115р",
+    "price": "р.58",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "tags": [],
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/120/115r-purpleleaves-1-z.webp"
     ],
@@ -1806,12 +1802,13 @@
   },
   {
     "id": "116g-greenlines",
-    "name": "Модель 116g",
-    "price": "р.",
+    "name": "Модель 116г",
+    "price": "р.60-62",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/120/116g-greenlines-1-z.webp"
     ],
@@ -1819,12 +1816,13 @@
   },
   {
     "id": "116g-words",
-    "name": "Модель 116g",
-    "price": "р.",
+    "name": "Модель 116г",
+    "price": "р.60-62",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/120/116g-words-1-z.webp"
     ],
@@ -1838,6 +1836,7 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/120/117n-brown-1-z.webp"
     ],
@@ -1851,6 +1850,7 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/120/117n-socvetie-1-z.webp"
     ],
@@ -1859,11 +1859,11 @@
   {
     "id": "125-grayred",
     "name": "Модель 125",
-    "price": "р.",
+    "price": "р.46",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/200/130/125-grayred-1-z.webp"
     ],
@@ -1911,28 +1911,14 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "186-flowers",
-    "name": "Модель 186",
-    "price": "р.58,60",
+    "id": "186d-brown",
+    "name": "Модель 186д",
+    "price": "р.58-60",
     "status": "",
-    "category": "dresses",
+    "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
     "tags": ["large"],
-    "images": [
-      "images/200/190/186-flowers-1-z.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
-    "id": "186d-brown",
-    "name": "Модель 186d",
-    "price": "р.",
-    "status": "",
-    "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "tags": [],
     "images": [
       "images/200/190/186d-brown-1-z.webp"
     ],
@@ -1946,6 +1932,7 @@
     "category": "zipka",
     "weather": "summer",
     "material": "95% вискоза, 5% спандекс",
+    "tags": ["large"],
     "images": [
       "images/300/210/208-black-1-z.webp",
       "images/300/210/208-black-2-z.webp"
@@ -1955,11 +1942,12 @@
   {
     "id": "208-red",
     "name": "Модель 208",
-    "price": "р.",
+    "price": "р.52-56, 58",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "95% вискоза, 5% спандекс",
+    "tags": ["large"],
     "images": [
       "images/300/210/208-red-1-z.webp",
       "images/300/210/208-red-2-z.webp"
@@ -1983,11 +1971,11 @@
   {
     "id": "300-bordo",
     "name": "Модель 300",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/300/300/300-bordo-1-z.webp"
     ],
@@ -1996,11 +1984,11 @@
   {
     "id": "300-green",
     "name": "Модель 300",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/300/300/300-green-1-z.webp"
     ],
@@ -2009,25 +1997,25 @@
   {
     "id": "301-blue",
     "name": "Модель 301",
-    "price": "р.",
+    "price": "р.58",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Махра, 80% хлопок, 20% спандекс",
     "images": [
-      "images/400/310/301-blue-2-z_1.webp",
-      "images/400/310/301-blue-1-z_1.webp"
+      "images/400/310/301-blue-1-z_1.webp",
+      "images/400/310/301-blue-2-z_1.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "301-green",
     "name": "Модель 301",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Махра, 80% хлопок, 20% спандекс",
     "images": [
       "images/400/310/301-green-1-z.webp",
       "images/400/310/301-green-61-z.webp",
@@ -2038,11 +2026,12 @@
   {
     "id": "301-mint",
     "name": "Модель 301",
-    "price": "р.",
+    "price": "р.58",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Махра, 80% хлопок, 20% спандекс",
+    "tags": ["large"],
     "images": [
       "images/400/310/301-mint-1-z.webp",
       "images/400/310/301-mint-2-z.webp"
@@ -2052,11 +2041,12 @@
   {
     "id": "301-pink",
     "name": "Модель 301",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Махра, 80% хлопок, 20% спандекс",
+    "tags": ["large"],
     "images": [
       "images/400/310/301-pink-1-z.webp",
       "images/400/310/301-pink-61-z.webp",
@@ -2067,14 +2057,14 @@
   {
     "id": "301-poloskiblue",
     "name": "Модель 301",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Махра, 80% хлопок, 20% спандекс",
     "images": [
-      "images/400/310/301-poloskiblue-2-z.webp",
       "images/400/310/301-poloskiblue-1-z.webp",
+      "images/400/310/301-poloskiblue-2-z.webp",
       "images/400/310/301-poloskiblue-61-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
@@ -2082,14 +2072,15 @@
   {
     "id": "301-red",
     "name": "Модель 301",
-    "price": "р.",
+    "price": "р.58",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Махра, 80% хлопок, 20% спандекс",
+    "tags": ["large"],
     "images": [
-      "images/400/310/301-red-2-z.webp",
-      "images/400/310/301-red-1-z.webp"
+      "images/400/310/301-red-1-z.webp",
+      "images/400/310/301-red-2-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -2136,12 +2127,12 @@
   },
   {
     "id": "311m-blue",
-    "name": "Модель 311m",
-    "price": "р.",
+    "name": "Модель 311м",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Махра, 80% хлопок, 20% спандекс",
     "images": [
       "images/400/320/311m-blue-1-z.webp",
       "images/400/320/311m-blue-2-z.webp",
@@ -2183,6 +2174,7 @@
     "category": "zipka",
     "weather": "winter",
     "material": "Махра, 80% хлопок, 20% спандекс",
+    "tags": ["large"],
     "images": [
       "images/400/320/311m-purple-1-z.webp",
       "images/400/320/311m-purple-2-z.webp"
@@ -2192,11 +2184,11 @@
   {
     "id": "313-bardo",
     "name": "Модель 313",
-    "price": "р.",
+    "price": "р.50-54",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/400/320/313-bardo-1-z.webp"
     ],
@@ -2205,11 +2197,11 @@
   {
     "id": "313-red",
     "name": "Модель 313",
-    "price": "р.",
+    "price": "р.50-54",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/400/320/313-red-1-z.webp"
     ],
@@ -2218,11 +2210,11 @@
   {
     "id": "322-deepred",
     "name": "Модель 322",
-    "price": "р.",
+    "price": "р.48-52",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "tags": [],
     "images": [
       "images/400/330/322-deepred-2-z.webp"
@@ -2232,11 +2224,11 @@
   {
     "id": "322-green",
     "name": "Модель 322",
-    "price": "р.",
+    "price": "р.48-52",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/400/330/322-green-2-z.webp"
     ],
@@ -2245,11 +2237,11 @@
   {
     "id": "322-red",
     "name": "Модель 322",
-    "price": "р.",
+    "price": "р.48-52",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/400/330/322-red-2-z.webp"
     ],
@@ -2258,11 +2250,11 @@
   {
     "id": "332-biryuza",
     "name": "Модель 332",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/400/340/332-biryuza-1-z.webp",
       "images/400/340/332-biryuza-51-z.webp"
@@ -2272,11 +2264,11 @@
   {
     "id": "332-green",
     "name": "Модель 332",
-    "price": "р.",
+    "price": "р.50-56, 48",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/400/340/332-green-1-z.webp",
       "images/400/340/332-green-51-z.webp"
@@ -2286,11 +2278,11 @@
   {
     "id": "338-cats",
     "name": "Модель 338",
-    "price": "р.",
+    "price": "р.46-52",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/400/340/338-cats-1-z.webp"
     ],
@@ -2299,51 +2291,25 @@
   {
     "id": "338-pinkcats",
     "name": "Модель 338",
-    "price": "р.",
+    "price": "р.46-52",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/400/340/338-pinkcats-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "401-blackdwhite",
-    "name": "Модель 401",
-    "price": "р.",
-    "status": "",
-    "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/500/410/401-blackdwhite-2-z.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
-    "id": "401-darkblue",
-    "name": "Модель 401",
-    "price": "р.50-56",
+    "id": "401f-brown",
+    "name": "Модель 401ф",
+    "price": "р.52-56, 58",
     "status": "",
     "category": "zipka",
     "weather": "winter",
-    "material": "Барби, 65% вискоза, 30% полиэстер, 5% спандекс",
-    "images": [
-      "images/500/410/401-darkblue-2.webp"
-    ],
-    "description": ""
-  },
-  {
-    "id": "401f-brown",
-    "name": "Модель 401f",
-    "price": "р.",
-    "status": "",
-    "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "tags": [],
+    "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
+    "tags": ["large"],
     "images": [
       "images/500/410/401f-brown-1-z.webp",
       "images/500/410/401f-brown-2-z.webp",
@@ -2352,26 +2318,13 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "439-gradient",
-    "name": "Модель 439",
-    "price": "р.",
-    "status": "",
-    "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/500/440/439-gradient-1-z.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
     "id": "522m-brightsquares",
-    "name": "Модель 522m",
-    "price": "р.",
+    "name": "Модель 522м",
+    "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/600/530/522m-brightsquares-1-z.webp",
       "images/600/530/522m-brightsquares-2-z.webp"
@@ -2380,12 +2333,12 @@
   },
   {
     "id": "523m-blue",
-    "name": "Модель 523m",
-    "price": "р.",
+    "name": "Модель 523м",
+    "price": "р.50-56, 48",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/600/530/523m-blue-1-z.webp"
     ],

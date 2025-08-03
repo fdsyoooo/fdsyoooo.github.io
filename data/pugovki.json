@@ -165,11 +165,11 @@
   {
     "id": "42a-blackdwhite",
     "name": "Модель 42а",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/50/42a-blackdwhite-1-p.webp"
     ],
@@ -181,8 +181,9 @@
     "price": "р.",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Фланель, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/50/45f-biryuza-1-p.webp"
     ],
@@ -191,11 +192,12 @@
   {
     "id": "45f-blue",
     "name": "Модель 45ф",
-    "price": "р.",
+    "price": "р.50-56, 46, 48, 58, 60",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Фланель, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/50/45f-blue-1-p.webp"
     ],
@@ -204,11 +206,12 @@
   {
     "id": "45f-bluedwhite",
     "name": "Модель 45ф",
-    "price": "р.",
+    "price": "р.50-56, 46, 48, 58, 60",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Фланель, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/50/45f-bluedwhite-1-p.webp"
     ],
@@ -217,11 +220,12 @@
   {
     "id": "45f-blueflowers",
     "name": "Модель 45ф",
-    "price": "р.",
+    "price": "р.50-56, 46, 48, 58, 60",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Фланель, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/50/45f-blueflowers-1-p.webp"
     ],
@@ -230,11 +234,12 @@
   {
     "id": "45f-purple",
     "name": "Модель 45ф",
-    "price": "р.",
+    "price": "р.50-56, 46, 48, 58, 60",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Фланель, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/50/45f-purple-1-p.webp"
     ],
@@ -242,12 +247,12 @@
   },
   {
     "id": "45v-emerald",
-    "name": "Модель 45v",
-    "price": "р.",
+    "name": "Модель 45в",
+    "price": "р.48",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "tags": [],
     "images": [
       "images/100/50/45v-emerald-1-p.webp"
@@ -257,11 +262,11 @@
   {
     "id": "45v-green",
     "name": "Модель 45в",
-    "price": "р.",
+    "price": "р.50-56, 48",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/100/50/45v-green-1-p.webp"
     ],
@@ -269,13 +274,13 @@
   },
   {
     "id": "86n-brownleaves",
-    "name": "Модель 86n",
-    "price": "р.",
+    "name": "Модель 86н",
+    "price": "р.58, 60",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "tags": [],
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/90/86n-brownleaves-1-p.webp"
     ],
@@ -283,13 +288,13 @@
   },
   {
     "id": "86n-flowers",
-    "name": "Модель 86n",
-    "price": "р.",
+    "name": "Модель 86н",
+    "price": "р.58, 60",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "tags": [],
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/100/90/86n-flowers-1-p.webp"
     ],
@@ -353,11 +358,11 @@
   {
     "id": "145-blue",
     "name": "Модель 145",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер двухнитка с начёсом, 100% хлопок",
     "images": [
       "images/200/150/145-blue-1-p.webp"
     ],
@@ -366,11 +371,12 @@
   {
     "id": "145-brown",
     "name": "Модель 145",
-    "price": "р.",
+    "price": "р.50-56, 58, 60",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер двухнитка с начёсом, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/150/145-brown-1-p.webp"
     ],
@@ -379,11 +385,12 @@
   {
     "id": "145-majenta",
     "name": "Модель 145",
-    "price": "р.",
+    "price": "р.50-56, 58, 60",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер двухнитка с начёсом, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/200/150/145-majenta-1-p.webp"
     ],
@@ -392,11 +399,11 @@
   {
     "id": "145t-pinkflowers",
     "name": "Модель 145т",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер трёхнитка с начёсом, 80% хлопок, 20% спандекс",
     "images": [
       "images/200/150/145t-pinkflowers-1-p.webp"
     ],
@@ -405,11 +412,11 @@
   {
     "id": "145t-redroses",
     "name": "Модель 145т",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер трёхнитка с начёсом, 80% хлопок, 20% спандекс",
     "images": [
       "images/200/150/145t-redroses-1-p.webp"
     ],
@@ -433,11 +440,11 @@
   {
     "id": "246L-square",
     "name": "Модель 246л",
-    "price": "р.",
+    "price": "р.46, 48",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/300/250/246L-square-2-p.webp",
       "images/300/250/246L-square-61-p.webp"
@@ -447,11 +454,11 @@
   {
     "id": "246sh-brown",
     "name": "Модель 246ш",
-    "price": "р.",
+    "price": "р.54, 56",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Штапель, 100% вискоза",
     "images": [
       "images/300/250/246sh-brown-2-p.webp"
     ],
@@ -464,7 +471,7 @@
     "status": "",
     "category": "pugovki",
     "weather": "summer",
-    "material": "Штапель, 100% Вискоза",
+    "material": "Штапель, 100% вискоза",
     "images": [
       "images/300/250/246sh-greensquare-2.webp"
     ],
@@ -477,7 +484,7 @@
     "status": "",
     "category": "pugovki",
     "weather": "summer",
-    "material": "Штапель, 100% Вискоза",
+    "material": "Штапель, 100% вискоза",
     "images": [
       "images/300/250/246sh-blue-1-d.webp",
       "images/300/250/246sh-blue-2-d.webp",
@@ -492,7 +499,7 @@
     "status": "",
     "category": "pugovki",
     "weather": "pugovki",
-    "material": "Штапель, 100% Вискоза",
+    "material": "Штапель, 100% вискоза",
     "images": [
       "images/300/250/246sh-flowers2.webp"
     ],
@@ -505,7 +512,7 @@
     "status": "",
     "category": "dresses",
     "weather": "pugovki",
-    "material": "Штапель, 100% Вискоза",
+    "material": "Штапель, 100% вискоза",
     "images": [
       "images/300/250/246sh-green-1-d.webp",
       "images/300/250/246sh-green-2-d.webp",
@@ -515,13 +522,13 @@
   },
   {
     "id": "246v-redsquares",
-    "name": "Модель 246v",
-    "price": "р.",
+    "name": "Модель 246в",
+    "price": "р.50-56, 48, 58",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "tags": [],
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
+    "tags": ["large"],
     "images": [
       "images/300/250/246v-redsquares-1-p.webp",
       "images/300/250/246v-redsquares-2-p.webp",
@@ -532,11 +539,11 @@
   {
     "id": "522-brightsquares",
     "name": "Модель 522",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "tags": [],
     "images": [
       "images/600/530/522-brightsquares-1-p.webp"
@@ -546,11 +553,11 @@
   {
     "id": "522-gray",
     "name": "Модель 522",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/600/530/522-gray-1-p.webp",
       "images/600/530/522-gray-2-p.webp",
@@ -561,11 +568,12 @@
   {
     "id": "522-redsquare",
     "name": "Модель 522",
-    "price": "р.50-56",
+    "price": "р.50-56, 58, 60",
     "status": "",
     "category": "pugovki",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
     "images": [
       "images/600/530/522-redsquare-1.webp"
     ],
@@ -574,11 +582,11 @@
   {
     "id": "522-redsquares",
     "name": "Модель 522",
-    "price": "р.",
+    "price": "р.50-56",
     "status": "",
     "category": "pugovki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
     "images": [
       "images/600/530/522-redsquares-1-p.webp",
       "images/600/530/522-redsquares-2-p.webp",
@@ -615,7 +623,7 @@
   {
     "id": "525-deepblue",
     "name": "Модель 525",
-    "price": "р.50-56",
+    "price": "р.50",
     "status": "",
     "weather": "summer",
     "category": "pugovki",

@@ -6,7 +6,7 @@
     "status": "",
     "category": "male",
     "weather": "summer",
-    "material": "Кулирка варёнка, 92% Хлопок, 8% Спандекс",
+    "material": "Кулирка варёнка, 92% хлопок, 8% спандекс",
     "images": [
       "images/100/50/50-gray-2-m.webp",
       "images/100/50/50-gray-1-m.webp",
@@ -17,12 +17,12 @@
   },
   {
     "id": "51f-red",
-    "name": "Модель 51f",
-    "price": "р.",
+    "name": "Модель 51ф",
+    "price": "р.50",
     "status": "",
     "category": "male",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Футер двухнитка с начёсом, 100% хлопок",
     "tags": [],
     "images": [
       "images/100/60/51f-red-1-m.webp"
@@ -44,7 +44,7 @@
   },
   {
     "id": "51k-greensquare",
-    "name": "Модель 51k",
+    "name": "Модель 51к",
     "price": "р.50-56",
     "status": "",
     "category": "male",
@@ -58,7 +58,7 @@
   {
     "id": "66m-pink",
     "name": "Модель 66м",
-    "price": "р.",
+    "price": "р.50, 52",
     "status": "",
     "category": "male",
     "weather": "summer",

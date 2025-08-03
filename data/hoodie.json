@@ -450,6 +450,19 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "266n-darkbordo",
+    "name": "Модель 266н",
+    "price": "р.",
+    "status": "",
+    "category": "hoodie",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "images": [
+      "images/300/270/266n-darkbordo-2-h.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "266n-green",
     "name": "Модель 266н",
     "price": "р.50-56",
@@ -607,7 +620,7 @@
   {
     "id": "570-blue",
     "name": "Модель 570",
-    "price": "р.50-56",
+    "price": "р.52-56",
     "status": "",
     "category": "hoodie",
     "weather": "winter",
