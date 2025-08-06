@@ -129,7 +129,7 @@
     "price": "р.40-44",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/100/40/36h-malepenguin-1-n.webp"
@@ -142,7 +142,7 @@
     "price": "р.40-44",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/100/40/36h-penguin-1-n.webp"
@@ -155,7 +155,7 @@
     "price": "р.40-44",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/100/40/36h-red-1.webp"
@@ -168,7 +168,7 @@
     "price": "р.46",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/100/60/54k-gray-1-n.webp"
@@ -178,10 +178,10 @@
   {
     "id": "54k-graybears",
     "name": "Модель 54к",
-    "price": "р.48, 50",
+    "price": "р.48, 50, 52",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/100/60/54k-graybears-1-n.webp"
@@ -191,10 +191,10 @@
   {
     "id": "54k-purplebears",
     "name": "Модель 54к",
-    "price": "р.48, 50",
+    "price": "р.48, 50, 52",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/100/60/54k-purplebears-1-n.webp"
@@ -221,7 +221,7 @@
     "price": "р.48-52",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "tags": [],
     "images": [
@@ -235,7 +235,7 @@
     "price": "р.48-52",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/100/60/54z-pink-1.webp"
@@ -248,7 +248,7 @@
     "price": "р.32, 34",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/100/60/55hc-blue-1-n.webp"
@@ -261,10 +261,13 @@
     "price": "р.",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
-      "images/100/60/55hc-red-1-n.webp"
+      "images/100/60/55hc-red-1-n.webp",
+      "images/100/60/55hc-red-1-n_1.webp",
+      "images/100/60/55hc-red-61-n.webp",
+      "images/100/60/55hc-red-2-n.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -275,7 +278,7 @@
     "status": "",
     "category": "nazapah",
     "weather": "summer",
-    "material": "Атлас",
+    "material": "Атлас, 95% вискоза, 5% спандекс",
     "images": [
       "images/200/130/121-blue-1-n.webp"
     ],
@@ -288,7 +291,7 @@
     "status": "",
     "category": "nazapah",
     "weather": "summer",
-    "material": "aaaaaaaaaa",
+    "material": "Атлас, 95% вискоза, 5% спандекс",
     "tags": [],
     "images": [
       "images/200/130/121-diffroses-1-n.webp"
@@ -302,7 +305,7 @@
     "status": "",
     "category": "nazapah",
     "weather": "summer",
-    "material": "aaaaaaaaaa",
+    "material": "Атлас, 95% вискоза, 5% спандекс",
     "tags": [],
     "images": [
       "images/200/130/121-peacock-1-n.webp"
@@ -312,11 +315,14 @@
   {
     "id": "121m-kupon",
     "name": "Модель 121м",
-    "price": "р.",
+    "price": "р.50-56, 48, 58",
     "status": "",
     "category": "nazapah",
     "weather": "summer",
     "material": "Масло, 95% вискоза, 5% спандекс",
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/130/121m-kupon-2-n.webp"
     ],
@@ -431,6 +437,48 @@
       "images/200/130/122n-palmleaves-1.webp"
     ],
     "description": ""
+  },
+  {
+    "id": "135v-snow",
+    "name": "Модель 135в",
+    "price": "р.58, 60",
+    "status": "",
+    "category": "nazapah",
+    "weather": "winter",
+    "material": "Махра/бамбук, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/200/140/135v-snow-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "144-redblue",
+    "name": "Модель 144",
+    "price": "р.60",
+    "status": "",
+    "category": "nazapah",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/200/150/144-redblue-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "144b-green",
+    "name": "Модель 144б",
+    "price": "р.60",
+    "status": "",
+    "category": "nazapah",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/200/150/144b-green-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "144n-black",
@@ -572,7 +620,7 @@
     "price": "р.48-56",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/200/160/154b-leopard-1.webp"
@@ -585,7 +633,7 @@
     "price": "р.48-56",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "tags": [],
     "images": [
@@ -599,7 +647,7 @@
     "price": "р.48-56",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "tags": [],
     "images": [
@@ -613,7 +661,7 @@
     "price": "р.48-56",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "tags": [],
     "images": [
@@ -627,7 +675,7 @@
     "price": "р.48-56",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/200/160/154b-snegniibars-1.webp"
@@ -774,11 +822,14 @@
   {
     "id": "236v-black",
     "name": "Модель 236в",
-    "price": "р.50-56",
+    "price": "р.50-56, 58, 60",
     "status": "",
     "category": "nazapah",
     "weather": "winter",
     "material": "Вафля, 100% хлопок",
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/240/236v-black-1-n.webp"
     ],
@@ -801,13 +852,31 @@
   {
     "id": "236v-pink",
     "name": "Модель 236в",
-    "price": "р.50-56",
+    "price": "р.50-56, 58, 60",
     "status": "",
     "category": "nazapah",
     "weather": "winter",
     "material": "Вафля, 100% хлопок",
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/240/236v-pink-1-n.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "236v-white",
+    "name": "Модель 236в",
+    "price": "р.50-56, 48, 58",
+    "status": "",
+    "category": "nazapah",
+    "weather": "winter",
+    "material": "Вафля, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/300/240/236v-white-1-n.webp",
+      "images/300/240/236v-white-51-n.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -949,7 +1018,7 @@
     "price": "р.48-54",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт меланж, 100% полиэстер",
     "images": [
       "images/300/260/254c-brown-1-n.webp"
@@ -962,9 +1031,11 @@
     "price": "р.50-56, 58, 60",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/400/340/334-boyare-1-n.webp"
     ],
@@ -976,9 +1047,11 @@
     "price": "р.50-56, 58, 60",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/400/340/334-gray-1-n.webp"
     ],
@@ -990,9 +1063,11 @@
     "price": "р.50-56, 58,60",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/400/340/335-bluegray-1-n.webp"
     ],
@@ -1004,7 +1079,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "tags": [],
     "images": [
@@ -1018,7 +1093,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "tags": [],
     "images": [
@@ -1114,7 +1189,7 @@
     "price": "р.46-52",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "tags": [],
     "images": [
@@ -1129,7 +1204,7 @@
     "price": "р.46-52",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "tags": [],
     "images": [
@@ -1144,7 +1219,7 @@
     "price": "р.46-52",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/500/440/439-gradient-1-n.webp"
@@ -1157,7 +1232,7 @@
     "price": "р.48-56",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/500/460/454-blackcircles-1-n.webp"
@@ -1170,7 +1245,7 @@
     "price": "р.48-56",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/500/460/454-green-1-n.webp"
@@ -1183,7 +1258,7 @@
     "price": "р.48-56",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/500/460/454-palm-1-n.webp"
@@ -1196,7 +1271,7 @@
     "price": "р.48-56",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/500/460/454-purple-1-n.webp"
@@ -1209,9 +1284,11 @@
     "price": "р.58",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/500/460/454b-blue-1-n.webp"
     ],
@@ -1223,9 +1300,11 @@
     "price": "р.58",
     "status": "",
     "category": "nazapah",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/500/460/454b-brown-1-n.webp"
     ],

@@ -10,7 +10,6 @@
     "images": [
       "images/100/70/62-bluelines-1-t.webp",
       "images/100/70/62-bluelines-51-t.webp"
-      
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -25,6 +24,34 @@
     "images": [
       "images/100/70/62-pinklines-1-t.webp",
       "images/100/70/62-pinklines-51-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "64-blue",
+    "name": "Модель 64",
+    "price": "р.48, 50, 58",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/100/70/64-blue-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "64-deepgreen",
+    "name": "Модель 64",
+    "price": "р.48, 50, 58",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/100/70/64-deepgreen-1-t.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -55,6 +82,34 @@
     "description": ""
   },
   {
+    "id": "64-indigo",
+    "name": "Модель 64",
+    "price": "р.46, 48, 50",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/70/64-indigo-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "64-purple",
+    "name": "Модель 64",
+    "price": "р.48, 50",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/70/64-purple-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "64-red",
     "name": "Модель 64",
     "price": "р.52-56",
@@ -78,7 +133,7 @@
     "images": [
       "images/100/70/66-black-1-t.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Женская однотонная майка без рукава из высококачественного трикотажа. Боковые вытачки на груди создают полуприлегающий силует,  зона декольте слегка опущена, плечо расширено, что позволяет визуально прикрыть зону подмышки. Майка подходит для самостоятельной носки, прекрасно сочетается с брюками, бриджами, шортами. Незаменима в создании многослойных образов с женскими спортивными костюмами, украшая их разнообразием своей цветовой палитры."
   },
   {
     "id": "66-cream",
@@ -91,7 +146,7 @@
     "images": [
       "images/100/70/66-cream-1-t.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Женская однотонная майка без рукава из высококачественного трикотажа. Боковые вытачки на груди создают полуприлегающий силует,  зона декольте слегка опущена, плечо расширено, что позволяет визуально прикрыть зону подмышки. Майка подходит для самостоятельной носки, прекрасно сочетается с брюками, бриджами, шортами. Незаменима в создании многослойных образов с женскими спортивными костюмами, украшая их разнообразием своей цветовой палитры."
   },
   {
     "id": "66-green",
@@ -104,7 +159,7 @@
     "images": [
       "images/100/70/66-green-1-t.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Женская однотонная майка без рукава из высококачественного трикотажа. Боковые вытачки на груди создают полуприлегающий силует,  зона декольте слегка опущена, плечо расширено, что позволяет визуально прикрыть зону подмышки. Майка подходит для самостоятельной носки, прекрасно сочетается с брюками, бриджами, шортами. Незаменима в создании многослойных образов с женскими спортивными костюмами, украшая их разнообразием своей цветовой палитры."
   },
   {
     "id": "66-pink",
@@ -117,7 +172,7 @@
     "images": [
       "images/100/70/66-pink-1-t.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Женская однотонная майка без рукава из высококачественного трикотажа. Боковые вытачки на груди создают полуприлегающий силует,  зона декольте слегка опущена, плечо расширено, что позволяет визуально прикрыть зону подмышки. Майка подходит для самостоятельной носки, прекрасно сочетается с брюками, бриджами, шортами. Незаменима в создании многослойных образов с женскими спортивными костюмами, украшая их разнообразием своей цветовой палитры."
   },
   {
     "id": "66-white",
@@ -131,7 +186,7 @@
       "images/100/70/66-white-1-t.webp",
       "images/100/70/66-white-1-t_1.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Женская однотонная майка без рукава из высококачественного трикотажа. Боковые вытачки на груди создают полуприлегающий силует,  зона декольте слегка опущена, плечо расширено, что позволяет визуально прикрыть зону подмышки. Майка подходит для самостоятельной носки, прекрасно сочетается с брюками, бриджами, шортами. Незаменима в создании многослойных образов с женскими спортивными костюмами, украшая их разнообразием своей цветовой палитры."
   },
   {
     "id": "66-yellow",
@@ -144,7 +199,7 @@
     "images": [
       "images/100/70/66-yellow-1-t.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Женская однотонная майка без рукава из высококачественного трикотажа. Боковые вытачки на груди создают полуприлегающий силует,  зона декольте слегка опущена, плечо расширено, что позволяет визуально прикрыть зону подмышки. Майка подходит для самостоятельной носки, прекрасно сочетается с брюками, бриджами, шортами. Незаменима в создании многослойных образов с женскими спортивными костюмами, украшая их разнообразием своей цветовой палитры."
   },
   {
     "id": "66a-whiteflower",
@@ -161,6 +216,104 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "66c-blackpink",
+    "name": "Модель 66ц",
+    "price": "р.58",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/100/70/66c-blackpink-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66c-chaos",
+    "name": "Модель 66ц",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/70/66c-chaos-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66c-flowerspurple",
+    "name": "Модель 66ц",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/70/66c-flowerspurple-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66c-gray",
+    "name": "Модель 66ц",
+    "price": "р.58",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/100/70/66c-gray-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66c-greenpublicity",
+    "name": "Модель 66ц",
+    "price": "р.58",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/100/70/66c-greenpublicity-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66c-news",
+    "name": "Модель 66ц",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/70/66c-news-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "66c-palma",
+    "name": "Модель 66ц",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/70/66c-palma-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "66r-blue",
     "name": "Модель 66р",
     "price": "р.50-56",
@@ -171,7 +324,7 @@
     "images": [
       "images/100/70/66r-blue-1-t.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Очень мягкая, приятная на ощупь майка с рукавом из высококачественного трикотажа является ярким дополнением  к спортивным костюмам, бомберам, жакетам. Разнообразит и освежит повседневный гардероб. Модель выполнена с боковой вытачкой на груди, аккуратным небольшим плечом, зрительно стройнит и делает силуэт женсивенным и хрупким, сидит по фигуре."
   },
   {
     "id": "66r-green",
@@ -184,7 +337,7 @@
     "images": [
       "images/100/70/66r-green-1-t.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Очень мягкая, приятная на ощупь майка с рукавом из высококачественного трикотажа является ярким дополнением  к спортивным костюмам, бомберам, жакетам. Разнообразит и освежит повседневный гардероб. Модель выполнена с боковой вытачкой на груди, аккуратным небольшим плечом, зрительно стройнит и делает силуэт женсивенным и хрупким, сидит по фигуре."
   },
   {
     "id": "66r-pink",
@@ -197,7 +350,7 @@
     "images": [
       "images/100/70/66r-pink-1-t.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Очень мягкая, приятная на ощупь майка с рукавом из высококачественного трикотажа является ярким дополнением  к спортивным костюмам, бомберам, жакетам. Разнообразит и освежит повседневный гардероб. Модель выполнена с боковой вытачкой на груди, аккуратным небольшим плечом, зрительно стройнит и делает силуэт женсивенным и хрупким, сидит по фигуре."
   },
   {
     "id": "66r-white",
@@ -209,6 +362,20 @@
     "material": "Кулирка, 92% хлопок, 8% лайкра",
     "images": [
       "images/100/70/66r-white-1-t.webp"
+    ],
+    "description": "Очень мягкая, приятная на ощупь майка с рукавом из высококачественного трикотажа является ярким дополнением  к спортивным костюмам, бомберам, жакетам. Разнообразит и освежит повседневный гардероб. Модель выполнена с боковой вытачкой на груди, аккуратным небольшим плечом, зрительно стройнит и делает силуэт женсивенным и хрупким, сидит по фигуре."
+  },
+  {
+    "id": "66z-greenchilli",
+    "name": "Модель 66з",
+    "price": "р.50-56",
+    "status": "",
+    "category": "tshirt",
+    "weather": "winter",
+    "material": "Масло с начёсом, 95% вискоза, 5% спандекс",
+    "tags": [],
+    "images": [
+      "images/100/70/66z-greenchilli-1-t.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -269,6 +436,20 @@
     "description": ""
   },
   {
+    "id": "68m-brown",
+    "name": "Модель 68м",
+    "price": "р.58",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/100/70/68m-brown-2-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "68m-butterfly",
     "name": "Модель 68м",
     "price": "р.50-56",
@@ -289,9 +470,11 @@
     "price": "р.58",
     "status": "",
     "category": "tshirt",
-    "weather": "aaaaa",
+    "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/100/70/68m-chaos-2-t.webp"
     ],
@@ -321,7 +504,9 @@
     "category": "tshirt",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/100/70/68m-rings-2-t.webp"
     ],
@@ -447,7 +632,9 @@
     "category": "tshirt",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/100/90/88f-leopard-1-t.webp",
       "images/100/90/88f-leopard-2-t.webp",
@@ -512,20 +699,6 @@
     "description": ""
   },
   {
-    "id": "231a-yellow",
-    "name": "Модель 231а",
-    "price": "р.58",
-    "status": "",
-    "category": "tshirt",
-    "weather": "summer",
-    "material": "Кулирка, 92% хлопок, 8% лайкра",
-    "tags": ["large"],
-    "images": [
-      "images/300/240/231a-yellow-2-t.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
     "id": "231a-blue",
     "name": "Модель 231а",
     "price": "р.50-56",
@@ -563,7 +736,9 @@
     "category": "tshirt",
     "weather": "summer",
     "material": "Кулирка, 92% хлопок, 8% лайкра",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/240/231a-lightgreen-2-t.webp"
     ],
@@ -583,6 +758,22 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "231a-yellow",
+    "name": "Модель 231а",
+    "price": "р.58",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Кулирка, 92% хлопок, 8% лайкра",
+    "tags": [
+      "large"
+    ],
+    "images": [
+      "images/300/240/231a-yellow-2-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "231k-cream",
     "name": "Модель 231к",
     "price": "р.50-56, 48, 58",
@@ -590,7 +781,9 @@
     "category": "tshirt",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/240/231k-cream-1-t.webp"
     ],
@@ -604,7 +797,9 @@
     "category": "tshirt",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/240/231k-insect-1-t.webp"
     ],
@@ -618,7 +813,9 @@
     "category": "tshirt",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/240/231k-majenta-1-t.webp"
     ],
@@ -632,7 +829,9 @@
     "category": "tshirt",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/240/231k-pink-1-t.webp",
       "images/300/240/231k-pink-2-t.webp",
@@ -746,15 +945,57 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "554sh-green",
+    "name": "Модель 554ш",
+    "price": "р.58",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "Штапель, 100% вискоза",
+    "tags": ["large"],
+    "images": [
+      "images/600/560/554sh-green-2-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "568L-biryuza",
     "name": "Модель 568л",
-    "price": "р.48-56",
+    "price": "р.48-54",
     "status": "",
     "category": "tshirt",
     "weather": "summer",
     "material": "95% вискоза, 5% спандекс",
     "images": [
       "images/600/570/568L-biryuza-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "568L-orange",
+    "name": "Модель 568л",
+    "price": "р.54",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "95% вискоза, 5% спандекс",
+    "tags": [],
+    "images": [
+      "images/600/570/568L-orange-1-t.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "568L-purple",
+    "name": "Модель 568л",
+    "price": "р.54",
+    "status": "",
+    "category": "tshirt",
+    "weather": "summer",
+    "material": "95% вискоза, 5% спандекс",
+    "tags": [],
+    "images": [
+      "images/600/570/568L-purple-1-t.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -770,7 +1011,7 @@
       "images/600/570/568a-blue-1-t.webp",
       "images/600/570/568a-blue-51-t.webp"
     ],
-    "description": ""
+    "description": "Женский лонгслив из высококачественного трикотажа. В составе ткани 92% хлопка, что позволяет коже дышать. Эластичные нити трикотажного полотна повышают его износостойкость. Современный силуэт со спущенным плечом не сковывает движений. Модель создана для настоящих ценительниц комфорта. Эта майка с длинным рукавом украшена лаконичным, элегантным принтом. Подойдет для самостоятельной носки, и для создания многослойных образов."
   },
   {
     "id": "568a-pink",
@@ -784,7 +1025,7 @@
       "images/600/570/568a-pink-1-t.webp",
       "images/600/570/568a-pink-51-t.webp"
     ],
-    "description": ""
+    "description": "Женский лонгслив из высококачественного трикотажа. В составе ткани 92% хлопка, что позволяет коже дышать. Эластичные нити трикотажного полотна повышают его износостойкость. Современный силуэт со спущенным плечом не сковывает движений. Модель создана для настоящих ценительниц комфорта. Эта майка с длинным рукавом украшена лаконичным, элегантным принтом. Подойдет для самостоятельной носки, и для создания многослойных образов."
   },
   {
     "id": "568a-white",
@@ -798,6 +1039,6 @@
       "images/600/570/568a-white-1-t.webp",
       "images/600/570/568a-white-51-t.webp"
     ],
-    "description": ""
+    "description": "Женский лонгслив из высококачественного трикотажа. В составе ткани 92% хлопка, что позволяет коже дышать. Эластичные нити трикотажного полотна повышают его износостойкость. Современный силуэт со спущенным плечом не сковывает движений. Модель создана для настоящих ценительниц комфорта. Эта майка с длинным рукавом украшена лаконичным, элегантным принтом. Подойдет для самостоятельной носки, и для создания многослойных образов."
   }
 ]

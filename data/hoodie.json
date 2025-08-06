@@ -5,9 +5,11 @@
     "price": "р.50-56, 48, 58",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Флис, 100% полиэстер",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/260/260-brown-1-h.webp"
     ],
@@ -19,7 +21,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт меланж, 100% полиэстер",
     "images": [
       "images/300/270/261-blue-1-h.webp"
@@ -32,7 +34,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт меланж, 100% полиэстер",
     "images": [
       "images/300/270/261-green1.webp"
@@ -45,7 +47,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт меланж, 100% полиэстер",
     "tags": [],
     "images": [
@@ -61,7 +63,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт меланж, 100% полиэстер",
     "images": [
       "images/300/270/261h-gray-11-h.webp",
@@ -76,7 +78,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт меланж, 100% полиэстер",
     "tags": [],
     "images": [
@@ -92,7 +94,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/262-cream-1-h.webp",
@@ -107,7 +109,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/262-snowflakes-1-h.webp",
@@ -183,7 +185,9 @@
     "category": "hoodie",
     "weather": "winter",
     "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/270/262d-blueflowers-2.webp"
     ],
@@ -219,11 +223,11 @@
   },
   {
     "id": "262h-pink",
-    "name": "Модель 262h",
+    "name": "Модель 262х",
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт жакард, 100% полиэстер",
     "images": [
       "images/300/270/262h-pink-1-h.webp"
@@ -231,8 +235,24 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "262k-gray",
+    "name": "Модель 262к",
+    "price": "р.50-56",
+    "status": "",
+    "category": "hoodie",
+    "weather": "winter",
+    "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
+    "tags": [],
+    "images": [
+      "images/300/270/262k-gray-1-h.webp",
+      "images/300/270/262k-gray-2-h.webp",
+      "images/300/270/262k-gray-61-h.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "262k-pochtitelnyashka",
-    "name": "Модель 262k",
+    "name": "Модель 262к",
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
@@ -281,7 +301,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 92% Хлопок, 8% Спандекс",
     "images": [
       "images/300/270/265-bardo-2.webp"
@@ -289,13 +309,28 @@
     "description": ""
   },
   {
+    "id": "265-bejevii",
+    "name": "Модель 265",
+    "price": "р.50-56",
+    "status": "",
+    "category": "hoodie",
+    "weather": "kolotun",
+    "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
+    "tags": [],
+    "images": [
+      "images/300/270/265-bejevii-1-h.webp",
+      "images/300/270/265-bejevii-51-h.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "265-brown",
     "name": "Модель 265",
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
-    "material": "Футер трёхнитка с начёсом, 92% Хлопок, 8% Спандекс",
+    "weather": "kolotun",
+    "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/265-brown-1.webp",
       "images/300/270/265-brown-2.webp",
@@ -309,7 +344,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/265-gray-1-h.webp"
@@ -322,7 +357,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/265-green-2.webp"
@@ -335,7 +370,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/265-pink-2.webp"
@@ -348,7 +383,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/265-purple-1.webp",
@@ -362,7 +397,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/265n-brown-1.webp",
@@ -376,7 +411,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
     "images": [
       "images/300/270/265n-red-1.webp",
@@ -390,7 +425,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Флис, 100% полиэстер",
     "images": [
       "images/300/270/266-brown-1-h.webp"
@@ -403,7 +438,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Флис, 100% полиэстер",
     "images": [
       "images/300/270/266-cream-1-h.webp"
@@ -416,7 +451,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Флис, 100% полиэстер",
     "images": [
       "images/300/270/266-red-1-h.webp"
@@ -429,10 +464,23 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Флис, 100% полиэстер",
     "images": [
       "images/300/270/266n-bordo-2-h.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "266n-darkbordo",
+    "name": "Модель 266н",
+    "price": "р.50-56",
+    "status": "",
+    "category": "hoodie",
+    "weather": "kolotun",
+    "material": "Флис, 100% полиэстер",
+    "images": [
+      "images/300/270/266n-darkbordo-2-h.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -442,23 +490,10 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Флис, 100% полиэстер",
     "images": [
       "images/300/270/266n-deepblue-2-h.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
-    "id": "266n-darkbordo",
-    "name": "Модель 266н",
-    "price": "р.",
-    "status": "",
-    "category": "hoodie",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
-    "images": [
-      "images/300/270/266n-darkbordo-2-h.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -468,7 +503,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Флис, 100% полиэстер",
     "images": [
       "images/300/270/266n-green-2-h.webp",
@@ -482,7 +517,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт жакард, 100% полиэстер",
     "images": [
       "images/400/400/400ge-brown-2-h.webp",
@@ -496,7 +531,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт жакард, 100% полиэстер",
     "images": [
       "images/400/400/400ge-cream-2-h.webp",
@@ -510,7 +545,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/400/400/400n-stars1.webp",
@@ -524,9 +559,11 @@
     "price": "р.50-56, 58",
     "status": "",
     "category": "hoodie",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 92% хлопок, 8% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/400/400/400t-red-2-h.webp",
       "images/400/400/400t-red-1-h.webp"
@@ -550,6 +587,23 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "521k-green",
+    "name": "Модель 521к",
+    "price": "р.50-56",
+    "status": "",
+    "category": "hoodie",
+    "weather": "winter",
+    "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
+    "tags": [],
+    "images": [
+      "images/600/530/521k-green-1-h.webp",
+      "images/600/530/521k-green-2-h.webp",
+      "images/600/530/521k-green-51-h.webp",
+      "images/600/530/521k-green-61-h.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "521k-purple",
     "name": "Модель 521к",
     "price": "р.50-56",
@@ -566,17 +620,50 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "547-blue",
+    "name": "Модель 547",
+    "price": "р.50-56",
+    "status": "",
+    "category": "hoodie",
+    "weather": "",
+    "material": "Милано, 65% вискоза, 30 полиэстер, 5 спандекс",
+    "tags": [],
+    "images": [
+      "images/600/550/547-blue-1-h.webp",
+      "images/600/550/547-blue-2-h.webp",
+      "images/600/550/547-blue-61-h.webp"
+    ],
+    "description": "Кофта из плотного мягкого трикотажа без начеса милано  яркий представитель стиля кэжуал в нашем ассортименте. Смешение в одном изделии спортивных деталей, таких  как капюшон, декоративный шнурок, спущенное плечо, боковые карманы  и элегантных элементов, таких как серебряная молния, боковые разрезы, ассиметричный низ  - позволили этой модели стать одной из любимых у наших клиентов. Попробуйте и вы!))"
+  },
+  {
     "id": "547-cream",
     "name": "Модель 547",
     "price": "р.50-56",
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Милана, 65% вискоза, 30 полиэстер, 5 спандекс",
+    "material": "Милано, 65% вискоза, 30 полиэстер, 5 спандекс",
     "images": [
-      "images/600/550/547-cream-2-h.webp"
+      "images/600/550/547-cream-2-h.webp",
+      "images/600/550/547-cream-1-h.webp",
+      "images/600/550/547-cream-61-h.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Кофта из плотного мягкого трикотажа без начеса милано  яркий представитель стиля кэжуал в нашем ассортименте. Смешение в одном изделии спортивных деталей, таких  как капюшон, декоративный шнурок, спущенное плечо, боковые карманы  и элегантных элементов, таких как серебряная молния, боковые разрезы, ассиметричный низ  - позволили этой модели стать одной из любимых у наших клиентов. Попробуйте и вы!))"
+  },
+  {
+    "id": "547-fiber",
+    "name": "Модель 547",
+    "price": "р.",
+    "status": "",
+    "category": "hoodie",
+    "weather": "winter",
+    "material": "Милано, 65% вискоза, 30 полиэстер, 5 спандекс",
+    "tags": [],
+    "images": [
+      "images/600/550/547-fiber-2-h.webp",
+      "images/600/550/547-fiber-61-h.webp"
+    ],
+    "description": "Кофта из плотного мягкого трикотажа без начеса милано  яркий представитель стиля кэжуал в нашем ассортименте. Смешение в одном изделии спортивных деталей, таких  как капюшон, декоративный шнурок, спущенное плечо, боковые карманы  и элегантных элементов, таких как серебряная молния, боковые разрезы, ассиметричный низ  - позволили этой модели стать одной из любимых у наших клиентов. Попробуйте и вы!))"
   },
   {
     "id": "547-red",
@@ -585,11 +672,27 @@
     "status": "",
     "category": "hoodie",
     "weather": "winter",
-    "material": "Милана, 65% вискоза, 30 полиэстер, 5 спандекс",
+    "material": "Милано, 65% вискоза, 30 полиэстер, 5 спандекс",
     "images": [
-      "images/600/550/547-red-2-h.webp"
+      "images/600/550/547-red-2-h.webp",
+      "images/600/550/547-red-1-h.webp",
+      "images/600/550/547-red-61-h.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Кофта из плотного мягкого трикотажа без начеса милано  яркий представитель стиля кэжуал в нашем ассортименте. Смешение в одном изделии спортивных деталей, таких  как капюшон, декоративный шнурок, спущенное плечо, боковые карманы  и элегантных элементов, таких как серебряная молния, боковые разрезы, ассиметричный низ  - позволили этой модели стать одной из любимых у наших клиентов. Попробуйте и вы!))"
+  },
+  {
+    "id": "547-salmon",
+    "name": "Модель 547",
+    "price": "р.50-56",
+    "status": "",
+    "category": "hoodie",
+    "weather": "winter",
+    "material": "Милано, 65% вискоза, 30 полиэстер, 5 спандекс",
+    "tags": [],
+    "images": [
+      "images/600/550/547-salmon-1-h.webp"
+    ],
+    "description": "Кофта из плотного мягкого трикотажа без начеса милано  яркий представитель стиля кэжуал в нашем ассортименте. Смешение в одном изделии спортивных деталей, таких  как капюшон, декоративный шнурок, спущенное плечо, боковые карманы  и элегантных элементов, таких как серебряная молния, боковые разрезы, ассиметричный низ  - позволили этой модели стать одной из любимых у наших клиентов. Попробуйте и вы!))"
   },
   {
     "id": "569a-black",
@@ -600,7 +703,8 @@
     "weather": "winter",
     "material": "Ангора, 65% вискоза, 30%  полиэстер,  5% спандекс",
     "images": [
-      "images/600/570/569a-black-1-h.webp"
+      "images/600/570/569a-black-1-h.webp",
+      "images/600/570/569a-black-51-h.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -613,7 +717,8 @@
     "weather": "winter",
     "material": "Ангора, 65% вискоза, 30%  полиэстер,  5% спандекс",
     "images": [
-      "images/600/570/569a-purple-1-h.webp"
+      "images/600/570/569a-purple-1-h.webp",
+      "images/600/570/569a-purple-51-h.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -626,7 +731,9 @@
     "weather": "winter",
     "material": "Футер двухнитка, 100% хлопок",
     "images": [
-      "images/600/570/570-blue-2-h.webp"
+      "images/600/570/570-blue-2-h.webp",
+      "images/600/570/570-blue-1-h.webp",
+      "images/600/570/570-blue-61-h.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -639,7 +746,25 @@
     "weather": "winter",
     "material": "Футер двухнитка, 100% хлопок",
     "images": [
-      "images/600/570/570-cream-2-h.webp"
+      "images/600/570/570-cream-2-h.webp",
+      "images/600/570/570-cream-1-h.webp",
+      "images/600/570/570-cream-61-h.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "570-green",
+    "name": "Модель 570",
+    "price": "р.",
+    "status": "",
+    "category": "hoodie",
+    "weather": "aaaaa",
+    "material": "aaaaaaaaaa",
+    "tags": [],
+    "images": [
+      "images/600/570/570-green-1-h.webp",
+      "images/600/570/570-green-2-h.webp",
+      "images/600/570/570-green-51-h.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -659,7 +784,7 @@
   {
     "id": "573-purple",
     "name": "Модель 573",
-    "price": "р.",
+    "price": "р.50, 54",
     "status": "",
     "category": "hoodie",
     "weather": "winter",
@@ -670,29 +795,52 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "602-green",
+    "id": "602-blue",
     "name": "Модель 602",
-    "price": "р.50-56",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "hoodie",
     "weather": "winter",
     "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
+    "tags": ["large"],
     "images": [
-      "images/700/610/602-green-1-h.webp"
+      "images/700/610/602-blue-1-h.webp",
+      "images/700/610/602-blue-51-h.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Женский жакет из футера двухнитки высокого качества классического кроя с вшивным длинным рукавом. Модель прямого силуэта подойдет к образами как с брюками так и с юбкой. Жакет станет прекрасным дополнением к легкому платью, подчеркнув элегантность его обладательницы. Модель также подойдет для создания более теплых многослойных образов - круглый ворот изделия прекрасно сочетается с высоким горлом водолазки, воротником блузки или рубашки. Украшен серебряной молнией и двумя накладными карманами. На работу и на праздник."
+  },
+  {
+    "id": "602-green",
+    "name": "Модель 602",
+    "price": "р.50-56, 58",
+    "status": "",
+    "category": "hoodie",
+    "weather": "winter",
+    "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
+    "tags": [
+      "large"
+    ],
+    "images": [
+      "images/700/610/602-green-1-h.webp",
+      "images/700/610/602-green-51-h.webp"
+    ],
+    "description": "Женский жакет из футера двухнитки высокого качества классического кроя с вшивным длинным рукавом. Модель прямого силуэта подойдет к образами как с брюками так и с юбкой. Жакет станет прекрасным дополнением к легкому платью, подчеркнув элегантность его обладательницы. Модель также подойдет для создания более теплых многослойных образов - круглый ворот изделия прекрасно сочетается с высоким горлом водолазки, воротником блузки или рубашки. Украшен серебряной молнией и двумя накладными карманами. На работу и на праздник."
   },
   {
     "id": "602-purple",
     "name": "Модель 602",
-    "price": "р.50-56",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "hoodie",
     "weather": "winter",
     "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
-    "images": [
-      "images/700/610/602-purple-1-h.webp"
+    "tags": [
+      "large"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "images": [
+      "images/700/610/602-purple-1-h.webp",
+      "images/700/610/602-purple-51-h.webp"
+    ],
+    "description": "Женский жакет из футера двухнитки высокого качества классического кроя с вшивным длинным рукавом. Модель прямого силуэта подойдет к образами как с брюками так и с юбкой. Жакет станет прекрасным дополнением к легкому платью, подчеркнув элегантность его обладательницы. Модель также подойдет для создания более теплых многослойных образов - круглый ворот изделия прекрасно сочетается с высоким горлом водолазки, воротником блузки или рубашки. Украшен серебряной молнией и двумя накладными карманами. На работу и на праздник."
   }
 ]

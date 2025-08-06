@@ -37,24 +37,29 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Масло, 95% вискоза, 5% лайкра",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/100/10/8m-beans-1-z.webp"
     ],
-    "description": ""
+    "description": "Классический халат средней длины трапецевидного силуэта на молнии, с рукавом, накладными карманами, круглыми разрезами по бокам и пояском. Модель украшена контрастной отделкой. Выполнена из практичного, быстро сохнущего и не деформирующегося  при стирке, трикотажного полотна «масло», в народе называемого «холодок», благодаря своей струящейся, шелковистой структуре."
   },
   {
     "id": "8m-darkblue",
     "name": "Модель 8м",
-    "price": "р.50-56",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "zipka",
     "weather": "summer",
     "material": "Масло, 95% вискоза, 5% лайкра",
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/100/10/8m-darkblue-2.webp"
     ],
-    "description": ""
+    "description": "Классический халат средней длины трапецевидного силуэта на молнии, с рукавом, накладными карманами, круглыми разрезами по бокам и пояском. Модель украшена контрастной отделкой. Выполнена из практичного, быстро сохнущего и не деформирующегося  при стирке, трикотажного полотна «масло», в народе называемого «холодок», благодаря своей струящейся, шелковистой структуре."
   },
   {
     "id": "8m-smallflowers",
@@ -65,11 +70,13 @@
     "weather": "summer",
     "material": "Масло, 95% вискоза, 5% лайкра",
     "images": [
+      "images/100/10/8m-smallflowers-1-z.webp",
       "images/100/10/8m-smallflowers-53-z.webp",
       "images/100/10/8m-smallflowers-2-z.webp",
       "images/100/10/8m-smallflowers-55-z.webp"
+      
     ],
-    "description": ""
+    "description": "Классический халат средней длины трапецевидного силуэта на молнии, с рукавом, накладными карманами, круглыми разрезами по бокам и пояском. Модель украшена контрастной отделкой. Выполнена из практичного, быстро сохнущего и не деформирующегося  при стирке, трикотажного полотна «масло», в народе называемого «холодок», благодаря своей струящейся, шелковистой структуре."
   },
   {
     "id": "8m-whitedots",
@@ -84,7 +91,7 @@
       "images/100/10/8m-whitedots-3-z.webp",
       "images/100/10/8m-whitedots-2-z.webp"
     ],
-    "description": ""
+    "description": "Классический халат средней длины трапецевидного силуэта на молнии, с рукавом, накладными карманами, круглыми разрезами по бокам и пояском. Модель украшена контрастной отделкой. Выполнена из практичного, быстро сохнущего и не деформирующегося  при стирке, трикотажного полотна «масло», в народе называемого «холодок», благодаря своей струящейся, шелковистой структуре."
   },
   {
     "id": "8m-whiteflowers",
@@ -99,7 +106,7 @@
       "images/100/10/8m-whiteflowers-2-z.webp",
       "images/100/10/8m-whiteflowers-3-z.webp"
     ],
-    "description": ""
+    "description": "Классический халат средней длины трапецевидного силуэта на молнии, с рукавом, накладными карманами, круглыми разрезами по бокам и пояском. Модель украшена контрастной отделкой. Выполнена из практичного, быстро сохнущего и не деформирующегося  при стирке, трикотажного полотна «масло», в народе называемого «холодок», благодаря своей струящейся, шелковистой структуре."
   },
   {
     "id": "9a-biryuza",
@@ -114,7 +121,7 @@
       "images/100/10/9a-biryuza-3-z.webp",
       "images/100/10/9a-biryuza-71-z.webp"
     ],
-    "description": ""
+    "description": "Мягкий, приятный на ощупь, летний однотонный халат на молнии с коротким рукавом. В составе трикотажа 100% хлопок, что позволяет коже дышать. Халат украшен фантазийным принтом, придающим изделию яркость и современность. Тонкий белый кант освежает облик и делает образ элегантным. Модель с боковыми вытачками на груди подойдет женщинам, предпочитающим полуприлегающий свободный силует."
   },
   {
     "id": "9a-blue",
@@ -128,12 +135,12 @@
       "images/100/10/9a-blue-1-z.webp",
       "images/100/10/9a-blue-2-z.webp"
     ],
-    "description": ""
+    "description": "Мягкий, приятный на ощупь, летний однотонный халат на молнии с коротким рукавом. В составе трикотажа 100% хлопок, что позволяет коже дышать. Халат украшен фантазийным принтом, придающим изделию яркость и современность. Тонкий белый кант освежает облик и делает образ элегантным. Модель с боковыми вытачками на груди подойдет женщинам, предпочитающим полуприлегающий свободный силует."
   },
   {
     "id": "9a-red",
     "name": "Модель 9а",
-    "price": "р.50-56",
+    "price": "р.50, 52",
     "status": "",
     "category": "zipka",
     "weather": "summer",
@@ -143,7 +150,7 @@
       "images/100/10/9a-red-2-z.webp",
       "images/100/10/9a-red-51-z.webp"
     ],
-    "description": ""
+    "description": "Мягкий, приятный на ощупь, летний однотонный халат на молнии с коротким рукавом. В составе трикотажа 100% хлопок, что позволяет коже дышать. Халат украшен фантазийным принтом, придающим изделию яркость и современность. Тонкий белый кант освежает облик и делает образ элегантным. Модель с боковыми вытачками на груди подойдет женщинам, предпочитающим полуприлегающий свободный силует."
   },
   {
     "id": "10n-blue",
@@ -293,6 +300,20 @@
     "description": ""
   },
   {
+    "id": "11r-girlsblue",
+    "name": "Модель 11р",
+    "price": "р.50-56",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/20/11r-girlsblue-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "11r-green",
     "name": "Модель 11р",
     "price": "р.50-56",
@@ -316,6 +337,20 @@
     "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/20/11r-purple-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "15-brownblue",
+    "name": "Модель 15",
+    "price": "р.50",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/20/15-brownblue-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -444,7 +479,7 @@
     "price": "р.50-52",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
+    "weather": "summer",
     "material": "Кулирка, 100% хлопок",
     "tags": [],
     "images": [
@@ -517,7 +552,7 @@
     "images": [
       "images/100/20/17-green-1-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Любимая модель в тонком трикотаже спан - не деформируется при стирке, быстро сохнет. Благодаря полноценным рельефным вытачкам и юбке клеш модель большемерит."
   },
   {
     "id": "17-peacock",
@@ -531,7 +566,7 @@
     "images": [
       "images/100/20/17-peacock-1-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Любимая модель в тонком трикотаже спан - не деформируется при стирке, быстро сохнет. Благодаря полноценным рельефным вытачкам и юбке клеш модель большемерит."
   },
   {
     "id": "17n-biryuza",
@@ -667,7 +702,7 @@
   {
     "id": "25k-brownred",
     "name": "Модель 25к",
-    "price": "р.46, 48",
+    "price": "р.46-50",
     "status": "",
     "category": "zipka",
     "weather": "summer",
@@ -675,6 +710,20 @@
     "tags": [],
     "images": [
       "images/100/30/25k-brownred-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "25k-darkredsquares",
+    "name": "Модель 25к",
+    "price": "р.46, 48",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/30/25k-darkredsquares-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -859,7 +908,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/100/40/32b-brown-1-z.webp"
     ],
@@ -873,7 +924,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/100/40/32b-green-1-z.webp"
     ],
@@ -887,7 +940,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/100/40/32b-purple-1-z.webp"
     ],
@@ -977,9 +1032,37 @@
     "description": ""
   },
   {
+    "id": "41n-bluepurple",
+    "name": "Модель 41н",
+    "price": "р.56",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/50/41n-bluepurple-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "41n-browncircles",
+    "name": "Модель 41н",
+    "price": "р.50-56",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/50/41n-browncircles-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "41n-girls",
     "name": "Модель 41н",
-    "price": "р.",
+    "price": "р.52, 56",
     "status": "",
     "category": "zipka",
     "weather": "summer",
@@ -1004,6 +1087,21 @@
     "description": ""
   },
   {
+    "id": "41n-greenleaves",
+    "name": "Модель 41н",
+    "price": "р.50",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/50/41n-greenleaves-1-z.webp",
+      "images/100/50/41n-greenleaves-1-z_1.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "41n-letters",
     "name": "Модель 41н",
     "price": "р.50-56",
@@ -1017,6 +1115,20 @@
     "description": ""
   },
   {
+    "id": "41n-purplelines",
+    "name": "Модель 41н",
+    "price": "р.50-56",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/50/41n-purplelines-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "41nb-chaos",
     "name": "Модель 41нб",
     "price": "р.58, 60",
@@ -1024,7 +1136,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/100/50/41nb-chaos-1-z.webp"
     ],
@@ -1051,7 +1165,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/100/50/41nb-green-1-z.webp"
     ],
@@ -1065,7 +1181,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/100/50/41nb-portals-1-z.webp"
     ],
@@ -1170,12 +1288,12 @@
     "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Стёганая, 100% хлопок",
     "images": [
       "images/100/100/100k-green-1-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Утепленный женский халат средней длины из стеганного трикотажа. В составе 100% хлопок, позволяющий коже дышать. Модель а-силуэта подойдет любительницам прямого кроя. Модель выполнена с рукавом три-четверти и отложным воротником, который можно застегнуть на молнию для тепла и комфорта. Украшен двумя накладными карманами."
   },
   {
     "id": "100k-pink",
@@ -1183,12 +1301,12 @@
     "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "winter",
+    "material": "Стёганая, 100% хлопок",
     "images": [
       "images/100/100/100k-pink-1-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Утепленный женский халат средней длины из стеганного трикотажа. В составе 100% хлопок, позволяющий коже дышать. Модель а-силуэта подойдет любительницам прямого кроя. Модель выполнена с рукавом три-четверти и отложным воротником, который можно застегнуть на молнию для тепла и комфорта. Украшен двумя накладными карманами."
   },
   {
     "id": "101-bigdots",
@@ -1295,7 +1413,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/110/102c-pinkpoloski-1-z.webp",
       "images/200/110/102c-pinkpoloski-2-z.webp"
@@ -1321,9 +1441,11 @@
     "price": "р.50-56, 58",
     "status": "",
     "category": "zipka",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт жакард, 100% полиэстер",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/110/102ge-purple-1-z.webp"
     ],
@@ -1335,7 +1457,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт жакард, 100% полиэстер",
     "images": [
       "images/200/110/102ge-salmon-1-z.webp"
@@ -1348,7 +1470,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/200/110/102h-brown-1-z.webp"
@@ -1361,7 +1483,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "zipka",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/200/110/102h-purple-1-z.webp"
@@ -1392,7 +1514,7 @@
     "images": [
       "images/200/110/102k-orange-2-z.webp"
     ],
-    "description": ""
+    "description": "Женский халат из мягкой, приятной на ощупь тонкой махры. В составе ткани 80 % хлопка, что позволяет коже дышать. Эластичные нити трикотажного полотна повышают его износостойкость. Модель прямого силуэта на молнии, с боковыми вытачками на груди подойдет женщинам, предпочитающим полуприлегающую, свободную одежду. Модель украшена накладными карманами. Современная яркая расцветка изделия подарит комфорт и хорошее настроение."
   },
   {
     "id": "102k-pink",
@@ -1419,7 +1541,7 @@
     "images": [
       "images/200/110/102k-pinklines-1-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Женский халат из мягкого,  приятного на ощупь велюра. В составе ткани 80 % хлопка, что позволяет коже дышать. Эластичные нити трикотажного полотна повышают его износостойкость. Модель прямого силуэта на молнии, с боковыми вытачками на груди подойдет женщинам, предпочитающим полуприлегающую, свободную одежду. Модель украшена накладными карманами. Полосатый принт нежных постельных оттенков освежит образ и подарит ощущение домашнего тепла и уюта."
   },
   {
     "id": "102k-stars",
@@ -1432,6 +1554,19 @@
     "tags": [],
     "images": [
       "images/200/110/102k-stars-1-z.webp"
+    ],
+    "description": "Женский халат из мягкого,  приятного на ощупь велюра. В составе ткани 80 % хлопка, что позволяет коже дышать. Эластичные нити трикотажного полотна повышают его износостойкость. Модель прямого силуэта на молнии, с боковыми вытачками на груди подойдет женщинам, предпочитающим полуприлегающую, свободную одежду. Модель украшена накладными карманами. Современный неяркий и минималистичный рисунок изделия придаст стиль и утонченность домашнему образу его обладательницы"
+  },
+  {
+    "id": "102k-white",
+    "name": "Модель 102к",
+    "price": "р.52-54",
+    "status": "",
+    "category": "zipka",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
+    "images": [
+      "images/200/110/102k-white-2-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -1449,25 +1584,12 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "102k-white",
-    "name": "Модель 102к",
-    "price": "р.52-54",
-    "status": "",
-    "category": "zipka",
-    "weather": "winter",
-    "material": "Велюр, 80% хлопок, 20% спандекс",
-    "images": [
-      "images/200/110/102k-white-2-z.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
     "id": "102m-gray",
     "name": "Модель 102м",
     "price": "р.50-56, 58",
     "status": "",
     "category": "zipka",
-    "weather": "aaaaa",
+    "weather": "winter",
     "material": "Милано, 65% вискоза, 30% полиэстер, 5% спандекс",
     "images": [
       "images/200/110/102m-gray-1-z.webp"
@@ -1498,7 +1620,7 @@
     "images": [
       "images/200/110/102s-blue-1-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Халат средней длины современного кроя со спущенным рукавом сшит из синтетического велюра, получившего в народе название «антистресс», благодаря мягкой, очень приятной на ощупь, шелковистой структуре ткани. Изделие не деформируется при стирке, сохраняет цвет."
   },
   {
     "id": "102s-brown",
@@ -1512,12 +1634,12 @@
     "images": [
       "images/200/110/102s-brown-1-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Халат средней длины современного кроя со спущенным рукавом сшит из синтетического велюра, получившего в народе название «антистресс», благодаря мягкой, очень приятной на ощупь, шелковистой структуре ткани. Изделие не деформируется при стирке, сохраняет цвет."
   },
   {
     "id": "102s-browndots",
     "name": "Модель 102с",
-    "price": "р.",
+    "price": "р.52, 54, 56",
     "status": "",
     "category": "zipka",
     "weather": "winter",
@@ -1526,7 +1648,7 @@
     "images": [
       "images/200/110/102s-browndots-1-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Халат средней длины современного кроя со спущенным рукавом сшит из синтетического велюра, получившего в народе название «антистресс», благодаря мягкой, очень приятной на ощупь, шелковистой структуре ткани. Изделие не деформируется при стирке, сохраняет цвет."
   },
   {
     "id": "102s-pink",
@@ -1539,7 +1661,7 @@
     "images": [
       "images/200/110/102s-pink-1-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Халат средней длины современного кроя со спущенным рукавом сшит из синтетического велюра, получившего в народе название «антистресс», благодаря мягкой, очень приятной на ощупь, шелковистой структуре ткани. Изделие не деформируется при стирке, сохраняет цвет."
   },
   {
     "id": "102s-pinkflowers",
@@ -1552,12 +1674,12 @@
     "images": [
       "images/200/110/102s-pinkflowers-1-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Халат средней длины современного кроя со спущенным рукавом сшит из синтетического велюра, получившего в народе название «антистресс», благодаря мягкой, очень приятной на ощупь, шелковистой структуре ткани. Изделие не деформируется при стирке, сохраняет цвет."
   },
   {
     "id": "102s-redletters",
     "name": "Модель 102с",
-    "price": "р.",
+    "price": "р.48, 52 , 54, 56",
     "status": "",
     "category": "zipka",
     "weather": "winter",
@@ -1566,7 +1688,7 @@
     "images": [
       "images/200/110/102s-redletters-1-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Халат средней длины современного кроя со спущенным рукавом сшит из синтетического велюра, получившего в народе название «антистресс», благодаря мягкой, очень приятной на ощупь, шелковистой структуре ткани. Изделие не деформируется при стирке, сохраняет цвет."
   },
   {
     "id": "102s-whitedots",
@@ -1579,7 +1701,7 @@
     "images": [
       "images/200/110/102s-whitedots-1-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Халат средней длины современного кроя со спущенным рукавом сшит из синтетического велюра, получившего в народе название «антистресс», благодаря мягкой, очень приятной на ощупь, шелковистой структуре ткани. Изделие не деформируется при стирке, сохраняет цвет."
   },
   {
     "id": "102v-greenflowers",
@@ -1635,6 +1757,20 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "102z-pinkcups",
+    "name": "Модель 102з",
+    "price": "р.50, 52",
+    "status": "",
+    "category": "zipka",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
+    "tags": [],
+    "images": [
+      "images/200/110/102z-pinkcups-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "111r-figuri",
     "name": "Модель 111р",
     "price": "р.58, 60",
@@ -1642,7 +1778,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/120/111r-figuri-1-z.webp"
     ],
@@ -1656,7 +1794,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/120/111r-girls-1-z.webp"
     ],
@@ -1670,12 +1810,28 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/120/111r-greenleaves-1-z.webp",
       "images/200/120/111r-greenleaves-1-z_1.webp"
     ],
     "description": ""
+  },
+  {
+    "id": "111r-purple",
+    "name": "Модель 111р",
+    "price": "р.58, 60",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/200/120/111r-purple-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "115b-blue",
@@ -1717,20 +1873,6 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "115n-flowersblue",
-    "name": "Модель 115н",
-    "price": "р.58",
-    "status": "",
-    "category": "zipka",
-    "weather": "summer",
-    "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
-    "images": [
-      "images/200/120/115n-flowersblue-1-z.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
     "id": "115n-blue",
     "name": "Модель 115н",
     "price": "р.58",
@@ -1738,9 +1880,27 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/120/115n-blue-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "115n-flowersblue",
+    "name": "Модель 115н",
+    "price": "р.58",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [
+      "large"
+    ],
+    "images": [
+      "images/200/120/115n-flowersblue-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -1752,7 +1912,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/120/115n-whitezip-1-z.webp"
     ],
@@ -1766,7 +1928,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/120/115r-fan-1-z.webp"
     ],
@@ -1780,7 +1944,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/120/115r-greenleaves-1-z.webp"
     ],
@@ -1794,7 +1960,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/120/115r-purpleleaves-1-z.webp"
     ],
@@ -1808,7 +1976,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/120/116g-greenlines-1-z.webp"
     ],
@@ -1822,9 +1992,25 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/120/116g-words-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "117n-bluebrown",
+    "name": "Модель 117н",
+    "price": "р.58",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/200/120/117n-bluebrown-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -1836,11 +2022,41 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/120/117n-brown-1-z.webp"
     ],
     "description": ""
+  },
+  {
+    "id": "117n-chaos",
+    "name": "Модель 117н",
+    "price": "р.58",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/200/120/117n-chaos-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "117n-greenwflowers",
+    "name": "Модель 117n",
+    "price": "р.58",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/200/120/117n-greenwflowers-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "117n-socvetie",
@@ -1850,7 +2066,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/120/117n-socvetie-1-z.webp"
     ],
@@ -1890,7 +2108,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/190/186-flowers-1-z.webp"
     ],
@@ -1904,7 +2124,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/190/186-gray-1-z.webp"
     ],
@@ -1918,9 +2140,25 @@
     "category": "zipka",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/190/186d-brown-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "186d-chaos",
+    "name": "Модель 186д",
+    "price": "р.58, 60",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/200/190/186d-chaos-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -1932,7 +2170,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "95% вискоза, 5% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/210/208-black-1-z.webp",
       "images/300/210/208-black-2-z.webp"
@@ -1947,7 +2187,9 @@
     "category": "zipka",
     "weather": "summer",
     "material": "95% вискоза, 5% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/210/208-red-1-z.webp",
       "images/300/210/208-red-2-z.webp"
@@ -2031,7 +2273,9 @@
     "category": "zipka",
     "weather": "winter",
     "material": "Махра, 80% хлопок, 20% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/400/310/301-mint-1-z.webp",
       "images/400/310/301-mint-2-z.webp"
@@ -2046,7 +2290,9 @@
     "category": "zipka",
     "weather": "winter",
     "material": "Махра, 80% хлопок, 20% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/400/310/301-pink-1-z.webp",
       "images/400/310/301-pink-61-z.webp",
@@ -2077,10 +2323,44 @@
     "category": "zipka",
     "weather": "winter",
     "material": "Махра, 80% хлопок, 20% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/400/310/301-red-1-z.webp",
       "images/400/310/301-red-2-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "302a-green",
+    "name": "Модель 302а",
+    "price": "р.48-54",
+    "status": "",
+    "category": "zipka",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
+    "tags": [],
+    "images": [
+      "images/400/310/302a-green-1-z.webp",
+      "images/400/310/302a-green-2-z.webp",
+      "images/400/310/302a-green-61-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "302a-purple",
+    "name": "Модель 302а",
+    "price": "р.48-54",
+    "status": "",
+    "category": "zipka",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
+    "tags": [],
+    "images": [
+      "images/400/310/302a-purple-1-z.webp",
+      "images/400/310/302a-purple-2-z.webp",
+      "images/400/310/302a-purple-61-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -2138,7 +2418,7 @@
       "images/400/320/311m-blue-2-z.webp",
       "images/400/320/311m-blue-61-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Халат на молнии средней длины с рельефной вытачкой по фигуре подойдет женщинам, предпочитающим приталенный силуэт. Халат украшен двумя удобными накладными карманами и фигурным манжетом на длинном рукаве. Сшитое из тонкой махры, изделие прекрасно впишется как в зимний так и в летний гардероб. Благодаря рельефным вытачкам и расклешенному силуэту изделие большемерит. В модели предусмотрен пояс, завязывающийся сзади и позволяющий скорректировать размер и подчеркнуть талию."
   },
   {
     "id": "311m-brown",
@@ -2151,7 +2431,7 @@
     "images": [
       "images/400/320/311m-brown-2-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Халат на молнии средней длины с рельефной вытачкой по фигуре подойдет женщинам, предпочитающим приталенный силуэт. Халат украшен двумя удобными накладными карманами и фигурным манжетом на длинном рукаве. Сшитое из тонкой махры, изделие прекрасно впишется как в зимний так и в летний гардероб. Благодаря рельефным вытачкам и расклешенному силуэту изделие большемерит. В модели предусмотрен пояс, завязывающийся сзади и позволяющий скорректировать размер и подчеркнуть талию."
   },
   {
     "id": "311m-cream",
@@ -2164,7 +2444,7 @@
     "images": [
       "images/400/320/311m-cream-1-z.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Халат на молнии средней длины с рельефной вытачкой по фигуре подойдет женщинам, предпочитающим приталенный силуэт. Халат украшен двумя удобными накладными карманами и фигурным манжетом на длинном рукаве. Сшитое из тонкой махры, изделие прекрасно впишется как в зимний так и в летний гардероб. Благодаря рельефным вытачкам и расклешенному силуэту изделие большемерит. В модели предусмотрен пояс, завязывающийся сзади и позволяющий скорректировать размер и подчеркнуть талию."
   },
   {
     "id": "311m-purple",
@@ -2174,12 +2454,14 @@
     "category": "zipka",
     "weather": "winter",
     "material": "Махра, 80% хлопок, 20% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/400/320/311m-purple-1-z.webp",
       "images/400/320/311m-purple-2-z.webp"
     ],
-    "description": ""
+    "description": "Халат на молнии средней длины с рельефной вытачкой по фигуре подойдет женщинам, предпочитающим приталенный силуэт. Халат украшен двумя удобными накладными карманами и фигурным манжетом на длинном рукаве. Сшитое из тонкой махры, изделие прекрасно впишется как в зимний так и в летний гардероб. Благодаря рельефным вытачкам и расклешенному силуэту изделие большемерит. В модели предусмотрен пояс, завязывающийся сзади и позволяющий скорректировать размер и подчеркнуть талию."
   },
   {
     "id": "313-bardo",
@@ -2191,6 +2473,20 @@
     "material": "Велюр, 80% хлопок, 20% спандекс",
     "images": [
       "images/400/320/313-bardo-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "313-raspberry",
+    "name": "Модель 313",
+    "price": "р.48, 56",
+    "status": "",
+    "category": "zipka",
+    "weather": "winter",
+    "material": "Велюр, 80% хлопок, 20% спандекс",
+    "tags": [],
+    "images": [
+      "images/400/320/313-raspberry-1-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -2262,6 +2558,20 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "332-brownblue",
+    "name": "Модель 332",
+    "price": "р.48",
+    "status": "",
+    "category": "zipka",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/400/340/332-brownblue-1-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "332-green",
     "name": "Модель 332",
     "price": "р.50-56, 48",
@@ -2309,11 +2619,29 @@
     "category": "zipka",
     "weather": "winter",
     "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/500/410/401f-brown-1-z.webp",
       "images/500/410/401f-brown-2-z.webp",
       "images/500/410/401f-brown-51-z.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "439-snowflake",
+    "name": "Модель 439",
+    "price": "р.54",
+    "status": "",
+    "category": "zipka",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/500/440/439-snowflake-1-z.webp",
+      "images/500/440/439-snowflake-2-z.webp",
+      "images/500/440/439-snowflake-61-z.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },

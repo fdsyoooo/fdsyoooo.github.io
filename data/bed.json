@@ -19,13 +19,341 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "840-rabbits",
+    "name": "Модель 840",
+    "price": "р.80*120см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/840/840-rabbits-1-bed.webp",
+      "images/900/840/840-rabbits-2-bed.webp",
+      "images/900/840/840-rabbits-3-bed.webp",
+      "images/900/840/840-rabbits-4-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "841-rabbits",
+    "name": "Модель 841",
+    "price": "р.100*130см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/840/840-rabbits-1-bed.webp",
+      "images/900/840/840-rabbits-2-bed.webp",
+      "images/900/840/840-rabbits-3-bed.webp",
+      "images/900/840/840-rabbits-4-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "844-bee",
+    "name": "Модель 844",
+    "price": "р.160*180см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/850/844-bee-1-bed.webp",
+      "images/900/850/844-bee-2-bed.webp",
+      "images/900/850/844-bee-3-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "860-blue",
+    "name": "Модель 860",
+    "price": "р.140*200см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/860/860-blue-1-bed.webp",
+      "images/900/860/860-blue-2-bed.webp",
+      "images/900/860/860-blue-3-bed.webp",
+      "images/900/860/860-blue-4-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "860-brown",
+    "name": "Модель 860",
+    "price": "р.140*200см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/860/860-brown-1-bed.webp",
+      "images/900/860/860-brown-2-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "860-brownropes",
+    "name": "Модель 860",
+    "price": "р.140*200см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/860/860-brownropes-3-bed.webp", 
+      "images/900/860/860-brownropes-2-bed.webp",
+      "images/900/860/860-brownropes-1-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "860ge-gray",
+    "name": "Модель 860ж",
+    "price": "р.140*200см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт жакард, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/860/860ge-gray-1-bed.webp",
+      "images/900/860/860ge-gray-2-bed.webp",
+      "images/900/860/860ge-gray-3-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "862-bluewflowers",
+    "name": "Модель 862",
+    "price": "р.220*200см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/870/862-bluewflowers-1-bed.webp",
+      "images/900/870/862-bluewflowers-2-bed.webp",
+      "images/900/870/862-bluewflowers-3-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "862-brownropes",
+    "name": "Модель 862",
+    "price": "р.220*200см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/870/862-brownropes-1-bed.webp",
+      "images/900/870/862-brownropes-2-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "862-graycross",
+    "name": "Модель 862",
+    "price": "р.220*200см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/870/862-graycross-1-bed.webp",
+      "images/900/870/862-graycross-2-bed.webp",
+      "images/900/870/862-graycross-3-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "862ge-brown",
+    "name": "Модель 862ж",
+    "price": "р.220*200см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт жакард, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/870/862ge-brown-1-bed.webp",
+      "images/900/870/862ge-brown-2-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "862ge-lightgray",
+    "name": "Модель 862ж",
+    "price": "р.",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт жакард, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/870/862ge-lightgray-1-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "865-bluewflowers",
+    "name": "Модель 865",
+    "price": "р.180*200см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/870/865-bluewflowers-1-bed.webp",
+      "images/900/870/865-bluewflowers-2-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "865-brownropes",
+    "name": "Модель 865",
+    "price": "р.180*200см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/870/865-brownropes-1-bed.webp",
+      "images/900/870/865-brownropes-2-bed.webp",
+      "images/900/870/865-brownropes-3-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "865-purplelines",
+    "name": "Модель 865",
+    "price": "р.180*200см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/870/865-purplelines-1-bed.webp",
+      "images/900/870/865-purplelines-2-bed.webp",
+      "images/900/870/865-purplelines-3-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "865ge-brown",
+    "name": "Модель 865ж",
+    "price": "р.180*200см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/870/865ge-brown-1-bed.webp",
+      "images/900/870/865ge-brown-2-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "865ge-cream",
+    "name": "Модель 865ж",
+    "price": "р.180*200см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт жакард, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/870/865ge-cream-1-bed.webp",
+      "images/900/870/865ge-cream-2-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "867-brown",
+    "name": "Модель 867",
+    "price": "р.140*200см",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/870/867-brown-1-bed.webp",
+      "images/900/870/867-brown-2-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "867-greencircles",
+    "name": "Модель 867",
+    "price": "р.140*200",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/870/867-greencircles-1-bed.webp",
+      "images/900/870/867-greencircles-2-bed.webp",
+      "images/900/870/867-greencircles-3-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "867-pink",
+    "name": "Модель 867",
+    "price": "р.140*200",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/870/867-pink-2-bed.webp",
+      "images/900/870/867-pink-1-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "867-wood",
+    "name": "Модель 867",
+    "price": "р.140*200",
+    "status": "",
+    "category": "bed",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
+    "tags": [],
+    "images": [
+      "images/900/870/867-wood-1-bed.webp",
+      "images/900/870/867-wood-2-bed.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "872-bejevii",
     "name": "Модель 872",
     "price": "Двуспальное с пушистым покрывалом",
     "status": "",
     "category": "bed",
-    "weather": "winter",
-    "material": " ",
+    "weather": "kolotun",
+    "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/900/880/872-bejevii-1-bed.webp",
       "images/900/880/872-bejevii-10-bed_1.webp",
@@ -46,8 +374,8 @@
     "price": "Двуспальное с пушистым покрывалом",
     "status": "",
     "category": "bed",
-    "weather": "winter",
-    "material": " ",
+    "weather": "kolotun",
+    "material": "Кулирка, 100% хлопок. Велсофт, 100% полиэстер",
     "images": [
       "images/900/880/872-blue-1-bed.webp",
       "images/900/880/872-blue-10-bed.webp",
@@ -65,8 +393,8 @@
     "price": "Двуспальное с пушистым покрывалом",
     "status": "",
     "category": "bed",
-    "weather": "winter",
-    "material": " ",
+    "weather": "kolotun",
+    "material": "Кулирка, 100% хлопок. Велсофт, 100% полиэстер",
     "images": [
       "images/900/880/872-purple-3-bed.webp",
       "images/900/880/872-purple-10-bed.webp",

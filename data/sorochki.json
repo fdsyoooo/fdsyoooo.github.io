@@ -20,9 +20,25 @@
     "category": "sorochki",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/100/80/73g-white-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "74-apples",
+    "name": "Модель 74",
+    "price": "р.46-52",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/80/74-apples-1-s.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -53,28 +69,28 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "74-pinkcats",
-    "name": "Модель 74",
-    "price": "р.48, 50",
-    "status": "",
-    "category": "sorochki",
-    "weather": "summer",
-    "material": "Кулирка, 100% хлопок",
-    "images": [
-      "images/100/80/74-pinkcats-2-s.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
     "id": "74-green",
     "name": "Модель 74",
-    "price": "р.48-52",
+    "price": "р.46, 48, 52",
     "status": "",
     "category": "dresses",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
     "images": [
       "images/100/80/74-green-2-d.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "74-pinkcats",
+    "name": "Модель 74",
+    "price": "р.46, 48, 52",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "images": [
+      "images/100/80/74-pinkcats-2-s.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -113,24 +129,11 @@
     "category": "sorochki",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/100/80/76-blue-1.webp"
-    ],
-    "description": ""
-  },
-  {
-    "id": "76-pink",
-    "name": "Модель 76",
-    "price": "р.50-56, 58 ,60",
-    "status": "",
-    "category": "sorochki",
-    "weather": "summer",
-    "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
-    "images": [
-      "images/100/80/76-pink-1-s.webp",
-      "images/100/80/76-pink-51-s.webp"
     ],
     "description": ""
   },
@@ -149,6 +152,23 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "76-pink",
+    "name": "Модель 76",
+    "price": "р.50-56, 58 ,60",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [
+      "large"
+    ],
+    "images": [
+      "images/100/80/76-pink-1-s.webp",
+      "images/100/80/76-pink-51-s.webp"
+    ],
+    "description": ""
+  },
+  {
     "id": "76b-blueflowers",
     "name": "Модель 76 б",
     "price": "р.58, 60",
@@ -156,7 +176,9 @@
     "category": "sorochki",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/100/80/76b-blueflowers-1-s.webp"
     ],
@@ -278,7 +300,9 @@
     "category": "sorochki",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/180/172r-pink-2-s.webp"
     ],
@@ -292,9 +316,39 @@
     "category": "sorochki",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/200/180/172r-white-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "175-pink",
+    "name": "Модель 175",
+    "price": "р.48",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "95% вискоза, 5% спандекс",
+    "tags": [],
+    "images": [
+      "images/200/180/175-pink-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "175-white",
+    "name": "Модель 175",
+    "price": "р.48",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "95% вискоза, 5% спандекс",
+    "tags": [],
+    "images": [
+      "images/200/180/175-white-1-s.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -351,7 +405,9 @@
     "category": "sorochki",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/270/270d-pink-2-s.webp",
       "images/300/270/270d-pink-1-s.webp",
@@ -433,9 +489,25 @@
     "category": "sorochki",
     "weather": "winter",
     "material": "Футер двухнитка с начёсом, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/280/273r-white-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "275-pink",
+    "name": "Модель 275",
+    "price": "р.50-56",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/300/280/275-pink-1-s.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -479,18 +551,46 @@
       "images/300/290/285b-cream-1-s.webp",
       "images/300/290/285b-cream-2-s.webp",
       "images/300/290/285b-cream-3-s.webp"
-
     ],
     "description": ""
   },
   {
-    "id": "286s-biryuza",
-    "name": "Модель 286с",
-    "price": "р.",
+    "id": "285b-purple",
+    "name": "Модель 285б",
+    "price": "р.48-54",
     "status": "",
     "category": "sorochki",
     "weather": "summer",
-    "material": "aaaaaaaaaa",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/300/290/285b-purple-1-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "285s-cream",
+    "name": "Модель 285с",
+    "price": "р.46-50",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "65% вискоза, 30% полиэстер, 5% спандекс",
+    "tags": [],
+    "images": [
+      "images/300/290/285s-cream-2-s.webp",
+      "images/300/290/285s-cream-3-s.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "286s-biryuza",
+    "name": "Модель 286с",
+    "price": "р.46-52",
+    "status": "",
+    "category": "sorochki",
+    "weather": "summer",
+    "material": "Атлас, 95% вискоза, 5% спандекс",
     "tags": [],
     "images": [
       "images/300/290/286s-biryuza-1-s.webp"
@@ -500,11 +600,11 @@
   {
     "id": "286s-blue",
     "name": "Модель 286с",
-    "price": "р.",
+    "price": "р.46-52",
     "status": "",
     "category": "sorochki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Атлас, 95% вискоза, 5% спандекс",
     "images": [
       "images/300/290/286s-blue-1-s.webp"
     ],
@@ -541,11 +641,11 @@
   {
     "id": "286s-red",
     "name": "Модель 286с",
-    "price": "р.",
+    "price": "р.46-52",
     "status": "",
     "category": "sorochki",
-    "weather": "aaaaa",
-    "material": "aaaaaaaaaa",
+    "weather": "summer",
+    "material": "Атлас, 95% вискоза, 5% спандекс",
     "images": [
       "images/300/290/286s-red-1-s.webp"
     ],

@@ -13,6 +13,22 @@
     "description": ""
   },
   {
+    "id": "37m-gray",
+    "name": "Модель 37m",
+    "price": "р.50-56",
+    "status": "",
+    "category": "",
+    "weather": "winter",
+    "material": "Футер двухнитка, 92% хлопок, 8% спандекс",
+    "tags": [],
+    "images": [
+      "images/100/40/37m-gray-1-k.webp",
+      "images/100/40/37m-gray-2-k.webp",
+      "images/100/40/37m-gray-71-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "37m-green",
     "name": "Модель 37м",
     "price": "р.50-56",
@@ -74,7 +90,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "komplekty",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер, трехнитка с начёсом ",
     "images": [
       "images/100/40/38t-blue-1-k.webp"
@@ -87,7 +103,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "komplekty",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер, трехнитка с начёсом",
     "images": [
       "images/100/40/38t-darkblue-1-k.webp"
@@ -108,6 +124,37 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "96-blue",
+    "name": "Модель 96",
+    "price": "р.58",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок. Кулирка меланж, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/100/100/96-blue-1-k.webp",
+      "images/100/100/96-blue-2-k.webp",
+      "images/100/100/96-blue-61-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "96-green",
+    "name": "Модель 96",
+    "price": "р.58",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок. Кулирка меланж, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/100/100/96-green-1-k.webp",
+      "images/100/100/96-green-2-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "98v-darkblue",
     "name": "Модель 98в",
     "price": "р.50-56",
@@ -116,7 +163,8 @@
     "weather": "summer",
     "material": "95% вискоза, 5% спандекс",
     "images": [
-      "images/100/100/98v-darkblue-3.webp"
+      "images/100/100/98v-darkblue-3.webp",
+      "images/100/100/98v-darkblue-2-k.webp"
     ],
     "description": ""
   },
@@ -133,6 +181,22 @@
       "images/100/100/98v-pomehi-1-k.webp",
       "images/100/100/98v-pomehi-2-k.webp",
       "images/100/100/98v-pomehi-71-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "98v-smallflowers",
+    "name": "Модель 98v",
+    "price": "р.58, 60",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "95% вискоза, 5% спандекс",
+    "tags": ["large"],
+    "images": [
+      "images/100/100/98v-smallflowers-1-k.webp",
+      "images/100/100/98v-smallflowers-2-k.webp",
+      "images/100/100/98v-smallflowers-71-k.webp"
     ],
     "description": "aaaaaaaaaaaaaaa"
   },
@@ -194,20 +258,6 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "233a-white",
-    "name": "Модель 233а",
-    "price": "р.50-56",
-    "status": "",
-    "category": "komplekty",
-    "weather": "summer",
-    "material": "Крэш, 100% полиэстер",
-    "images": [
-      "images/300/240/233a-white-2.webp",
-      "images/300/240/233a-white-1.webp"
-    ],
-    "description": ""
-  },
-  {
     "id": "233a-begevii",
     "name": "Модель 233а",
     "price": "р.50-56",
@@ -217,19 +267,6 @@
     "material": "Крэш, 100% полиэстер",
     "images": [
       "images/300/240/233a-begevii-2.webp"
-    ],
-    "description": ""
-  },
-  {
-    "id": "233a-chernobel",
-    "name": "Модель 233а",
-    "price": "р.50-56",
-    "status": "",
-    "category": "komplekty",
-    "weather": "summer",
-    "material": "Крэш, 100% полиэстер",
-    "images": [
-      "images/300/240/233a-chernobel-2.webp"
     ],
     "description": ""
   },
@@ -248,6 +285,20 @@
     "description": ""
   },
   {
+    "id": "233a-white",
+    "name": "Модель 233а",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Крэш, 100% полиэстер",
+    "images": [
+      "images/300/240/233a-white-2.webp",
+      "images/300/240/233a-white-1.webp"
+    ],
+    "description": ""
+  },
+  {
     "id": "262f-cyberpunk",
     "name": "Модель 262ф",
     "price": "р.50-56",
@@ -259,7 +310,7 @@
       "images/300/270/262f-cyberpunk-1-k.webp",
       "images/300/270/262f-cyberpunk-2-k.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Женский костюм из футера двухнитки состоит из яркого бомбера с карманами и брюк прямого кроя с карманами. Модель сочетает в себе элегантность за счет маленького плеча, которое зрительно стройнит фигуру и комфорт, за счет высококачественного дышащего трикотажа. Комплект прекрасно сочетается с майками - моделями  66р и 66 - каждый раз меняя восприятие образа, в зависимости от цвета майки: лаконичный - с малиновой,  озорной - с горчичной, эффектный - с салатовой, яркий - с розовой, строгий - с черной. А какими сегодня хотят быть ваши покупатели?"
   },
   {
     "id": "262f-gray",
@@ -272,7 +323,7 @@
     "images": [
       "images/300/270/262f-gray-1-k.webp"
     ],
-    "description": ""
+    "description": "Женский костюм из футера двухнитки состоит из яркого бомбера с карманами и брюк прямого кроя с карманами. Модель сочетает в себе элегантность за счет маленького плеча, которое зрительно стройнит фигуру и комфорт, за счет высококачественного дышащего трикотажа. Комплект прекрасно сочетается с майками - моделями  66р и 66 - каждый раз меняя восприятие образа, в зависимости от цвета майки."
   },
   {
     "id": "262n-biryuza",
@@ -359,15 +410,15 @@
   {
     "id": "262t-brown",
     "name": "Модель 262т",
-    "price": "р.50-56",
+    "price": "р.50-56, 48",
     "status": "",
     "category": "komplekty",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 80% хлопок, 20% спандекс",
     "images": [
       "images/300/270/262t-brown-1-k.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Теплый женский костюм из высокачественного футера с начесом согреет в непогоду. Элегантная ультрасовременная модель, состоящая из бомбера и брюк прямого кроя подойдет женщинам, любящих утонченный и комфортный образ. Наличие карманов как в бомбере, так и в брюках позволяет использовать элементы костюма по отдельности, не теряя своей практичности. Идеально комплектуется с майками 66р."
   },
   {
     "id": "262t-green",
@@ -375,34 +426,37 @@
     "price": "р.50-56",
     "status": "",
     "category": "komplekty",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 80% хлопок, 20% спандекс",
     "images": [
       "images/300/270/262t-green-1-k.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Теплый женский костюм из высокачественного футера с начесом согреет в непогоду. Элегантная ультрасовременная модель, состоящая из бомбера и брюк прямого кроя подойдет женщинам, любящих утонченный и комфортный образ. Наличие карманов как в бомбере, так и в брюках позволяет использовать элементы костюма по отдельности, не теряя своей практичности. Идеально комплектуется с майками 66р."
   },
   {
     "id": "262t-purple",
     "name": "Модель 262т",
-    "price": "р.50-56",
+    "price": "р.50-56, 48",
     "status": "",
     "category": "komplekty",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 80% хлопок, 20% спандекс",
     "images": [
       "images/300/270/262t-purple-1-k.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Теплый женский костюм из высокачественного футера с начесом согреет в непогоду. Элегантная ультрасовременная модель, состоящая из бомбера и брюк прямого кроя подойдет женщинам, любящих утонченный и комфортный образ. Наличие карманов как в бомбере, так и в брюках позволяет использовать элементы костюма по отдельности, не теряя своей практичности. Идеально комплектуется с майками 66р."
   },
   {
     "id": "282sh-blue",
     "name": "Модель 282ш",
-    "price": "р.50-56",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "komplekty",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/290/282sh-blue-1-k.webp",
       "images/300/290/282sh-blue-71-k.webp",
@@ -413,16 +467,48 @@
   {
     "id": "282sh-lightblue",
     "name": "Модель 282ш",
-    "price": "р.50-56",
+    "price": "р.50-56, 58",
     "status": "",
     "category": "komplekty",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/290/282sh-lightblue-3.webp",
       "images/300/290/282sh-lightblue-2.webp"
     ],
     "description": ""
+  },
+  {
+    "id": "282sh-white",
+    "name": "Модель 282ш",
+    "price": "р.50, 58",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/300/290/282sh-white-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "283-blue",
+    "name": "Модель 283",
+    "price": "р.48, 50, 58",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/300/290/283-blue-1-k.webp",
+      "images/300/290/283-blue-61-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "283-deepblue",
@@ -439,6 +525,63 @@
     "description": ""
   },
   {
+    "id": "283-green",
+    "name": "Модель 283",
+    "price": "р.48, 58",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/300/290/283-green-3-k.webp",
+      "images/300/290/283-green-61-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "283-pink",
+    "name": "Модель 283",
+    "price": "р.48, 50, 52, 54",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/300/290/283-pink-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "283-purple",
+    "name": "Модель 283",
+    "price": "р.50, 58",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/300/290/283-purple-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "283-purplestrah",
+    "name": "Модель 283",
+    "price": "р.50",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка меланж, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/300/290/283-purplestrah-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "283h-blue",
     "name": "Модель 283х",
     "price": "р.50-56",
@@ -451,6 +594,20 @@
       "images/300/290/283h-blue-2-k.webp"
     ],
     "description": ""
+  },
+  {
+    "id": "283h-cream",
+    "name": "Модель 283х",
+    "price": "р.50",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка, 92% хлопок, 8% лайкра",
+    "tags": [],
+    "images": [
+      "images/300/290/283h-cream-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "283h-green",
@@ -470,15 +627,30 @@
   {
     "id": "283h-lightgreen",
     "name": "Модель 283х",
-    "price": "р.50-56",
+    "price": "р.50, 52",
     "status": "",
     "category": "komplekty",
     "weather": "summer",
     "material": "Кулирка, 92% хлопок, 8% лайкра",
     "images": [
-      "images/300/290/283h-lightgreen-1-k.webp"
+      "images/300/290/283h-lightgreen-1-k.webp",
+      "images/300/290/283h-lightgreen-1-k_1.webp"
     ],
     "description": ""
+  },
+  {
+    "id": "283h-white",
+    "name": "Модель 283х",
+    "price": "р.50-56",
+    "status": "",
+    "category": "komplekty",
+    "weather": "summer",
+    "material": "Кулирка, 92% хлопок, 8% лайкра",
+    "tags": [],
+    "images": [
+      "images/300/290/283h-white-1-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "283r-black",
@@ -488,12 +660,14 @@
     "category": "komplekty",
     "weather": "summer",
     "material": "Кулирка меланж, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/290/283r-black-1-k.webp",
       "images/300/290/283r-black-2-k.webp"
     ],
-    "description": ""
+    "description": "Женский летний костюм из кулирки меланж, состав материала  100% хлопок. Костюм состоит из удлиненной  майки  со спущенным коротким рукавом и брюк со слегка расширенными штанинами. Майка украшена лаконичным абстракционным принтом. В ней есть боковые разрезы для удобного доступа в карманы брюк. Актуальная стильная модель для дома и дачи, поезда и санатория, прогулок и занятий спортом."
   },
   {
     "id": "283r-blue",
@@ -503,12 +677,14 @@
     "category": "komplekty",
     "weather": "summer",
     "material": "Кулирка меланж, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/290/283r-blue-1-k.webp",
       "images/300/290/283r-blue-2-k.webp"
     ],
-    "description": ""
+    "description": "Женский летний костюм из кулирки меланж, состав материала  100% хлопок. Костюм состоит из удлиненной  майки  со спущенным коротким рукавом и брюк со слегка расширенными штанинами. Майка украшена лаконичным абстракционным принтом. В ней есть боковые разрезы для удобного доступа в карманы брюк. Актуальная стильная модель для дома и дачи, поезда и санатория, прогулок и занятий спортом."
   },
   {
     "id": "283r-purple",
@@ -518,13 +694,15 @@
     "category": "komplekty",
     "weather": "summer",
     "material": "Кулирка меланж, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/290/283r-purple-1-k.webp",
       "images/300/290/283r-purple-2-k.webp",
       "images/300/290/283r-purple-3-k.webp"
     ],
-    "description": ""
+    "description": "Женский летний костюм из кулирки меланж, состав материала  100% хлопок. Костюм состоит из удлиненной  майки  со спущенным коротким рукавом и брюк со слегка расширенными штанинами. Майка украшена лаконичным абстракционным принтом. В ней есть боковые разрезы для удобного доступа в карманы брюк. Актуальная стильная модель для дома и дачи, поезда и санатория, прогулок и занятий спортом."
   },
   {
     "id": "289ge-blue",
@@ -548,7 +726,9 @@
     "category": "komplekty",
     "weather": "summer",
     "material": "Кулирка, 100% хлопок",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/300/290/289ge-purple-1-k.webp"
     ],
@@ -562,7 +742,9 @@
     "category": "komplekty",
     "weather": "winter",
     "material": "Интерлок, 100% хлопок. Футер двухнитка, 92% хлопок, 8% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/400/350/342t-beach-1-k.webp"
     ],
@@ -592,7 +774,9 @@
     "category": "komplekty",
     "weather": "winter",
     "material": "Интерлок, 100% хлопок. Футер двухнитка, 92% хлопок, 8% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/400/350/342t-chess-1-k.webp"
     ],
@@ -606,7 +790,9 @@
     "category": "komplekty",
     "weather": "winter",
     "material": "Интерлок, 100% хлопок. Футер двухнитка, 92% хлопок, 8% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/400/350/342t-islands-1-k.webp"
     ],
@@ -659,13 +845,15 @@
     "category": "komplekty",
     "weather": "winter",
     "material": "Велюр, 80% хлопок, 20% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/400/350/342v-city-2-k.webp",
       "images/400/350/342v-city-1-k.webp",
       "images/400/350/342v-city-71-k.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Мягкий, очень приятный на ощупь,  женский велюровый костюм.  В составе материала 80% хлопка, что позволяет ткани дышать, и 20% лайкры, что повышает ее износостойкость. Кофта комплекта сидит по фигуре, имеет рельефные вытачки и создает женственный приталенный силуэт . Она украшена отложным воротником, который  застегивается на молнию для  тепла и уюта, двумя удобными  карманами, манжетами на рукавах и декоративным шнурком по низу  изделия. Брюки комплекта классического прямого кроя с высокой посадкой и поясом на резинке.  Вшивной рукав и небольшое плечо зрительно стройнит фигуру и придает образу грациозность."
   },
   {
     "id": "344-blue",
@@ -680,7 +868,7 @@
       "images/400/350/344-blue-2-k.webp",
       "images/400/350/344-blue-2-k_1.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Мягкий, приятный на ощупь,  многофункциональный женский костюм из футера высокого качества. Модель современного силуэта со спущенным плечом не сковывает движений и подойдет женщинам, предпочитающим стиль кэжуал, умело сочетающих спорт и классику в своем повседневном гардеробе. \n\nКостюм выполнен из ткани без начеса, что позволяет использовать его в осенне-весенний период, в прохладное лето, зимой в отапливаемом помещении. \n\nКостюм украшен элегантным лаконичным принтом. В брюках удобные карманы. На джемпере боковые разрезы для красоты и удобства."
   },
   {
     "id": "344-red",
@@ -695,7 +883,7 @@
       "images/400/350/344-red-2-k.webp",
       "images/400/350/344-red-2-k_1.webp"
     ],
-    "description": "aaaaaaaaaaaaaaa"
+    "description": "Мягкий, приятный на ощупь,  многофункциональный женский костюм из футера высокого качества. Модель современного силуэта со спущенным плечом не сковывает движений и подойдет женщинам, предпочитающим стиль кэжуал, умело сочетающих спорт и классику в своем повседневном гардеробе. \n\nКостюм выполнен из ткани без начеса, что позволяет использовать его в осенне-весенний период, в прохладное лето, зимой в отапливаемом помещении. \n\nКостюм украшен элегантным лаконичным принтом. В брюках удобные карманы. На джемпере боковые разрезы для красоты и удобства."
   },
   {
     "id": "346-bejevii",
@@ -787,7 +975,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "komplekty",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/500/430/430c-blackcircles-1-k.webp"
@@ -800,7 +988,7 @@
     "price": "р.50-56",
     "status": "",
     "category": "komplekty",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Велсофт, 100% полиэстер",
     "images": [
       "images/500/430/430c-gzhel-1-k.webp"
@@ -813,7 +1001,7 @@
     "price": "р.46, 48",
     "status": "",
     "category": "komplekty",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 80% хлопок, 20% спандекс",
     "images": [
       "images/500/440/437b-black-1-k.webp"
@@ -826,9 +1014,11 @@
     "price": "р.58",
     "status": "",
     "category": "komplekty",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 80% хлопок, 20% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/500/440/437b-bordo-1-k.webp"
     ],
@@ -840,9 +1030,11 @@
     "price": "р.48, 50, 56, 58",
     "status": "",
     "category": "komplekty",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 80% хлопок, 20% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/500/440/437b-brown-1-k.webp"
     ],
@@ -854,7 +1046,7 @@
     "price": "р.50, 56",
     "status": "",
     "category": "komplekty",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 80% хлопок, 20% спандекс",
     "images": [
       "images/500/440/437b-green-1-k.webp",
@@ -864,14 +1056,32 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
+    "id": "437b-lightgray",
+    "name": "Модель 437б",
+    "price": "р.46",
+    "status": "",
+    "category": "komplekty",
+    "weather": "kolotun",
+    "material": "Футер трёхнитка с начёсом, 80% хлопок, 20% спандекс",
+    "tags": [],
+    "images": [
+      "images/500/440/437b-lightgray-1-k.webp",
+      "images/500/440/437b-lightgray-2-k.webp",
+      "images/500/440/437b-lightgray-71-k.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "437b-night",
     "name": "Модель 437 б",
     "price": "р.58",
     "status": "",
     "category": "komplekty",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 80% хлопок, 20% спандекс",
-    "tags": ["large"],
+    "tags": [
+      "large"
+    ],
     "images": [
       "images/500/440/437b-night-1-k.webp"
     ],
@@ -883,7 +1093,7 @@
     "price": "р.50, 56",
     "status": "",
     "category": "komplekty",
-    "weather": "winter",
+    "weather": "kolotun",
     "material": "Футер трёхнитка с начёсом, 80% хлопок, 20% спандекс",
     "images": [
       "images/500/440/437b-pink-1-k.webp"

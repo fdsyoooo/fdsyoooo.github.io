@@ -56,6 +56,20 @@
     "description": ""
   },
   {
+    "id": "52-brown",
+    "name": "Модель 52",
+    "price": "р.50, 54",
+    "status": "",
+    "category": "male",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": [],
+    "images": [
+      "images/100/60/52-brown-1-m.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
+  },
+  {
     "id": "66m-pink",
     "name": "Модель 66м",
     "price": "р.50, 52",
@@ -67,6 +81,20 @@
       "images/100/70/66m-pink-1.webp"
     ],
     "description": ""
+  },
+  {
+    "id": "221m-gray",
+    "name": "Модель 221м",
+    "price": "р.50-56, 58, 60",
+    "status": "",
+    "category": "male",
+    "weather": "summer",
+    "material": "Кулирка, 100% хлопок",
+    "tags": ["large"],
+    "images": [
+      "images/300/230/221m-gray-2-m.webp"
+    ],
+    "description": "aaaaaaaaaaaaaaa"
   },
   {
     "id": "670m-symbols",

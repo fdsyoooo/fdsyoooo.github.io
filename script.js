@@ -467,8 +467,8 @@ switch(product.weather) {
   case "summer":
     weatherIcon.textContent = "☀️"; // солнышко
     break;
-  case "demiseason":
-    weatherIcon.textContent = "🍂"; // листочек для демисезона
+  case "kolotun":
+    weatherIcon.textContent = "❄️❄️"; // листочек для демисезона
     break;
   default:
     weatherIcon.textContent = "";
