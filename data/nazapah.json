@@ -1253,19 +1253,6 @@
     "description": "aaaaaaaaaaaaaaa"
   },
   {
-    "id": "454-palm",
-    "name": "Модель 454",
-    "price": "р.48-56",
-    "status": "",
-    "category": "nazapah",
-    "weather": "kolotun",
-    "material": "Велсофт, 100% полиэстер",
-    "images": [
-      "images/500/460/454-palm-1-n.webp"
-    ],
-    "description": "aaaaaaaaaaaaaaa"
-  },
-  {
     "id": "454-purple",
     "name": "Модель 454",
     "price": "р.48-56",
