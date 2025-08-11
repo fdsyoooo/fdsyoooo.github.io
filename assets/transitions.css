@@ -1,0 +1,17 @@
+/* изолируем слой, чтобы не конфликтовать с твоими стилями */
+@layer vt {
+    .vt-page { transition: opacity .28s ease; }
+    html.vt-enter .vt-page { opacity: 0; }
+    html.vt-leave .vt-page { opacity: 0; }
+  }
+  
+  
+  /* уважение к настройкам ОС — отключаем анимации при reduce-motion */
+  @media (prefers-reduced-motion: reduce) {
+    @layer vt {
+      .vt-page { transition: none !important; transform: none !important; }
+      html.vt-enter .vt-page,
+      html.vt-leave .vt-page { opacity: 1 !important; transform: none !important; }
+    }
+  }
+  

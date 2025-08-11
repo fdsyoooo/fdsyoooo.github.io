@@ -4,17 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Главная — Мой Каталог</title>
+  
   <style>
+    /* ======= твои стили остаются как есть ======= */
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: #f5f9ff;
       color: #333;
-      background-image: url('https://cs15.pikabu.ru/post_img/big/2025/02/03/6/1738570100152867542.png'); /* Указание фона */
-      background-size: cover; /* Растягиваем фон на весь экран, сохраняя пропорции */
-      background-position: center center; /* Центрируем фон */
-      background-repeat: no-repeat; /* Запрещаем повторение картинки */
-      height: 100vh; /* Задаем высоту 100% экрана */
+      background-image: url('https://cs15.pikabu.ru/post_img/big/2025/02/03/6/1738570100152867542.png');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      height: 100vh;
     }
 
     header {
@@ -32,7 +34,7 @@
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
-      color: #fff; /* Сделаем текст белым для контраста */
+      color: #fff;
     }
 
     .site-title h1 {
@@ -71,43 +73,54 @@
     }
 
     @media (max-width: 480px) {
-      header {
-        height: 200px;
-      }
+      header { height: 200px; }
+      nav { margin: 10px; padding: 15px; }
+      nav a { font-size: 1rem; padding: 12px; }
+      .site-title h1 { font-size: 1.8rem; }
+      .site-title p { font-size: 1rem; }
+    }
 
-      nav {
-        margin: 10px;
-        padding: 15px;
-      }
-
-      nav a {
-        font-size: 1rem;
-        padding: 12px;
-      }
-
-      .site-title h1 {
-        font-size: 1.8rem;
-      }
-
-      .site-title p {
-        font-size: 1rem;
-      }
+    /* ======= стили для переходов (изолированы в @layer) ======= */
+    @layer vt {
+      .vt-page { transition: opacity .28s ease, transform .28s ease; }
+      html.vt-enter .vt-page { opacity: 0; transform: translateY(8px); }
+      html.vt-leave .vt-page { opacity: 0; transform: translateY(-8px); }
     }
   </style>
 </head>
 <body>
-  <header>
-    <div class="site-title">
-      <h1></h1>
-      <h2>ке</h2>
-      <h2>Трикотажные изделияи</h2>
-      
-    </div>
-  </header>
-  <nav>
-    <a href="index.html">Перейти к Каталогу товаров</a>
-    <a href="about.html">О нас</a>
-    <a href="contacts.html">Контакты</a>
-  </nav>
+  <!-- Оборачиваем ВСЁ содержимое в vt-page -->
+  <div class="vt-page">
+    <header>
+      <div class="site-title">
+        <h1></h1>
+        <h2>ке</h2>
+        <h2>Трикотажные изделияи</h2>
+      </div>
+    </header>
+    <nav>
+      <a href="index.html" class="vt-link">Перейти к Каталогу товаров</a>
+      <a href="about.html" class="vt-link">О нас</a>
+      <a href="contacts.html" class="vt-link">Контакты</a>
+    </nav>
+  </div>
+
+  <!-- Скрипт для плавных переходов -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.documentElement.classList.add('vt-enter');
+      requestAnimationFrame(() => {
+        document.documentElement.classList.remove('vt-enter');
+      });
+    });
+
+    document.addEventListener('click', (e) => {
+      const a = e.target.closest('a.vt-link');
+      if (!a || a.origin !== location.origin) return;
+      e.preventDefault();
+      document.documentElement.classList.add('vt-leave');
+      setTimeout(() => location.href = a.href, 300);
+    });
+  </script>
 </body>
 </html>

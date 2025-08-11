@@ -4,116 +4,106 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Каталог товаров</title>
-  <link rel="stylesheet" href="styles.css"/>
+
+  <link rel="stylesheet" href="styles.css"/> 
+  <!-- ДОБАВЛЕНО: стили переходов, подключай последними -->
+  <link rel="stylesheet" href="/assets/transitions.css">
 </head>
 
 <body>
-    <div id="weather-filter">
-  <button data-weather="all">Все</button>
-  <button data-weather="summer">☀️ Лёгкие</button>
-  <button data-weather="winter">❄️ Тёплые</button>
-  <button data-weather="kolotun">❄️❄️ Очень тёплые</button>
-</div>
-<div id="size-filter">
-  <button id="toggle-large">Размеры 58+</button>
-</div>
+  <!-- ДОБАВЛЕНО: обёртка для анимаций -->
+  <div class="vt-page">
 
+    <div id="weather-filter">
+      <button data-weather="all">Все</button>
+      <button data-weather="summer">☀️ Лёгкие</button>
+      <button data-weather="winter">❄️ Тёплые</button>
+      <button data-weather="kolotun">❄️❄️ Очень тёплые</button>
+    </div>
+
+    <div id="size-filter">
+      <button id="toggle-large">Размеры 58+</button>
+    </div>
 
     <h1 id="category-title"></h1>
-<div id="search-container">
-  <input
-    type="text"
-    id="search-input"
-    placeholder="Поиск по номеру модели"
-    autocomplete="off"
-  />
-</div>
-<div class="pagination" id="pagination-bottom"></div>
 
+    <div id="search-container">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Поиск по номеру модели"
+        autocomplete="off"
+      />
+    </div>
 
-  <div id="product-grid" class="product-grid"></div>
-  <div class="pagination" id="pagination"></div>
+    <div class="pagination" id="pagination-bottom"></div>
+
+    <div id="product-grid" class="product-grid"></div>
+    <div class="pagination" id="pagination"></div>
+
+    <div id="page-info"></div>
+
+    <!-- Модальное окно товара -->
+    <div id="modal">
+      <div id="swipe-hint" class="hint-wrapper">
+        <div class="hand-icon">👆</div>
+      </div>
+      <div id="modal-content">
+        <span id="modal-close">&times;</span>
+
+        <div id="media-container">
+          <button id="prev-btn">←</button>
+
+          <div id="media-display"></div>
+
+          <!-- Подсказка о свайпе — вне #media-display -->
+          <div id="swipe-hint-modal" class="hint-wrapper" style="display: none;">
+            <div class="hand-icon">👆</div>
+          </div>
+
+          <button id="next-btn">→</button>
+        </div>
+
+        <h2 id="modal-name"></h2>
+        <p id="modal-price"></p>
+        <p id="modal-material"></p>
+        <p id="modal-description"></p>
+      </div>
+    </div>
+
+    <!-- Кнопка открытия модалки закладок -->
+    <button id="open-bookmarks" title="Показать закладки">🔖 <span id="bookmark-count">0</span></button>
+
+    <!-- Модальное окно закладок -->
+    <div id="bookmarks-modal">
+      <div>
+        <button id="close-bookmarks">&times;</button>
+        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
+          <button id="clear-bookmarks-container" aria-label="Удалить все закладки">
+            <span class="clear-label">Удалить все</span>
+          </button>
+          <h2>Закладки</h2>
+        </div>
+
+        <div id="bookmarks-items"></div>
+        <div id="bookmarks-empty">Нет товаров в закладках.</div>
+
+        <input id="bookmarks-link-output" type="text" readonly style="width: 100%; margin-bottom: 10px;" />
+        <button id="copy-bookmarks-link">Скопировать ссылку</button>
+
+        <!-- ВНИМАНИЕ: это tel:, оставляем без vt-link -->
+        <a href="tel:+79998887766" id="call-button">📞 Позвонить: +7 (999) 999-99-99</a>
+      </div>
+    </div>
+
+    <!-- ДОБАВЛЕНО: внутренняя ссылка с плавным переходом -->
+    <a class="back-link vt-link" href="index.html">← Вернуться к категориям</a>
+
+  </div><!-- /vt-page -->
+
+  <script src="script.js"></script>
+
   
-<div id="page-info"></div>
-
-  <!-- Модальное окно товара -->
-  <div id="modal">
-  <div id="swipe-hint" class="hint-wrapper">
-  <div class="hand-icon">👆</div>
-</div>
-    <div id="modal-content">
-      <span id="modal-close">&times;</span>
-
-      <div id="media-container">
-  <button id="prev-btn">←</button>
-
-  <div id="media-display"></div>
-
-  <!-- Подсказка о свайпе — вне #media-display -->
- <div id="swipe-hint-modal" class="hint-wrapper" style="display: none;">
-  <div class="hand-icon">👆</div>
-</div>
-
-
-  <button id="next-btn">→</button>
-</div>
-
-
-
-      <h2 id="modal-name"></h2>
-      <p id="modal-price"></p>
-      <p id="modal-material"></p>
-      <p id="modal-description"></p>
-    </div>
-  </div>
-
-  <!-- Кнопка открытия модалки закладок -->
-  <button id="open-bookmarks" title="Показать закладки">🔖 <span id="bookmark-count">0</span></button>
-
-
-
-  <!-- Модальное окно закладок -->
-  <div id="bookmarks-modal">
-    <div>
-      <button id="close-bookmarks">&times;</button>
-      <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 10px;">
-<!-- Вместо отдельной кнопки и текста -->
-<button id="clear-bookmarks-container" aria-label="Удалить все закладки">
-
-  <span class="clear-label">Удалить все</span>
-</button>
-
-  <h2>Закладки</h2>
-</div>
-
-      <div id="bookmarks-items"></div>
-      <div id="bookmarks-empty">Нет товаров в закладках.</div>
-
-
-    
-    <input id="bookmarks-link-output" type="text" readonly style="width: 100%; margin-bottom: 10px;" />
-<button id="copy-bookmarks-link">Скопировать ссылку</button>
-
-
-
-<a href="tel:+79998887766" id="call-button">📞 Позвонить: +7 (999) 999-99-99</a>
-    </div>
-  </div>
-<a class="back-link" href="index.html">← Вернуться к категориям</a>
-
-<script src="script.js"></script>
-<div id="color-select-modal" style="display:none;">
-  <div id="color-select-content">
-    <h2>Выберите цвет(а)</h2>
-    <div id="color-options"></div>
-    <div style="margin-top: 20px; text-align: center;">
-      <button id="confirm-colors">Добавить в закладки</button>
-      <button id="cancel-colors">Отмена</button>
-    </div>
-  </div>
-</div>
-
-
+  <script src="/assets/transitions.js"></script>
 </body>
- 
 </html>

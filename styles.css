@@ -58,9 +58,8 @@
   z-index: 1200;
 }
 
-    .back-link:hover {
-      color: #125ea3;
-    }
+.back-link:hover { color: #125ea3; text-decoration: underline; }
+
     .product-name {
       font-weight: 700;
       font-size: 1.2rem;
